@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+"""Generate docs/.vitepress/sidebar.ts from the docs directory tree + frontmatter titles."""
+import os
+import re
+
+DOCS = "/Users/jiaxiang/Documents/code/blog/docs"
+SECTIONS = [
+    ("front-end", "前端"),
+    ("back-end", "后端"),
+    ("machine-learning", "机器学习"),
+    ("other", "其他"),
+]
+
+
+def read_title(md_path):
+    text = open(md_path).read(2048)
+    m = re.search(r"^title:\s*(.+)$", text, re.M)
+    if m:
+        return m.group(1).strip()
+    m = re.search(r"^#\s+(.+)$", text, re.M)
+    return m.group(1).strip() if m else os.path.basename(md_path)
+
+
+def items_for(dir_path):
+    items = []
+    for root, dirs, files in os.walk(dir_path):
+        dirs.sort()
+        for f in sorted(files):
+            if not f.endswith(".md") or f == "index.md":
+                continue
+            full = os.path.join(root, f)
+            rel = os.path.relpath(full, DOCS)
+            link = "/" + rel[:-3]
+            items.append({"text": read_title(full), "link": link})
+    return items
+
+
+def groups_for(key):
+    d = os.path.join(DOCS, key)
+    groups = []
+    for name in sorted(os.listdir(d)):
+        sd = os.path.join(d, name)
+        if not os.path.isdir(sd):
+            continue
+        index_md = os.path.join(sd, "index.md")
+        if os.path.exists(index_md):
+            groups.append({
+                "text": read_title(index_md),
+                "link": f"/{key}/{name}/",
+                "collapsed": True,
+                "items": items_for(sd),
+            })
+        else:
+            groups.append({
+                "text": name,
+                "collapsed": True,
+                "items": items_for(sd),
+            })
+    return groups
+
+
+def fmt(obj, indent=0):
+    pad = "  " * indent
+    if isinstance(obj, bool):
+        return "true" if obj else "false"
+    if isinstance(obj, dict):
+        parts = [f"{pad}  {k}: {fmt(v, indent + 1)}" for k, v in obj.items()]
+        return "{\n" + ",\n".join(parts) + f"\n{pad}}}"
+    if isinstance(obj, list):
+        if not obj:
+            return "[]"
+        parts = [f"{pad}  {fmt(v, indent + 1)}" for v in obj]
+        return "[\n" + ",\n".join(parts) + f"\n{pad}]"
+    return '"' + str(obj).replace('"', '\\"') + '"'
+
+
+def main():
+    lines = []
+    for key, label in SECTIONS:
+        groups = groups_for(key)
+        lines.append(f"  '/{key}/': {fmt(groups, 1)},")
+        total = sum(len(g["items"]) for g in groups)
+        print(f"{key} ({label}): {len(groups)} groups, {total} pages")
+    out = "// AUTO-GENERATED — do not edit by hand.\n"
+    out += "import type { DefaultTheme } from 'vitepress'\n\n"
+    out += "export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {\n"
+    out += "\n".join(lines) + "\n}\n"
+    with open(os.path.join(DOCS, ".vitepress", "sidebar.ts"), "w") as fp:
+        fp.write(out)
+    print("sidebar.ts written")
+
+
+if __name__ == "__main__":
+    main()
