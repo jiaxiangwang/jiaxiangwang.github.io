@@ -1,5 +1,0 @@
----
-title: Micro Frontends
----
-
-# test

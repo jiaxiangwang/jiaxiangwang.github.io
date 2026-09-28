@@ -1,5 +1,0 @@
----
-title: array
----
-
-# array

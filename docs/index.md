@@ -7,14 +7,14 @@ hero:
   tagline: not just the code, but the reasons behind it.
   actions:
     - theme: brand
-      text: 进入笔记 →
-      link: /front-end/javascript/
+      text: 关于本站 →
+      link: /about/
 
 features:
-  - title: 大前端
-    details: Javascript, Typescript, Rxjs, Dart, Vue, Flutter, GraphQL, Webassembly, Webcomponent, CSS。
-  - title: 机器学习
-    details: 概念基础、算法、数学知识、Python、深度学习。
-  - title: 后端及网络相关
-    details: Nodejs、Express、Koa、MongoDB、Serverless、Http、Nginx。
+  - title: 分类一
+    details: 在这里描述你的第一个内容分类，对应 docs/ 下的一个目录。
+  - title: 分类二
+    details: 在这里描述你的第二个内容分类。
+  - title: 分类三
+    details: 在这里描述你的第三个内容分类。
 ---

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,14 +10,14 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/logo.png',
+    // 添加内容目录后，运行 `python3 scripts/vp_sidebar.py` 生成 sidebar.ts，
+    // 然后在下面引入：
+    //   import { sidebar } from './sidebar'
+    //   sidebar,
     nav: [
-      { text: '前端', link: '/front-end/javascript/' },
-      { text: '后端', link: '/back-end/node/' },
-      { text: '机器学习', link: '/machine-learning/machine/' },
-      { text: '其他', link: '/other/http/' },
+      { text: '首页', link: '/' },
       { text: '关于', link: '/about/' },
     ],
-    sidebar,
     search: {
       provider: 'local',
       options: {
