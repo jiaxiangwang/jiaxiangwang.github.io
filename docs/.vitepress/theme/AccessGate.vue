@@ -45,7 +45,9 @@ function logout() {
 </script>
 
 <template>
-  <div v-if="authed === false" class="gate-overlay">
+  <!-- 未登录：遮罩 Teleport 到 body（脱离 #app 的 gate-hold 隐藏范围，避免登录卡也被藏掉） -->
+  <Teleport to="body">
+    <div v-if="authed === false" class="gate-overlay">
     <div class="gate-card">
       <div class="gate-logo">🔒</div>
       <h1 class="gate-title">Jasper 的个人笔记</h1>
@@ -67,6 +69,7 @@ function logout() {
       <p class="gate-footnote">仅限本人访问 · 未获授权的访问请立即离开</p>
     </div>
   </div>
+  </Teleport>
   <Teleport to="body">
     <button v-if="authed === true" class="gate-logout" title="退出登录" @click="logout">退出</button>
   </Teleport>
