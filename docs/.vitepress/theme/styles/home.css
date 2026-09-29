@@ -1,0 +1,57 @@
+/**
+ * 首页（layout: home）样式：hero 区与 feature 卡片。
+ */
+
+/* ---------- Hero 标题渐变 + 名称光晕 ---------- */
+
+.home-hero-name,
+.VPHero .name {
+  background: linear-gradient(
+    120deg,
+    var(--vp-c-brand-1) 20%,
+    var(--vp-c-brand-3) 45%,
+    var(--vp-c-brand-1) 90%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hero-gradient 8s ease infinite;
+}
+
+@keyframes hero-gradient {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+
+/* 亮色下名称带柔和光晕，暗色下更明显 */
+.home-hero-name,
+.VPHero .name {
+  text-shadow: 0 0 40px var(--vp-c-brand-soft);
+}
+
+/* ---------- Feature 卡片 ---------- */
+
+.VPFeature {
+  transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-3px);
+}
+
+/* 卡片 hover 时图标 / 标题着色 */
+.VPFeature:hover .title {
+  color: var(--vp-c-brand-1);
+}
+
+/* ---------- 首页 hero 图 ---------- */
+.VPHero .image-bg {
+  background: radial-gradient(
+    ellipse closest-side,
+    var(--vp-c-brand-soft),
+    transparent 70%
+  );
+}

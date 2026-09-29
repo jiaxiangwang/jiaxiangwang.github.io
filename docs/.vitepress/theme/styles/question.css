@@ -1,0 +1,188 @@
+/**
+ * CFA 题目卡片样式（配合 scripts/vp_import_cfa.py 生成的 HTML 结构）。
+ * 亮 / 暗模式均通过 vars.css 的设计令牌取色。
+ */
+
+/* ==================== 主题题卡片 ==================== */
+
+.q-card {
+  margin: 2.2rem 0;
+  padding: 1.15rem 1.35rem 1.25rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-alt);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.q-card:hover {
+  border-color: var(--vp-c-brand-3);
+  box-shadow: 0 2px 14px var(--vp-c-brand-soft);
+}
+
+/* ---- 题头：题号 + 题型徽章 ---- */
+
+.q-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.q-no {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+  letter-spacing: 0.02em;
+}
+
+.q-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.28em 0.7em;
+  border-radius: 999px;
+}
+
+/* 主题徽章：品牌色 */
+.q-badge-main {
+  color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-soft);
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 35%, transparent);
+}
+
+/* 小题徽章：中性灰 */
+.q-badge-grp {
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+}
+
+/* ---- 题干材料（Case 题组共用背景材料） ---- */
+
+.q-material {
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft);
+  border-left: 3px solid var(--vp-c-brand-3);
+  margin: 0.35rem 0 0.75rem;
+}
+
+.q-material p {
+  margin: 0.45rem 0;
+  font-size: 0.92em;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+}
+
+/* Exhibit（OCR 表格） */
+
+.q-exhibit {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+}
+
+.q-exhibit table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  font-family: var(--vp-font-family-mono);
+  background-color: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+}
+
+.q-exhibit td {
+  padding: 0.35rem 0.75rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  white-space: nowrap;
+}
+
+.q-exhibit tr:last-child td {
+  border-bottom: none;
+}
+
+/* 材料中的段落（OCR 非表格行） */
+.q-material > p {
+  color: var(--vp-c-text-2);
+}
+
+/* ---- 题干 ---- */
+
+.q-stem p {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+}
+
+.q-stem strong {
+  color: var(--vp-c-text-1);
+}
+
+/* 题干里的 Exhibit 表格（与材料同款） */
+.q-stem .q-exhibit {
+  margin: 0.85rem 0;
+}
+
+/* ---- 选项 ---- */
+
+.q-options {
+  margin-top: 0.75rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--vp-c-divider);
+}
+
+.q-options ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.q-options li {
+  position: relative;
+  padding: 0.42rem 0.85rem 0.42rem 2.1rem;
+  border-radius: 7px;
+  background-color: var(--vp-c-bg-soft);
+  line-height: 1.65;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  cursor: default;
+}
+
+/* 选项字母自动编号（取自 markdown 列表原文首字母） */
+.q-options li::before {
+  content: attr(data-k);
+  position: absolute;
+  left: 0.7rem;
+  top: 0.46rem;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+}
+
+.q-options li:hover {
+  background-color: var(--vp-c-brand-soft);
+  transform: translateX(2px);
+}
+
+/* ==================== Case 小题卡片 ==================== */
+
+.q-card.q-sub {
+  margin: 1rem 0 1rem 1.4rem;
+  border-style: dashed;
+  background-color: transparent;
+  padding: 0.9rem 1.1rem 1rem;
+}
+
+.q-card.q-sub .q-stem p {
+  font-size: 0.95em;
+}
+
+/* ==================== 页内目录优化：题号可读 ==================== */
+
+.vp-doc .q-card h3 {
+  margin: 0;
+}

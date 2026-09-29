@@ -1,0 +1,64 @@
+/**
+ * 全局基础样式：正文排版、选中态、滚动条。
+ * 颜色全部引用 vars.css 中的设计令牌，天然适配两种模式。
+ */
+
+/* ---------- 正文排版 ---------- */
+.vp-doc {
+  --vp-font-family-base: inherit;
+}
+
+.vp-doc p,
+.vp-doc ul,
+.vp-doc ol {
+  line-height: 1.8;
+}
+
+.vp-doc h1 {
+  letter-spacing: -0.02em;
+}
+
+/* 中英文之间留一点呼吸感 */
+.vp-doc p:not(.custom-block-title-p) {
+  text-align: justify;
+}
+
+/* ---------- 文本选中态 ---------- */
+::selection {
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-text-1);
+}
+
+/* ---------- 滚动条（仅 WebKit / Chromium） ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--vp-c-divider);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vp-c-text-3);
+}
+
+/* ---------- 图片自适应 & 阴影 ---------- */
+.vp-doc img {
+  border-radius: 8px;
+}
+
+.vp-doc img[src*="screenshots"],
+.vp-doc img[src*="images"] {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.dark .vp-doc img[src*="screenshots"],
+.dark .vp-doc img[src*="images"] {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}

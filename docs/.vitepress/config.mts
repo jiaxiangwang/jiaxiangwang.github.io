@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,16 +7,16 @@ export default defineConfig({
   title: 'Jasper的个人笔记',
   description: 'not just the code, but the reasons behind it. code. eat. sleep. loop',
   cleanUrls: true,
+  lastUpdated: true,
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
 
   themeConfig: {
     logo: '/logo.png',
-    // 添加内容目录后，运行 `python3 scripts/vp_sidebar.py` 生成 sidebar.ts，
-    // 然后在下面引入：
-    //   import { sidebar } from './sidebar'
-    //   sidebar,
+    // 添加内容目录后，运行 `python3 scripts/vp_sidebar.py` 生成 sidebar.ts
+    sidebar,
     nav: [
       { text: '首页', link: '/' },
+      { text: 'CFA 题库', link: '/cfa/' },
       { text: '关于', link: '/about/' },
     ],
     search: {

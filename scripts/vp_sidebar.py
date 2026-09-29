@@ -5,18 +5,25 @@ import re
 
 DOCS = "/Users/jiaxiang/Documents/code/blog/docs"
 SECTIONS = [
+    ("cfa", "CFA 题库"),
     ("front-end", "前端"),
     ("back-end", "后端"),
     ("machine-learning", "机器学习"),
     ("other", "其他"),
 ]
 
+# cfa 分区：来源目录的自定义顺序（与 vp_import_cfa.py 的 SOURCES 一致）
+CFA_SOURCE_ORDER = ["Other", "品职出题", "原版书", "Handbook", "Mock", "真题", "经典题"]
+
 
 def read_title(md_path):
     text = open(md_path).read(2048)
     m = re.search(r"^title:\s*(.+)$", text, re.M)
     if m:
-        return m.group(1).strip()
+        t = m.group(1).strip()
+        if len(t) >= 2 and t[0] == t[-1] and t[0] in "\"'":
+            t = t[1:-1]
+        return t
     m = re.search(r"^#\s+(.+)$", text, re.M)
     return m.group(1).strip() if m else os.path.basename(md_path)
 
@@ -37,8 +44,17 @@ def items_for(dir_path):
 
 def groups_for(key):
     d = os.path.join(DOCS, key)
+    if not os.path.isdir(d):
+        return []
+    names = os.listdir(d)
+    if key == "cfa":
+        names = [n for n in CFA_SOURCE_ORDER if n in names] + sorted(
+            n for n in names if n not in CFA_SOURCE_ORDER and os.path.isdir(os.path.join(d, n))
+        )
+    else:
+        names = sorted(n for n in names if os.path.isdir(os.path.join(d, n)))
     groups = []
-    for name in sorted(os.listdir(d)):
+    for name in names:
         sd = os.path.join(d, name)
         if not os.path.isdir(sd):
             continue
@@ -47,13 +63,13 @@ def groups_for(key):
             groups.append({
                 "text": read_title(index_md),
                 "link": f"/{key}/{name}/",
-                "collapsed": True,
+                "collapsed": False,
                 "items": items_for(sd),
             })
         else:
             groups.append({
                 "text": name,
-                "collapsed": True,
+                "collapsed": False,
                 "items": items_for(sd),
             })
     return groups

@@ -1,0 +1,145 @@
+/**
+ * 组件级样式：导航、侧边栏、代码块、表格、容器块、页脚。
+ * 全部通过 CSS 变量（vars.css）取色，自动适配亮 / 暗模式。
+ */
+
+/* ==================== 顶部导航 ==================== */
+
+/* 毛玻璃导航栏（背景虚化 + 半透明） */
+.VPNav {
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+}
+
+.VPNav .VPNavBar {
+  background-color: color-mix(in srgb, var(--vp-c-bg) 80%, transparent);
+}
+
+@media (min-width: 960px) {
+  .VPNav .VPNavBar:not(.home) {
+    background-color: color-mix(in srgb, var(--vp-c-bg) 80%, transparent);
+  }
+}
+
+/* 导航栏底部分隔线弱化 */
+.VPNavBar .divider {
+  background-color: var(--vp-c-divider);
+}
+
+/* nav 链接激活态 */
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1);
+}
+
+/* ==================== 侧边栏 ==================== */
+
+.VPSidebar .VPSidebarItem .text {
+  transition: color 0.2s ease;
+}
+
+.VPSidebarItem.is-active > .item > .indicator {
+  background-color: var(--vp-c-brand-1);
+}
+
+/* ==================== 代码块 ==================== */
+
+.vp-doc div[class*='language-'] {
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-border);
+  transition: border-color 0.3s ease;
+}
+
+.vp-doc div[class*='language-']:hover {
+  border-color: var(--vp-c-brand-3);
+}
+
+/* 代码块语言标签 */
+.vp-doc div[class*='language-'] .lang {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+/* 行内代码 */
+.vp-doc :not(pre) > code {
+  border-radius: 5px;
+  padding: 0.15em 0.4em;
+  background-color: var(--vp-code-bg-color);
+  color: var(--vp-c-brand-1);
+}
+
+/* ==================== 表格 ==================== */
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* 表头使用软背景 */
+.vp-doc thead th {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* 斑马纹 */
+.vp-doc tbody tr:nth-child(2n) {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* 行 hover */
+.vp-doc tbody tr:hover {
+  background-color: var(--vp-c-brand-soft);
+}
+
+/* ==================== 引用块 ==================== */
+
+.vp-doc blockquote {
+  border-radius: 0 6px 6px 0;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+}
+
+/* ==================== 自定义容器（tip / info / warning / danger） ==================== */
+
+.custom-block .custom-block-title {
+  font-weight: 600;
+}
+
+/* tip 容器品牌色微调 */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-3);
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-text-2);
+}
+
+.custom-block.tip .custom-block-title {
+  color: var(--vp-c-brand-1);
+}
+
+/* ==================== 页脚 ==================== */
+
+.VPFooter {
+  background-color: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-3);
+  font-size: 13px;
+}
+
+/* ==================== 本地搜索弹窗 ==================== */
+
+.VPNavBarSearch local-search {
+  background-color: inherit;
+}
+
+/* 搜索结果选中态用品牌色 */
+.shell .search-back-button:focus,
+.aria-box .results .result.selected {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* ==================== 404 页 ==================== */
+/* 走默认，无需额外处理 */
