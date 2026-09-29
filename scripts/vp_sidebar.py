@@ -12,8 +12,8 @@ SECTIONS = [
     ("other", "其他"),
 ]
 
-# cfa 分区：来源目录的自定义顺序（与 vp_import_cfa.py 的 SOURCES 一致；当前仅保留 Other）
-CFA_SOURCE_ORDER = ["Other"]
+# cfa 分区：来源目录的自定义顺序（题库在前，讲义资料按学习顺序排列）
+CFA_SOURCE_ORDER = ["Other", "核心知识点", "图谱", "主观题"]
 
 
 def read_title(md_path):
