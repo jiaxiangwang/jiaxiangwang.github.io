@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 股票（Other）"
+title: "组合构建 · 股票"
 source: OTH
 book: "Core-Portfolio Construction-Equity"
 questions: 6

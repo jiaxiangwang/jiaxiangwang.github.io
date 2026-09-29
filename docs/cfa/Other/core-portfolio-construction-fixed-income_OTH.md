@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 固定收益（Other）"
+title: "组合构建 · 固定收益"
 source: OTH
 book: "Core-Portfolio Construction-Fixed Income"
 questions: 10

@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 个人 IPS（Other）"
+title: "组合构建 · 个人 IPS"
 source: OTH
 book: "Core-Portfolio Construction-个人IPS"
 questions: 6

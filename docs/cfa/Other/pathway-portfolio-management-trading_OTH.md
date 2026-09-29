@@ -1,5 +1,5 @@
 ---
-title: "Pathway · 组合管理-交易（Other）"
+title: "Pathway · 组合管理-交易"
 source: OTH
 book: "Pathway-Portfolio Management-Trading"
 questions: 16

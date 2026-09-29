@@ -1,5 +1,5 @@
 ---
-title: "绩效度量 · GIPS（Other）"
+title: "绩效度量 · GIPS"
 source: OTH
 book: "Core-Performance Measurement-GIPS"
 questions: 12

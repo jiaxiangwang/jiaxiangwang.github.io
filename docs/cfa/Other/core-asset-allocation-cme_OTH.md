@@ -1,5 +1,5 @@
 ---
-title: "资本市场预期 · CME（Other）"
+title: "资本市场预期 · CME"
 source: OTH
 book: "Core-Asset Allocation-CME"
 questions: 16

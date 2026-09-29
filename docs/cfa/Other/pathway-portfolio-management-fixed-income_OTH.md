@@ -1,5 +1,5 @@
 ---
-title: "Pathway · 组合管理-固定收益（Other）"
+title: "Pathway · 组合管理-固定收益"
 source: OTH
 book: "Pathway-Portfolio Management-Fixed Income"
 questions: 46

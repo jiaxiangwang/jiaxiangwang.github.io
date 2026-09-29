@@ -16,17 +16,17 @@ hero:
 features:
   - icon: 📊
     title: CFA Level III 题库
-    details: 1149 题 · 7 个来源（Other / 品职出题 / 原版书 / Handbook / Mock / 真题 / 经典题），按大类组织，含 Case 题组与问答题。
+    details: Other 系列全集，覆盖资产配置、组合构建、绩效度量、衍生品与私行 Pathway，含 Case 题组与问答题。
     link: /cfa/
     linkText: 进入题库
   - icon: 🧩
-    title: 来源 × 大类矩阵
-    details: 每个知识点下各来源的题目数量一页总览，点击数字直达对应题集，便于按知识点横向刷题。
+    title: 按知识点刷题
+    details: 15 个大类独立成页——AA / CME / 个人与机构 IPS / 股票 / 固收 / 另类 / 交易 / GIPS / 衍生品 / Private Wealth。
     link: /cfa/
-    linkText: 查看矩阵
+    linkText: 查看分类
   - icon: 📖
-    title: 按来源精练
-    details: 品职出题 473 题、Other 358 题、原版书 247 题……同一知识点可切换不同来源交叉验证掌握度。
-    link: /cfa/品职出题/
-    linkText: 从品职出题开始
+    title: 题卡式排版
+    details: 题号徽章、选项条、Case 小题卡片、Exhibit 数据自动转表格，亮暗双模式适配。
+    link: /cfa/Other/
+    linkText: 试读一页
 ---

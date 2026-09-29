@@ -1,5 +1,5 @@
 ---
-title: "绩效度量 · 绩效评估（Other）"
+title: "绩效度量 · 绩效评估"
 source: OTH
 book: "Core-Performance Measurement-Performance Evaluation"
 questions: 23

@@ -1,5 +1,5 @@
 ---
-title: "Pathway · 组合管理-机构IPS（Other）"
+title: "Pathway · 组合管理-机构IPS"
 source: OTH
 book: "Pathway-Portfolio Management-机构IPS"
 questions: 8

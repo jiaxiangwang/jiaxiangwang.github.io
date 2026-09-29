@@ -1,5 +1,5 @@
 ---
-title: "衍生品与风险管理（26年大纲）（Other）"
+title: "衍生品与风险管理（26年大纲）"
 source: OTH
 book: "26年 Core-Derivatives and Risk Management- Derivatives"
 questions: 33

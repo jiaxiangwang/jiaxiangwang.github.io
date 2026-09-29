@@ -1,5 +1,5 @@
 ---
-title: "资产配置 · AA（Other）"
+title: "资产配置 · AA"
 source: OTH
 book: "Core-Asset Allocation-AA"
 questions: 46

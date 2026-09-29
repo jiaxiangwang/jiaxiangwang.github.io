@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 另类投资（Other）"
+title: "组合构建 · 另类投资"
 source: OTH
 book: "Core-Portfolio Construction-Alternative"
 questions: 11

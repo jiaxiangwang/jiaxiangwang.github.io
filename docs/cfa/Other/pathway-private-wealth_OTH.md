@@ -1,5 +1,5 @@
 ---
-title: "Pathway · 私人财富管理（Other）"
+title: "Pathway · 私人财富管理"
 source: OTH
 book: "Pathway-Private Wealth"
 questions: 100

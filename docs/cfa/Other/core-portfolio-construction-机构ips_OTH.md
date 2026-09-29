@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 机构 IPS（Other）"
+title: "组合构建 · 机构 IPS"
 source: OTH
 book: "Core-Portfolio Construction-机构IPS"
 questions: 16

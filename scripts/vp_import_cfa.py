@@ -13,6 +13,8 @@
 
 跳过派生目录 Other+原版书（与 Other / 原版书内容重复）。
 用法：python3 scripts/vp_import_cfa.py
+注：当前 SOURCES 只保留 Other；要恢复其他来源，把条目加回 SOURCES 并重跑即可
+（矩阵总览页的生成逻辑见 git 历史版本）。
 """
 import os
 import re
@@ -21,15 +23,9 @@ import shutil
 BANK = "/Users/jiaxiang/Documents/code/cfa/pz_question_bank"
 DOCS_CFA = "/Users/jiaxiang/Documents/code/blog/docs/cfa"
 
-# (目录名, 来源代码, 展示名) —— 顺序即侧边栏顺序：按复习价值排序
+# (目录名, 来源代码, 展示名) —— 只保留 Other 来源
 SOURCES = [
     ("Other", "OTH", "Other"),
-    ("品职出题", "PZ", "品职出题"),
-    ("原版书", "ORIG", "原版书"),
-    ("Handbook", "HB", "Handbook"),
-    ("Mock", "MOCK", "Mock"),
-    ("真题", "REAL", "真题"),
-    ("经典题", "CLASS", "经典题"),
 ]
 
 # 大类展示顺序（按 CFA III 知识体系）
@@ -306,7 +302,7 @@ def main():
 
             front = (
                 "---\n"
-                f'title: "{BOOK_LABELS.get(book, book)}（{label}）"\n'
+                f'title: "{BOOK_LABELS.get(book, book)}"\n'
                 f"source: {code}\n"
                 f'book: "{book}"\n'
                 f"questions: {n}\n"
@@ -340,41 +336,26 @@ def main():
         lines.append("")
         open(os.path.join(DOCS_CFA, dname, "index.md"), "w", encoding="utf-8").write("\n".join(lines))
 
-    # ---- 总览矩阵 docs/cfa/index.md ----
+    # ---- 总览页 docs/cfa/index.md（单来源：直接列大类）----
     ordered_books = [b for b in BOOK_ORDER if b in all_books] + sorted(
         b for b in all_books if b not in BOOK_ORDER
     )
-    codes = [c for _, c, _ in SOURCES]
     total = sum(source_totals.values())
-    dir_of = {c_: d for d, c_, _ in SOURCES}
+    dname, code, label = SOURCES[0]
 
     lines = [
         "---",
         'title: "CFA 题库"',
-        "outline: deep",
         "---",
         "",
         "# CFA Level III 题库",
         "",
-        f"> 来源：品职 PZ Academy 导出（2026-09-13）｜共 **{total}** 题、**{len(all_books)}** 个大类。Case 题组 = 题干材料 + 逐个小题。",
-        "> 按来源浏览：",
+        f"> 来源：品职 PZ Academy 导出（2026-09-13）· Other 系列｜共 **{total}** 题、**{len(all_books)}** 个大类。Case 题组 = 题干材料 + 逐个小题。",
+        "",
     ]
-    for dname, code, label in SOURCES:
-        lines.append(f"> [{label}](/cfa/{dname}/)（{source_totals[code]} 题）｜")
-    lines.append("")
-    lines.append("## 来源 × 大类矩阵")
-    lines.append("")
-    header = "| 大类 | " + " | ".join(c for c in codes) + " |"
-    sep = "| --- |" + " --- |" * len(codes)
-    lines += [header, sep]
     for b in ordered_books:
-        row = [BOOK_LABELS.get(b, b)]
-        for c in codes:
-            cell = matrix.get(b, {}).get(c)
-            row.append(f"[{cell['count']}](/cfa/{dir_of[c]}/{cell['slug']})" if cell else "—")
-        lines.append("| " + " | ".join(row) + " |")
-    row = ["**合计**"] + [f"**{source_totals[c]}**" for c in codes]
-    lines.append("| " + " | ".join(row) + " |")
+        info = matrix[b][code]
+        lines.append(f"- [{BOOK_LABELS.get(b, b)}](/cfa/{dname}/{info['slug']})（{info['count']} 题）")
     lines.append("")
 
     open(os.path.join(DOCS_CFA, "index.md"), "w", encoding="utf-8").write("\n".join(lines))

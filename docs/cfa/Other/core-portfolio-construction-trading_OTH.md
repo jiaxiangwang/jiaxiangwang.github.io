@@ -1,5 +1,5 @@
 ---
-title: "组合构建 · 交易（Other）"
+title: "组合构建 · 交易"
 source: OTH
 book: "Core-Portfolio Construction-Trading"
 questions: 9
