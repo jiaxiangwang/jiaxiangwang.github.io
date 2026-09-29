@@ -94,6 +94,12 @@ def main():
     lines = []
     for key, label in SECTIONS:
         groups = groups_for(key)
+        # cfa：每个大类（来源目录）独立侧边栏 key；/cfa/ 总览页保留聚合侧边栏
+        if key == "cfa" and groups:
+            for g in groups:
+                k = g["link"]  # 形如 /cfa/Other/
+                lines.append(f"  '{k}': {fmt([g], 1)},")
+                print(f"{k}: 1 group, {len(g['items'])} pages")
         lines.append(f"  '/{key}/': {fmt(groups, 1)},")
         total = sum(len(g["items"]) for g in groups)
         print(f"{key} ({label}): {len(groups)} groups, {total} pages")
