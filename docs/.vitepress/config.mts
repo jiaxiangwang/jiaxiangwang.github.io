@@ -8,7 +8,15 @@ export default defineConfig({
   description: 'not just the code, but the reasons behind it. code. eat. sleep. loop',
   cleanUrls: true,
   lastUpdated: true,
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    // 全站不被搜索引擎收录
+    ['meta', { name: 'robots', content: 'noindex, nofollow, noarchive, noimageindex' }],
+    // 防闪现：HTML 到达即隐藏 #app（内联样式，不等外部 CSS），
+    // AccessGate 挂载后移除 gate-hold 类揭示页面（登录遮罩本身就是不透明的）
+    ['script', { id: 'gate-hold' }, `document.documentElement.classList.add('gate-hold')`],
+    ['style', { id: 'gate-hold-style' }, `html.gate-hold #app{visibility:hidden}`],
+  ],
 
   themeConfig: {
     logo: '/logo.png',
