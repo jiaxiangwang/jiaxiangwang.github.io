@@ -72,13 +72,10 @@ current market value of the fund’s assets is $10 billion, and the present valu
 > **答案要点**
 >
 > To fully hedge the fund’s liabilities, 85% ($8.5 billion/$10.0 billion) of the fund’s assets
-> ⚫
 > would be linked to index-linked government bonds. The hedging portfolio must include
 > assets whose returns are driven by the same factors that drive the returns of the liabilities,
 > which in this case are the index-linked government bonds.
 > Residual $1.5 billion surplus would be invested into a return-seeking portfolio.
-> ⚫
-
 The following information relates to Questions 17 and 18
 
 Mike and Kerry Armstrong are a married couple who recently retired with total assets of $8 million. The Armstrongs meet with their financial advisor, Brent Abbott, to discuss three of their financial goals during their retirement. Goal 1: An 85% chance of purchasing a vacation home for $5 million in five years. Goal 2: A 99% chance of being able to maintain their current annual expenditures of $100,000 for the next 10 years, assuming annual inflation of 3% from Year 2 onward. Goal 3: A 75% chance of being able to donate $10 million to charitable foundations in 25 years. Abbott suggests using a goals-based approach to construct a portfolio. He develops a set of sub-portfolio modules, presented in Exhibit 1. Abbott suggests investing any excess capital in Module A.
@@ -94,12 +91,10 @@ Abbott should choose in constructing a portfolio. Justify each selection.
 > given the time horizon and required probability of success.
 > Goal 1: time horizon: 5 years; required probability of success: 85%
 > Module C should be chosen because it has the highest expected return of 4.4%.
-> ⚫
 > Goal 2: time horizon: 10 years; required probability of success: 99%
 > Module B should be chosen because it has the highest expected return of 2.2%.
-> ⚫
 > Goal 3: time horizon: 25 years; required probability of success: 75%
-> ⚫ Module D should be chosen because it has the highest expected return of 7.5%.
+> - Module D should be chosen because it has the highest expected return of 7.5%.
 
 ### 18. Construct the overall goals-based asset allocation for the Armstrongs given their three
 
@@ -143,23 +138,19 @@ Bias Justification Loss Aversion Illusion of Control Mental Accounting Represent
 >
 > Loss Aversion:
 > Under loss-aversion bias, people strongly prefer avoiding losses and they assign a greater
-> ⚫
 > weight to potential negative outcomes than positive ones.
 > Young’s strong emphasis on retirement security and her desire to avoid losing money
-> ⚫
 > indicates that she has a loss-aversion bias.
 > Mental Accounting:
-> ⚫ Under mental accounting bias, people treat one sum of money differently from another
+> - Under mental accounting bias, people treat one sum of money differently from another
 > sum based solely on the mental account to which the money is assigned.
 > Young is considering her $3 million tax-deferred retirement account, her $500,000
-> ⚫
 > account for the girls’ education, and the $400,000 emergency account separately, rather
 > than seeing them all as a combined investable total.
 > Availability Bias:
 > Under availability bias, people estimate the probability of an outcome based on how
-> ⚫
 > easily the outcome comes to mind.
-> ⚫ Young’s strong emphasis on retirement security and her desire to avoid losing money
+> - Young’s strong emphasis on retirement security and her desire to avoid losing money
 > both could be driven by her strong memories of her childhood financial hardships.
 
 ### 15. A broker proposes to Young three portfolios, shown in Exhibit 1. The broker also provides
@@ -171,21 +162,16 @@ Young with asset class estimated returns and portfolio standard deviations in Ex
 > （1）Portfolio 3 most closely meets Young’s desired objectives, to earn at least 6% after tax
 > per year without taking on additional incremental risk.
 > Portfolio 2 produces approximately the same return, but it offers a higher standard
-> ⚫
 > deviation than Portfolio 3.
 > Portfolio 1 achieves the highest returns but at a much greater level of volatility than
-> ⚫
 > Portfolio 3.
 > （2）From the constraint’s perspective, the minimum investment requirement for alternative
 > assets is $500,000.
 > Portfolio 2 is not viable. The suggested 5% allocation to private equity in Portfolio 2
-> ⚫
 > results in only a $275,000 exposure, insufficient to invest in private equity.
 > Portfolio 1, with a private equity investment of $550,000, meets the minimum
-> ⚫
 > requirement for alternative investments.
 > This minimum investment requirement is not an issue for Portfolio 3 because it has no
-> ⚫
 > private equity component.
 
 ### 16. The broker suggests that Young rebalance her $5.5 million money market account and the
@@ -194,7 +180,7 @@ $3.0 million tax-deferred retirement account periodically in order to maintain t
 
 potential target equity allocations and rebalancing ranges for the two accounts as follows:
 
-Alternative 1: 80% equities +/– 8.0% rebalancing range ⚫ Alternative 2: 75% equities +/– 10.7% rebalancing range ⚫ Determine which alternative best fits each account. Justify each selection.
+Alternative 1: 80% equities +/– 8.0% rebalancing range  Alternative 2: 75% equities +/– 10.7% rebalancing range  Determine which alternative best fits each account. Justify each selection.
 
 > **答案要点**
 >
@@ -246,7 +232,7 @@ Mark DuBord, a financial adviser, works with two university foundations, the Tit
 
 investment committee, DuBord notes the following points:
 
-Titan must spend 3% of its beginning-of-the-year asset value annually to meet legal ⚫ obligations. The investment committee seeks exposure to private equity investments and requests ⚫ DuBord’s review of the Sun-Fin Private Equity Fund as a potential new investment. A recent declining trend in enrollment is expected to continue. This is a concern because ⚫ it has led to a loss of operating revenue from tuition. ⚫ Regulatory sanctions and penalties are likely to result in lower donations over the next five years. DuBord supervises two junior analysts and instructs one to formulate new allocations for Titan. This analyst proposes the allocation presented in Exhibit 1.
+Titan must spend 3% of its beginning-of-the-year asset value annually to meet legal  obligations. The investment committee seeks exposure to private equity investments and requests  DuBord’s review of the Sun-Fin Private Equity Fund as a potential new investment. A recent declining trend in enrollment is expected to continue. This is a concern because  it has led to a loss of operating revenue from tuition.  Regulatory sanctions and penalties are likely to result in lower donations over the next five years. DuBord supervises two junior analysts and instructs one to formulate new allocations for Titan. This analyst proposes the allocation presented in Exhibit 1.
 
 ### 19. Discuss two reasons why the proposed asset allocation is inappropriate for Titan.
 
@@ -266,7 +252,7 @@ Titan must spend 3% of its beginning-of-the-year asset value annually to meet le
 
 investment committee, DuBord notes the following points:
 
-Fordhart must spend 3% of its beginning-of-the-year asset value annually to meet legal ⚫ obligations. The investment committee seeks exposure to private equity investments and requests ⚫ that DuBord review the CFQ Private Equity Fund as a potential new investment. Enrollment is strong and growing, leading to increased operating revenues from tuition. ⚫ A recent legal settlement eliminated an annual obligation of $50 million from the ⚫ portfolio to support a biodigester used in the university’s Center for Renewable Energy. DuBord instructs his second junior analyst to formulate new allocations for Fordhart. This analyst proposes the allocation presented in Exhibit 2. Discuss two reasons why the proposed asset allocation is inappropriate for Fordhart.
+Fordhart must spend 3% of its beginning-of-the-year asset value annually to meet legal  obligations. The investment committee seeks exposure to private equity investments and requests  that DuBord review the CFQ Private Equity Fund as a potential new investment. Enrollment is strong and growing, leading to increased operating revenues from tuition.  A recent legal settlement eliminated an annual obligation of $50 million from the  portfolio to support a biodigester used in the university’s Center for Renewable Energy. DuBord instructs his second junior analyst to formulate new allocations for Fordhart. This analyst proposes the allocation presented in Exhibit 2. Discuss two reasons why the proposed asset allocation is inappropriate for Fordhart.
 
 > **答案要点**
 >
