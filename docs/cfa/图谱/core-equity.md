@@ -1,10 +1,10 @@
 ---
-title: "Equity · 权益｜知识点图谱"
+title: "权益 · Equity"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Equity · 权益｜知识点图谱
+# 权益 · Equity
 
 一、学科复习建议
 

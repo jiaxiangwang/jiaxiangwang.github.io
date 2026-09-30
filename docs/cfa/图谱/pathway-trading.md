@@ -1,10 +1,10 @@
 ---
-title: "Trading · 交易执行（Pathway）｜知识点图谱"
+title: "交易执行 · Trading（Pathway）"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# Trading · 交易执行（Pathway）｜知识点图谱
+# 交易执行 · Trading（Pathway）
 
 一、学科复习建议
 

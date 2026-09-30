@@ -1,10 +1,10 @@
 ---
-title: "机构 IPS · 机构投资者｜核心知识点"
+title: "机构投资者 · 机构IPS"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# 机构 IPS · 机构投资者
+# 机构投资者 · 机构IPS
 
 机构投资者共同特征
 

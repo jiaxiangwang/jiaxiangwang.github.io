@@ -1,10 +1,10 @@
 ---
-title: "个人 IPS · 私人财富管理｜知识点图谱"
+title: "私人财富管理 · 个人IPS"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 个人 IPS · 私人财富管理｜知识点图谱
+# 私人财富管理 · 个人IPS
 
 一、学科复习建议
 

@@ -1,10 +1,10 @@
 ---
-title: "Alternative · 另类投资｜核心知识点"
+title: "另类投资 · Alternative"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# Alternative · 另类投资
+# 另类投资 · Alternative
 
 不同另类投资的作用
 

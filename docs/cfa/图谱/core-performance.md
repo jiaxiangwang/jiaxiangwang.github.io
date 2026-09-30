@@ -1,10 +1,10 @@
 ---
-title: "Performance · 绩效评估｜知识点图谱"
+title: "绩效评估 · Performance"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Performance · 绩效评估｜知识点图谱
+# 绩效评估 · Performance
 
 一、学科复习建议
 

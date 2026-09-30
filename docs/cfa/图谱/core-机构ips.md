@@ -1,10 +1,10 @@
 ---
-title: "机构 IPS · 机构投资者｜知识点图谱"
+title: "机构投资者 · 机构IPS"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 机构 IPS · 机构投资者｜知识点图谱
+# 机构投资者 · 机构IPS
 
 一、学科复习建议
 

@@ -1,10 +1,10 @@
 ---
-title: "GIPS · 全球投资业绩标准｜核心知识点"
+title: "全球业绩标准 · GIPS"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# GIPS · 全球投资业绩标准
+# 全球业绩标准 · GIPS
 
 Fundamental of Compliance
 

@@ -1,10 +1,10 @@
 ---
-title: "Fixed Income · 固定收益（Pathway）｜知识点图谱"
+title: "固定收益 · Fixed Income（Pathway）"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# Fixed Income · 固定收益（Pathway）｜知识点图谱
+# 固定收益 · Fixed Income（Pathway）
 
 一、学科复习建议
 

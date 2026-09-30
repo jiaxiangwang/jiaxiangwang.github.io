@@ -1,10 +1,10 @@
 ---
-title: "交易（Pathway）｜主观题答题要点"
+title: "交易执行 · Trading（Pathway）"
 collection: 主观题
 book: "Portfolio Management Pathway"
 ---
 
-# 交易（Pathway）
+# 交易执行 · Trading（Pathway）
 
 Portfolio Management-Trading
 

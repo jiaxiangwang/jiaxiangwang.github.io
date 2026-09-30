@@ -78,63 +78,63 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜核心知识点",
+          text: "资产配置 · AA",
           link: "/cfa/核心知识点/aa"
         },
         {
-          text: "Alternative · 另类投资｜核心知识点",
+          text: "另类投资 · Alternative",
           link: "/cfa/核心知识点/alternative"
         },
         {
-          text: "CME · 资本市场预期｜核心知识点",
+          text: "资本市场预期 · CME",
           link: "/cfa/核心知识点/cme"
         },
         {
-          text: "Equity · 权益｜核心知识点",
+          text: "权益 · Equity",
           link: "/cfa/核心知识点/equity"
         },
         {
-          text: "Ethics · 道德准则｜核心知识点",
+          text: "道德准则 · Ethics",
           link: "/cfa/核心知识点/ethics"
         },
         {
-          text: "Fixed Income · 固定收益｜核心知识点",
+          text: "固定收益 · Fixed Income",
           link: "/cfa/核心知识点/fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜核心知识点",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/核心知识点/gips"
         },
         {
-          text: "Equity · 权益（Pathway）｜核心知识点",
+          text: "权益 · Equity（Pathway）",
           link: "/cfa/核心知识点/pathway-equity"
         },
         {
-          text: "Fixed Income · 固定收益（Pathway）｜核心知识点",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/核心知识点/pathway-fixed-income"
         },
         {
-          text: "Trading · 交易执行（Pathway）｜核心知识点",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/核心知识点/pathway-trading"
         },
         {
-          text: "Trading · 交易执行｜核心知识点",
+          text: "交易执行 · Trading",
           link: "/cfa/核心知识点/trading"
         },
         {
-          text: "Performance · 绩效评估｜核心知识点",
+          text: "绩效评估 · Performance",
           link: "/cfa/核心知识点/业绩评估"
         },
         {
-          text: "个人 IPS · 私人财富管理｜核心知识点",
+          text: "私人财富管理 · 个人IPS",
           link: "/cfa/核心知识点/个人ips"
         },
         {
-          text: "机构 IPS · 机构投资者｜核心知识点",
+          text: "机构投资者 · 机构IPS",
           link: "/cfa/核心知识点/机构ips"
         },
         {
-          text: "Derivatives · 衍生品｜核心知识点",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/核心知识点/衍生"
         }
       ]
@@ -147,63 +147,63 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜知识点图谱",
+          text: "资产配置 · AA",
           link: "/cfa/图谱/aa"
         },
         {
-          text: "CME · 资本市场预期｜知识点图谱",
+          text: "资本市场预期 · CME",
           link: "/cfa/图谱/cme"
         },
         {
-          text: "Alternative · 另类投资｜知识点图谱",
+          text: "另类投资 · Alternative",
           link: "/cfa/图谱/core-alternative"
         },
         {
-          text: "Derivatives · 衍生品与外汇管理｜知识点图谱",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/图谱/core-derivatives"
         },
         {
-          text: "Equity · 权益｜知识点图谱",
+          text: "权益 · Equity",
           link: "/cfa/图谱/core-equity"
         },
         {
-          text: "Fixed Income · 固定收益｜知识点图谱",
+          text: "固定收益 · Fixed Income",
           link: "/cfa/图谱/core-fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜知识点图谱",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/图谱/core-gips"
         },
         {
-          text: "Performance · 绩效评估｜知识点图谱",
+          text: "绩效评估 · Performance",
           link: "/cfa/图谱/core-performance"
         },
         {
-          text: "Trading · 交易执行｜知识点图谱",
+          text: "交易执行 · Trading",
           link: "/cfa/图谱/core-trading"
         },
         {
-          text: "个人 IPS · 私人财富管理｜知识点图谱",
+          text: "私人财富管理 · 个人IPS",
           link: "/cfa/图谱/core-个人ips"
         },
         {
-          text: "机构 IPS · 机构投资者｜知识点图谱",
+          text: "机构投资者 · 机构IPS",
           link: "/cfa/图谱/core-机构ips"
         },
         {
-          text: "Equity · 权益（Pathway）｜知识点图谱",
+          text: "权益 · Equity（Pathway）",
           link: "/cfa/图谱/pathway-equity"
         },
         {
-          text: "Fixed Income · 固定收益（Pathway）｜知识点图谱",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/图谱/pathway-fixed-income"
         },
         {
-          text: "Trading · 交易执行（Pathway）｜知识点图谱",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/图谱/pathway-trading"
         },
         {
-          text: "机构 IPS · 机构投资者（Pathway）｜知识点图谱",
+          text: "机构投资者 · 机构IPS（Pathway）",
           link: "/cfa/图谱/pathway-机构ips"
         }
       ]
@@ -216,47 +216,47 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜主观题答题要点",
+          text: "资产配置 · AA",
           link: "/cfa/主观题/aa"
         },
         {
-          text: "另类投资 · Alternative｜主观题答题要点",
+          text: "另类投资 · Alternative",
           link: "/cfa/主观题/alternative"
         },
         {
-          text: "机构 Case Study（Pathway）｜主观题答题要点",
+          text: "机构案例 · Case Study（Pathway）",
           link: "/cfa/主观题/case-study-institutional"
         },
         {
-          text: "CME · 资本市场预期｜主观题答题要点",
+          text: "资本市场预期 · CME",
           link: "/cfa/主观题/cme"
         },
         {
-          text: "固定收益组合管理（Pathway）｜主观题答题要点",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/主观题/fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜主观题答题要点",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/主观题/gips"
         },
         {
-          text: "交易（Pathway）｜主观题答题要点",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/主观题/trading"
         },
         {
-          text: "机构投资者组合管理｜主观题答题要点",
+          text: "机构投资者 · Institutional",
           link: "/cfa/主观题/机构投资者"
         },
         {
-          text: "私人财富管理 · PWM｜主观题答题要点",
+          text: "私人财富管理 · PWM",
           link: "/cfa/主观题/私人财富管理"
         },
         {
-          text: "绩效评估｜主观题答题要点",
+          text: "绩效评估 · Performance",
           link: "/cfa/主观题/绩效评估"
         },
         {
-          text: "衍生品与外汇管理｜主观题答题要点",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/主观题/衍生品与外汇管理"
         }
       ]
@@ -336,63 +336,63 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜核心知识点",
+          text: "资产配置 · AA",
           link: "/cfa/核心知识点/aa"
         },
         {
-          text: "Alternative · 另类投资｜核心知识点",
+          text: "另类投资 · Alternative",
           link: "/cfa/核心知识点/alternative"
         },
         {
-          text: "CME · 资本市场预期｜核心知识点",
+          text: "资本市场预期 · CME",
           link: "/cfa/核心知识点/cme"
         },
         {
-          text: "Equity · 权益｜核心知识点",
+          text: "权益 · Equity",
           link: "/cfa/核心知识点/equity"
         },
         {
-          text: "Ethics · 道德准则｜核心知识点",
+          text: "道德准则 · Ethics",
           link: "/cfa/核心知识点/ethics"
         },
         {
-          text: "Fixed Income · 固定收益｜核心知识点",
+          text: "固定收益 · Fixed Income",
           link: "/cfa/核心知识点/fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜核心知识点",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/核心知识点/gips"
         },
         {
-          text: "Equity · 权益（Pathway）｜核心知识点",
+          text: "权益 · Equity（Pathway）",
           link: "/cfa/核心知识点/pathway-equity"
         },
         {
-          text: "Fixed Income · 固定收益（Pathway）｜核心知识点",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/核心知识点/pathway-fixed-income"
         },
         {
-          text: "Trading · 交易执行（Pathway）｜核心知识点",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/核心知识点/pathway-trading"
         },
         {
-          text: "Trading · 交易执行｜核心知识点",
+          text: "交易执行 · Trading",
           link: "/cfa/核心知识点/trading"
         },
         {
-          text: "Performance · 绩效评估｜核心知识点",
+          text: "绩效评估 · Performance",
           link: "/cfa/核心知识点/业绩评估"
         },
         {
-          text: "个人 IPS · 私人财富管理｜核心知识点",
+          text: "私人财富管理 · 个人IPS",
           link: "/cfa/核心知识点/个人ips"
         },
         {
-          text: "机构 IPS · 机构投资者｜核心知识点",
+          text: "机构投资者 · 机构IPS",
           link: "/cfa/核心知识点/机构ips"
         },
         {
-          text: "Derivatives · 衍生品｜核心知识点",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/核心知识点/衍生"
         }
       ]
@@ -403,63 +403,63 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜知识点图谱",
+          text: "资产配置 · AA",
           link: "/cfa/图谱/aa"
         },
         {
-          text: "CME · 资本市场预期｜知识点图谱",
+          text: "资本市场预期 · CME",
           link: "/cfa/图谱/cme"
         },
         {
-          text: "Alternative · 另类投资｜知识点图谱",
+          text: "另类投资 · Alternative",
           link: "/cfa/图谱/core-alternative"
         },
         {
-          text: "Derivatives · 衍生品与外汇管理｜知识点图谱",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/图谱/core-derivatives"
         },
         {
-          text: "Equity · 权益｜知识点图谱",
+          text: "权益 · Equity",
           link: "/cfa/图谱/core-equity"
         },
         {
-          text: "Fixed Income · 固定收益｜知识点图谱",
+          text: "固定收益 · Fixed Income",
           link: "/cfa/图谱/core-fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜知识点图谱",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/图谱/core-gips"
         },
         {
-          text: "Performance · 绩效评估｜知识点图谱",
+          text: "绩效评估 · Performance",
           link: "/cfa/图谱/core-performance"
         },
         {
-          text: "Trading · 交易执行｜知识点图谱",
+          text: "交易执行 · Trading",
           link: "/cfa/图谱/core-trading"
         },
         {
-          text: "个人 IPS · 私人财富管理｜知识点图谱",
+          text: "私人财富管理 · 个人IPS",
           link: "/cfa/图谱/core-个人ips"
         },
         {
-          text: "机构 IPS · 机构投资者｜知识点图谱",
+          text: "机构投资者 · 机构IPS",
           link: "/cfa/图谱/core-机构ips"
         },
         {
-          text: "Equity · 权益（Pathway）｜知识点图谱",
+          text: "权益 · Equity（Pathway）",
           link: "/cfa/图谱/pathway-equity"
         },
         {
-          text: "Fixed Income · 固定收益（Pathway）｜知识点图谱",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/图谱/pathway-fixed-income"
         },
         {
-          text: "Trading · 交易执行（Pathway）｜知识点图谱",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/图谱/pathway-trading"
         },
         {
-          text: "机构 IPS · 机构投资者（Pathway）｜知识点图谱",
+          text: "机构投资者 · 机构IPS（Pathway）",
           link: "/cfa/图谱/pathway-机构ips"
         }
       ]
@@ -470,47 +470,47 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
       collapsed: false,
       items: [
         {
-          text: "AA · 资产配置｜主观题答题要点",
+          text: "资产配置 · AA",
           link: "/cfa/主观题/aa"
         },
         {
-          text: "另类投资 · Alternative｜主观题答题要点",
+          text: "另类投资 · Alternative",
           link: "/cfa/主观题/alternative"
         },
         {
-          text: "机构 Case Study（Pathway）｜主观题答题要点",
+          text: "机构案例 · Case Study（Pathway）",
           link: "/cfa/主观题/case-study-institutional"
         },
         {
-          text: "CME · 资本市场预期｜主观题答题要点",
+          text: "资本市场预期 · CME",
           link: "/cfa/主观题/cme"
         },
         {
-          text: "固定收益组合管理（Pathway）｜主观题答题要点",
+          text: "固定收益 · Fixed Income（Pathway）",
           link: "/cfa/主观题/fixed-income"
         },
         {
-          text: "GIPS · 全球投资业绩标准｜主观题答题要点",
+          text: "全球业绩标准 · GIPS",
           link: "/cfa/主观题/gips"
         },
         {
-          text: "交易（Pathway）｜主观题答题要点",
+          text: "交易执行 · Trading（Pathway）",
           link: "/cfa/主观题/trading"
         },
         {
-          text: "机构投资者组合管理｜主观题答题要点",
+          text: "机构投资者 · Institutional",
           link: "/cfa/主观题/机构投资者"
         },
         {
-          text: "私人财富管理 · PWM｜主观题答题要点",
+          text: "私人财富管理 · PWM",
           link: "/cfa/主观题/私人财富管理"
         },
         {
-          text: "绩效评估｜主观题答题要点",
+          text: "绩效评估 · Performance",
           link: "/cfa/主观题/绩效评估"
         },
         {
-          text: "衍生品与外汇管理｜主观题答题要点",
+          text: "衍生与外汇管理 · Derivatives",
           link: "/cfa/主观题/衍生品与外汇管理"
         }
       ]

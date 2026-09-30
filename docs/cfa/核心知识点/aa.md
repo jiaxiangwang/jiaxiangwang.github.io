@@ -1,10 +1,10 @@
 ---
-title: "AA · 资产配置｜核心知识点"
+title: "资产配置 · AA"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# AA · 资产配置
+# 资产配置 · AA
 
 资产配置的三大核心框架
 

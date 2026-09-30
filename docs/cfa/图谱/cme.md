@@ -1,10 +1,10 @@
 ---
-title: "CME · 资本市场预期｜知识点图谱"
+title: "资本市场预期 · CME"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# CME · 资本市场预期｜知识点图谱
+# 资本市场预期 · CME
 
 一、学科复习建议
 

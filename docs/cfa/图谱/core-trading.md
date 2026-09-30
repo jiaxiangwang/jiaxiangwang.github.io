@@ -1,10 +1,10 @@
 ---
-title: "Trading · 交易执行｜知识点图谱"
+title: "交易执行 · Trading"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Trading · 交易执行｜知识点图谱
+# 交易执行 · Trading
 
 一、学科复习建议
 

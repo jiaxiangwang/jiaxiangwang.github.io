@@ -1,10 +1,10 @@
 ---
-title: "CME · 资本市场预期｜主观题答题要点"
+title: "资本市场预期 · CME"
 collection: 主观题
 book: "Core Subjects"
 ---
 
-# CME · 资本市场预期
+# 资本市场预期 · CME
 
 Capital Market Expectations
 

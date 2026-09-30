@@ -1,10 +1,10 @@
 ---
-title: "GIPS · 全球投资业绩标准｜主观题答题要点"
+title: "全球业绩标准 · GIPS"
 collection: 主观题
 book: "Core Subjects"
 ---
 
-# GIPS · 全球投资业绩标准
+# 全球业绩标准 · GIPS
 
 Global Investment Performance Standards
 

@@ -1,10 +1,10 @@
 ---
-title: "机构 Case Study（Pathway）｜主观题答题要点"
+title: "机构案例 · Case Study（Pathway）"
 collection: 主观题
 book: "Portfolio Management Pathway"
 ---
 
-# 机构 Case Study（Pathway）
+# 机构案例 · Case Study（Pathway）
 
 Case Study in Portfolio Management: Institutional
 

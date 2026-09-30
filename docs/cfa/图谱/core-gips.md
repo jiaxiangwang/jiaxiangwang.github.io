@@ -1,10 +1,10 @@
 ---
-title: "GIPS · 全球投资业绩标准｜知识点图谱"
+title: "全球业绩标准 · GIPS"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# GIPS · 全球投资业绩标准｜知识点图谱
+# 全球业绩标准 · GIPS
 
 一、学科复习建议
 

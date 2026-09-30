@@ -1,10 +1,10 @@
 ---
-title: "Fixed Income · 固定收益｜知识点图谱"
+title: "固定收益 · Fixed Income"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Fixed Income · 固定收益｜知识点图谱
+# 固定收益 · Fixed Income
 
 一、学科复习建议
 

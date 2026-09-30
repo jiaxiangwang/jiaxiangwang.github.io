@@ -1,10 +1,10 @@
 ---
-title: "CME · 资本市场预期｜核心知识点"
+title: "资本市场预期 · CME"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# CME · 资本市场预期
+# 资本市场预期 · CME
 
 制定资本市场预期的框架
 

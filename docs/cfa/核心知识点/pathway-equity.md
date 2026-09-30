@@ -1,10 +1,10 @@
 ---
-title: "Equity · 权益（Pathway）｜核心知识点"
+title: "权益 · Equity（Pathway）"
 collection: 核心知识点
 book: "Portfolio Management Pathway"
 ---
 
-# Equity · 权益（Pathway）
+# 权益 · Equity（Pathway）
 
 基于因子的策略
 

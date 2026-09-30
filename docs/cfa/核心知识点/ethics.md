@@ -1,10 +1,10 @@
 ---
-title: "Ethics · 道德准则｜核心知识点"
+title: "道德准则 · Ethics"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# Ethics · 道德准则
+# 道德准则 · Ethics
 
 Independence and Objectivity
 

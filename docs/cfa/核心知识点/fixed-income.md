@@ -1,10 +1,10 @@
 ---
-title: "Fixed Income · 固定收益｜核心知识点"
+title: "固定收益 · Fixed Income"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# Fixed Income · 固定收益
+# 固定收益 · Fixed Income
 
 债券投资在组合内的作用
 

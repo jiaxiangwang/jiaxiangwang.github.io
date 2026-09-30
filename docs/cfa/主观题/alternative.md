@@ -1,5 +1,5 @@
 ---
-title: "另类投资 · Alternative｜主观题答题要点"
+title: "另类投资 · Alternative"
 collection: 主观题
 book: "Core Subjects"
 ---

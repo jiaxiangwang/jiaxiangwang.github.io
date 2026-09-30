@@ -1,10 +1,10 @@
 ---
-title: "个人 IPS · 私人财富管理｜核心知识点"
+title: "私人财富管理 · 个人IPS"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# 个人 IPS · 私人财富管理
+# 私人财富管理 · 个人IPS
 
 基尼系数
 

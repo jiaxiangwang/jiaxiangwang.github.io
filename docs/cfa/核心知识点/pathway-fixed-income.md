@@ -1,10 +1,10 @@
 ---
-title: "Fixed Income · 固定收益（Pathway）｜核心知识点"
+title: "固定收益 · Fixed Income（Pathway）"
 collection: 核心知识点
 book: "Portfolio Management Pathway"
 ---
 
-# Fixed Income · 固定收益（Pathway）
+# 固定收益 · Fixed Income（Pathway）
 
 单笔负债利率免疫策略
 

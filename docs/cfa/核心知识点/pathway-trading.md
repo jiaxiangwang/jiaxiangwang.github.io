@@ -1,10 +1,10 @@
 ---
-title: "Trading · 交易执行（Pathway）｜核心知识点"
+title: "交易执行 · Trading（Pathway）"
 collection: 核心知识点
 book: "Portfolio Management Pathway"
 ---
 
-# Trading · 交易执行（Pathway）
+# 交易执行 · Trading（Pathway）
 
 交易成本的来源
 

@@ -1,10 +1,10 @@
 ---
-title: "AA · 资产配置｜知识点图谱"
+title: "资产配置 · AA"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# AA · 资产配置｜知识点图谱
+# 资产配置 · AA
 
 一、学科复习建议
 

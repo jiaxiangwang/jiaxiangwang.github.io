@@ -1,10 +1,10 @@
 ---
-title: "机构 IPS · 机构投资者（Pathway）｜知识点图谱"
+title: "机构投资者 · 机构IPS（Pathway）"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# 机构 IPS · 机构投资者（Pathway）｜知识点图谱
+# 机构投资者 · 机构IPS（Pathway）
 
 一、学科复习建议
 

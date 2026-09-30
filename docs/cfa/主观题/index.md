@@ -8,17 +8,17 @@ title: "CFA 三级 · 主观题答题要点"
 
 ## Core Subjects
 
-- [CME · 资本市场预期](/cfa/主观题/cme)
-- [AA · 资产配置](/cfa/主观题/aa)
+- [资本市场预期 · CME](/cfa/主观题/cme)
+- [资产配置 · AA](/cfa/主观题/aa)
 - [另类投资 · Alternative](/cfa/主观题/alternative)
 - [私人财富管理 · PWM](/cfa/主观题/私人财富管理)
-- [机构投资者组合管理](/cfa/主观题/机构投资者)
-- [绩效评估](/cfa/主观题/绩效评估)
-- [GIPS · 全球投资业绩标准](/cfa/主观题/gips)
-- [衍生品与外汇管理](/cfa/主观题/衍生品与外汇管理)
+- [机构投资者 · Institutional](/cfa/主观题/机构投资者)
+- [绩效评估 · Performance](/cfa/主观题/绩效评估)
+- [全球业绩标准 · GIPS](/cfa/主观题/gips)
+- [衍生与外汇管理 · Derivatives](/cfa/主观题/衍生品与外汇管理)
 
 ## Portfolio Management Pathway
 
-- [固定收益组合管理（Pathway）](/cfa/主观题/fixed-income)
-- [交易（Pathway）](/cfa/主观题/trading)
-- [机构 Case Study（Pathway）](/cfa/主观题/case-study-institutional)
+- [固定收益 · Fixed Income（Pathway）](/cfa/主观题/fixed-income)
+- [交易执行 · Trading（Pathway）](/cfa/主观题/trading)
+- [机构案例 · Case Study（Pathway）](/cfa/主观题/case-study-institutional)

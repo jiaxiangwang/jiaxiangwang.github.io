@@ -1,10 +1,10 @@
 ---
-title: "Equity · 权益（Pathway）｜知识点图谱"
+title: "权益 · Equity（Pathway）"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# Equity · 权益（Pathway）｜知识点图谱
+# 权益 · Equity（Pathway）
 
 一、学科复习建议
 

@@ -1,10 +1,10 @@
 ---
-title: "Alternative · 另类投资｜知识点图谱"
+title: "另类投资 · Alternative"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Alternative · 另类投资｜知识点图谱
+# 另类投资 · Alternative
 
 一、学科复习建议
 

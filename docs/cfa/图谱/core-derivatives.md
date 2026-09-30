@@ -1,10 +1,10 @@
 ---
-title: "Derivatives · 衍生品与外汇管理｜知识点图谱"
+title: "衍生与外汇管理 · Derivatives"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# Derivatives · 衍生品与外汇管理｜知识点图谱
+# 衍生与外汇管理 · Derivatives
 
 一、学科复习建议
 

@@ -1,10 +1,10 @@
 ---
-title: "Equity · 权益｜核心知识点"
+title: "权益 · Equity"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# Equity · 权益
+# 权益 · Equity
 
 股票在投资组合中的作用
 

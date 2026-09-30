@@ -1,10 +1,10 @@
 ---
-title: "Trading · 交易执行｜核心知识点"
+title: "交易执行 · Trading"
 collection: 核心知识点
 book: "Core Subjects"
 ---
 
-# Trading · 交易执行
+# 交易执行 · Trading
 
 交易成本
 
