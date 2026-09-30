@@ -1,17 +1,16 @@
 ---
-title: "交易执行 · Trading（Pathway）"
+title: "交易（Pathway）｜主观题答题要点"
 collection: 主观题
 book: "Portfolio Management Pathway"
 ---
 
-# 交易执行 · Trading（Pathway）
+# 交易（Pathway）
 
 Portfolio Management-Trading
 
 ## Module 7 Trade Strategy and Execution
 
-| The following information relates to Questions 10–11 |
-|---|
+The following information relates to Questions 10–11
 
 Lindsey Morris is a trader at North Circle Advisors, an investment management firm and adviser to a suite of value-oriented equity mutual funds. Will Beamon, portfolio manager for the firm’s flagship large-cap value fund, the Ogive Fund, is explaining its investment strategy and objectives to Morris. Morris wishes to know how the Ogive Fund’s underlying trading motivations may impact trade urgency and alpha decay. Beamon notes the following relevant
 
@@ -26,9 +25,7 @@ inclination to aggressively implement the fund’s strategy. Justify your respon
 > **答案要点**
 >
 > Long-term、three year、persistent mispricing opportunities may indicate that the trade
-
-| urgency is likely to be low. Additionally, the rate or level of expected alpha decay is low. |
-|---|
+> urgency is likely to be low. Additionally, the rate or level of expected alpha decay is low.
 
 ### 11. Morris next meets Robin Barker, portfolio manager for North Circle Advisors’ small-cap
 
@@ -69,9 +66,8 @@ price set at Last Trade. He is concerned about minimizing execution risk and mar
 
 > **答案要点**
 >
-
-|   | impact. (Circle one in each column) |
-|---|---|
+> Determine which trades are most likely to exhibit the greatest execution risk and market
+> impact. (Circle one in each column)
 
 | Execution Risk |   |   | Market Impact |   |   |
 |---|---|---|---|---|---|

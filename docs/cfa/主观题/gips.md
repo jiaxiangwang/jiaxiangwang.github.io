@@ -1,10 +1,10 @@
 ---
-title: "全球业绩标准 · GIPS"
+title: "GIPS · 全球投资业绩标准｜主观题答题要点"
 collection: 主观题
 book: "Core Subjects"
 ---
 
-# 全球业绩标准 · GIPS
+# GIPS · 全球投资业绩标准
 
 Global Investment Performance Standards
 
@@ -103,9 +103,7 @@ Portfolio A = 74.9/312.9 = 0.239 = 23.9% Portfolio B = 127.6/312.9 = 0.408 = 40.
 > **答案要点**
 >
 > Yes. The GIPS standards state that firms must include all actual, discretionary, fee- paying
-
-| segregated accounts in at least one of the firm’s composites. |
-|---|
+> segregated accounts in at least one of the firm’s composites.
 
 ### 12. In March 2016, Tan/Lim Asset Management, a GIPS-compliant firm, introduced a new
 
@@ -114,31 +112,21 @@ technical analysis model that management believed would be a powerful tool in ta
 > **答案要点**
 >
 > No, Tan/Lim may not claim compliance with the GIPS standards if model performance is
+> linked to actual performance.
 
-| linked to actual performance. |
-|---|
-|   |
-| 13. Midwest National Bank manages a domestic equity portfolio for the Springfield |
-| Municipal Employees’ Retirement Fund (SMERF), a mature defined benefit pension plan. The |
-| SMERF portfolio is included in Midwest’s Institutional Equity composite. The composite |
-| description states, “Portfolios included in the Institutional Equity composite are actively |
-| managed for long-term capital appreciation.” SMERF’s investment policy statement includes |
-| the following provisions: |
-| All security transactions must be approved in advance by the SMERF Investment Committee. |
-| SMERF anticipates making regular net withdrawals in substantial amounts from the portfolio |
-| to meet pension liabilities. SMERF staff will prepare a schedule of withdrawals at the |
-| beginning of each fiscal year. The portfolio manager must manage liquidity so as to disburse |
-| funds in accordance with the withdrawal schedule. |
-| In view of these restrictions, discuss whether Midwest National Bank can justify including |
-| the SMERF portfolio in the composite. |
+### 13. Midwest National Bank manages a domestic equity portfolio for the Springfield
+
+Municipal Employees’ Retirement Fund (SMERF), a mature defined benefit pension plan. The SMERF portfolio is included in Midwest’s Institutional Equity composite. The composite description states,“Portfolios included in the Institutional Equity composite are actively managed for long-term capital appreciation.”SMERF’s investment policy statement includes
+
+the following provisions:
+
+All security transactions must be approved in advance by the SMERF Investment Committee. SMERF anticipates making regular net withdrawals in substantial amounts from the portfolio to meet pension liabilities. SMERF staff will prepare a schedule of withdrawals at the beginning of each fiscal year. The portfolio manager must manage liquidity so as to disburse funds in accordance with the withdrawal schedule. In view of these restrictions, discuss whether Midwest National Bank can justify including the SMERF portfolio in the composite.
 
 > **答案要点**
 >
 > The GIPS standards prohibit including non-discretionary portfolios in composites. In this
-
-| case, Midwest National Bank classify the SMERF portfolio as non-discretionary and exclude it |
-|---|
-| from all composites. |
+> case, Midwest National Bank classify the SMERF portfolio as non-discretionary and exclude it
+> from all composites.
 
 ### 21. What is the minimum number of portfolios that a composite must contain to comply with
 

@@ -1,10 +1,10 @@
 ---
-title: "机构案例 · Case Study（Pathway）"
+title: "机构 Case Study（Pathway）｜主观题答题要点"
 collection: 主观题
 book: "Portfolio Management Pathway"
 ---
 
-# 机构案例 · Case Study（Pathway）
+# 机构 Case Study（Pathway）
 
 Case Study in Portfolio Management: Institutional
 
@@ -30,9 +30,7 @@ policy adjustment. Justify your selection(s).
 
 > **答案要点**
 >
-
-|   | Justify your selection(s). |
-|---|---|
+> Justify your selection(s).
 
 | Cash<br>Fixed Income<br>Public Equity<br>Private<br>Equity<br>Real Assets | Cash Rebalancing:<br>✓ The cash asset class has the lowest standard deviation and one<br>of the widest rebalancing band policies.<br>✓ The cash rebalancing band should be evaluated and suitably<br>reduced.<br>Private Equity Rebalancing:<br>✓ The private equity asset class also has the highest standard<br>deviation with one of the tightest rebalancing band policies.<br>✓ The private equity rebalancing band should be evaluated and<br>suitably expanded. |
 |---|---|
@@ -78,8 +76,7 @@ Statement 1: The endowment should shift funds into private equity and real estat
 | Correct |   | Incorrect |   | Correct |   | Incorrect |   |
 | Justify your response.<br>✓ Statement 1 is incorrect due to<br>misunderstanding investment<br>characteristics.<br>✓ Endowment should shift funds into<br>private equity and real estate for higher<br>return potential from liquidity<br>premiums.<br>✓ Target longer-term investments in these<br>asset classes as they offer highest<br>liquidity premium.<br>✓ Quantitative estimates show positive<br>illiquidity premium in private equity and<br>private real estate and its size is<br>positively correlated to illiquidity<br>horizon length. |   |   |   | Justify your response.<br>✓ Statement 2 is incorrect due to<br>misinterpreting the effects of the<br>illiquidity premium.<br>✓ Heard's statement on public equities is<br>partially true but lacks a fully defensible<br>investment recommendation basis.<br>✓ It's hard to precisely isolate the<br>illiquidity premium and separate its<br>effects from other risk factors in public<br>equity.<br>✓ Estimates of the illiquidity premium are<br>based on broad market indexes while<br>individual investment experience may<br>vary and be more affected by<br>idiosyncratic factors.<br>✓ These challenges highlight the |   |   |   |
 
-|   | importance of liquidity budgeting for<br>capturing the illiquidity premium while<br>controlling risk. |
-|---|---|
+importance of liquidity budgeting for capturing the illiquidity premium while controlling risk.
 
 ### 4. Mason Dixon, CFA, a portfolio manager with Langhorne Advisors (“Lang horne”), has just
 

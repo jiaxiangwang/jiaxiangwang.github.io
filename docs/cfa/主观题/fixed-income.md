@@ -1,10 +1,10 @@
 ---
-title: "固定收益 · Fixed Income（Pathway）"
+title: "固定收益组合管理（Pathway）｜主观题答题要点"
 collection: 主观题
 book: "Portfolio Management Pathway"
 ---
 
-# 固定收益 · Fixed Income（Pathway）
+# 固定收益组合管理（Pathway）
 
 Fixed-Income Portfolio Management
 

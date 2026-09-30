@@ -1,10 +1,10 @@
 ---
-title: "机构投资者 · 机构IPS（Pathway）"
+title: "机构 IPS · 机构投资者（Pathway）｜知识点图谱"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# 机构投资者 · 机构IPS（Pathway）
+# 机构 IPS · 机构投资者（Pathway）｜知识点图谱
 
 一、学科复习建议
 
@@ -42,7 +42,7 @@ Module 8 Case Study in Portfolio Management: Institutional
 
 一、Liquiditymanagement
 
-|   | 1. Liquidity Profiling and<br>Time -to-Cash Tables | 了解流动性管理的重要性。了解流动性分类时间表（现金时间表）。了解流动性预算。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Rebalancing,<br>Commitments | 了解系统性再平衡政策、自动调整机制以及如何利用与私人市场配置相关的公开市场配置调整，来平衡私人市场风险。了解如何基于：现金流建模、承诺资本提取速度、分配速度、资产规模变化以及投资者特定情况等因素，来设计多年期资金策略。 |
 |   | 3. Stress Testing | 了解投资组合在压力时期流动性状况的变化，测试设计可参考历史事件、统计模型或情景分析。 |
@@ -50,13 +50,13 @@ Module 8 Case Study in Portfolio Management: Institutional
 |   | 5. Earning an Illiquidity<br>Premium | 通过计算购买期权时，其行使价格等于非流动性资产可销售价格的看跌期权价值， |
 
 
-|   |   | 来估计非流动性风险溢价。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 
 
 二、QUINCO Case
 
-|   | 1. Strategic Asset | 了解投资组合的战略性资产配置。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Liquidity Management | 了解投资组合的流动性管理。 |
 |   | 3. Asset Manager Selection | 了解投资组合经理的选择标注和流程。 |

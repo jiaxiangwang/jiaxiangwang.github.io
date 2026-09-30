@@ -1,10 +1,10 @@
 ---
-title: "资本市场预期 · CME"
+title: "CME · 资本市场预期｜知识点图谱"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 资本市场预期 · CME
+# CME · 资本市场预期｜知识点图谱
 
 一、学科复习建议
 
@@ -28,32 +28,32 @@ Module 1 Capital Market Expectations, Part I: Framework and Macro Considerations
 
 一、框架和挑战
 
-|   | 1.做资本市场预期的框架步骤 | 了解即可 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2.做预测时遇到的挑战 |   |
-| 重点 | （1）重点是记忆具体的挑战，比如，<br>Survivorship bias，Appraisal<br>(smoothed) data，Changes in<br>regime，higher-frequency data，peso<br>problem，Data-mining bias，<br>Time -period bias，对于correlation的错误解释，这些具体问题是考察重点。它们的含义、带来的后果以及可能可以避免的方法需要掌握。 | 考法：给出描述，反应哪个挑战？或者，这个挑战会带来什么后果。 |
+| 重点 | （1）重点是记忆具体的挑战，比如，<br>Survivorship bias，Appraisal<br>(smoothed) data，Changes in regime，higher-frequency data，peso problem，Data-mining bias，<br>Time -period bias，对于correlation的错误解释，这些具体问题是考察重点。它们的含义、带来的后果以及可能可以避免的方法需要掌握。 | 考法：给出描述，反应哪个挑战？或者，这个挑战会带来什么后果。 |
 |   | （2）Psychological Biases | 要能找出案例中描述的心里偏差。 |
 
 
 二、经济增长的分析
 
-|   | 1.不可预测的方面：外部冲击对于经济增长的影响。 | 了解具体因素是正面还是负面的影响。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2.可预测的方面：对于经济增长的预测 |   |
 | 重点 | （1）GDP增长的来源构成、影响因素 | 重中之重，要会计算。 |
-| 重点 | （2）债券、股权市场的回报与trend<br>growth的关联 | 会计算分解股权市场的增长率。 |
+| 重点 | （2）债券、股权市场的回报与trendgrowth的关联 | 会计算分解股权市场的增长率。 |
 
 
 三、预测经济的方法
 
-|   | 1. Econometric models、Indicators、<br>Checklists | 三类方法的定义、方法。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2.三类方法优缺点的对比 | 重点、要背，可能会考到主观题。 |
 
 
 四、经济周期的分析
 
-|   | 1.经济周期不同阶段 |   |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | （1）不同阶段的特点 |   |
 | 重点 | （2）不同阶段资产的表现 |   |
@@ -72,7 +72,7 @@ Module 1 Capital Market Expectations, Part I: Framework and Macro Considerations
 
 五、国际市场的联系
 
-|   | 1.宏观经济的关联 |   |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | （1）经常账户的影响 | 重点是(X-M)=(S-I)+(T-G)的公式及推论。 |
 |   | （2）资本账户的影响 |   |
@@ -85,9 +85,9 @@ Module 2 Capital Market Expectations, Part: IFramework and Macro Considerations
 
 一、各种工具和方法的介绍
 
-| 重点 | 1. Formal tools |   |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-|   | （1）Sample statistics | 包含Sample statistics、shrinkage<br>estimation、Time -series<br>estimation。 |
+|   | （1）Sample statistics | 包含Sample statistics、shrinkageestimation、Time -seriesestimation。 |
 |   | （2）discounted cash flow models |   |
 |   | （3）risk premium models |   |
 |   | 2. Surveys | 了解即可。 |
@@ -96,7 +96,7 @@ Module 2 Capital Market Expectations, Part: IFramework and Macro Considerations
 
 二、预测固定收益类资产的收益
 
-|   | 1. Discounted cash flow | 了解，这里涉及结论并非CME重点。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2. Building Block Approach | 重视计算以及定性结论。 |
 |   | （1）The Short -term Default -free<br>Rate | 了解标的、替代品和取决因素。 |
@@ -108,25 +108,25 @@ Module 2 Capital Market Expectations, Part: IFramework and Macro Considerations
 
 三、预测股权类资产的收益
 
-|   | 1. Historical Statistics Approach | 了解即可。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-|   | 2.DCF Approach |   |
+|   | 2. DCF Approach |   |
 |   | （1）Gordon growth模型 | 了解优点、适合场景。 |
 | 重点 | （2）GK MODEL | 以及计算、模型的优点、缺点。 |
 |   | 3. Risk Premium Approaches |   |
 |   | （1）equity-versus-bonds premium | 含义和形式。 |
 | 重点 | （2）ST模型 | 重中之重，很有可能会考主观题，要会计算，不要漏加“流动性风险”这一项。 |
-|   | 4.Risks in Emerging Market Equities | 了解即可。 |
+|   | 4. Risks in Emerging Market Equities | 了解即可。 |
 
 
 四、预测房地产类资产的收益
 
-|   | 1. Historical Real Estate Returns | 了解其造成的影响。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2. Real Estate Cycles |   |
 
 
-|   | 3. Capitalization Rates | 重点是会计算，了解其影响因素。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 4. The Risk Premium |   |
 |   | （1）building block法 | 知道该法下的组成部分。 |
@@ -137,7 +137,7 @@ Module 2 Capital Market Expectations, Part: IFramework and Macro Considerations
 
 五、汇率预测
 
-|   | 1.经常账户 |   |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | （1）PPP | 重点是计算，以及PPP公式推导出结论。 |
 | 重点 | （2）competitiveness &Sustainability | 关注导致保持经常账户平衡的因素。 |
@@ -150,17 +150,17 @@ Module 2 Capital Market Expectations, Part: IFramework and Macro Considerations
 
 六、预测波动
 
-| 重点 | 1. Sample Statistics | 重点是该方法的缺点，优点也要了解 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2. Multi-Factor Models | 重点计算方差、协方差，以及该模型的优缺点。 |
 | 重点 | 3. Shrinkage Estimation | 该方法前两种方法的加权平均。重点是该方法的优缺点。 |
 |   | 4. Smoothed Returns | 了解其低估风险的影响。 |
-| 重点 | 5.ARCH Models | 重点要会用模型计算并解释模型中参数的含义。 |
+| 重点 | 5. ARCH Models | 重点要会用模型计算并解释模型中参数的含义。 |
 
 
 七、调整全球组合
 
-| 重点 | 1. Macro-Based Recommendations | 重点是一些定性的结论。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Quantifying the Views | 了解即可。 |
 

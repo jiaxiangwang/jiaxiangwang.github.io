@@ -1,10 +1,10 @@
 ---
-title: "资产配置 · AA"
+title: "AA · 资产配置｜主观题答题要点"
 collection: 主观题
 book: "Core Subjects"
 ---
 
-# 资产配置 · AA
+# AA · 资产配置
 
 Asset Allocation
 

@@ -1,10 +1,10 @@
 ---
-title: "交易执行 · Trading（Pathway）"
+title: "Trading · 交易执行（Pathway）｜知识点图谱"
 collection: 图谱
 book: "Portfolio Management Pathway"
 ---
 
-# 交易执行 · Trading（Pathway）
+# Trading · 交易执行（Pathway）｜知识点图谱
 
 一、学科复习建议
 
@@ -40,29 +40,29 @@ Module 7 Trade Strategy and Execution
 
 一、Motivations To Trade（了解即可）
 
-|   | 1. Profit seeking |   |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-|   | 2. Risk<br>management/hedging<br>needs |   |
+|   | 2. Riskmanagement/hedgingneeds |   |
 |   | 3. Cash flow needs |   |
-|   | 4. Corporate actions/index<br>reconstitutions/margin<br>calls |   |
+|   | 4. Corporate actions/indexreconstitutions/margincalls |   |
 
 
 二、Trade Strategy Inputs
 
-|   | 1. Order Characteristics | 掌握结论 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Market Conditions |   |
 |   | 3. User-Based<br>Considerations | High risk aversion→greater trade urgency<br>Low risk aversion→trade patiently |
-|   | 4. Security Characteristics | a)掌握结论<br>b)重点掌握名词：alpha decay；execution<br>risk |
+|   | 4. Security Characteristics | a)掌握结论<br>b)重点掌握名词：alpha decay；executionrisk |
 
 
-|   | 5. Market Impact &<br>Execution Risk | Trader’s dilemma：<br>a)交易太快→Market impact;<br>b)交易太慢→Execution risk |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 
 
 三、Reference Prices
 
-| 重点 | 1. Pre-trade benchmarks | 区分子分类及各自的适用范围：Decision<br>price；Previous close；Opening price；Arrival<br>price |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2. Intraday benchmarks | 区分子分类及各自的适用范围：VWAP；TWAP |
 |   | 3. Post-trade benchmarks | 掌握适用范围及优缺点 |
@@ -71,11 +71,11 @@ Module 7 Trade Strategy and Execution
 
 四、Algorithmic Trading重点
 
-| 重点 | 1. Scheduled (POV, VWAP,<br>TWAP) | 掌握各种算法的适用性及优缺点 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-| 重点 | 2. Liquidity seeking | a)知道别名：opportunistic algorithms<br>b)掌握算法适用性和优缺点 |
+| 重点 | 2. Liquidity seeking | a)知道别名：opportunistic algorithmsb)掌握算法适用性和优缺点 |
 | 重点 | 3. Arrival Price | 掌握算法的适用性和优缺点 |
-|   | 4. Dark<br>aggregators | 掌握算法的适用性及优缺点 |
+|   | 4. Darkaggregators | 掌握算法的适用性及优缺点 |
 |   | 5. Smart Order Routers | 掌握算法的适用性及优缺点 |
 
 
@@ -85,7 +85,7 @@ Module 7 Trade Strategy and Execution
 
 六、Trade Cost Measurement重点
 
-|   | 1. Implementation<br>Shortfall | a)采用画图法，进行成本分解<br>b)考察频率高，必须多做题，区分各个price |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2. Expanded<br>Implementation<br>Shortfall | a)采用画图法，加入Arrival price，将<br>Execution cost进一步分解<br>b)考察频率高，必须多做题，区分各个price |
 | 重点 | 3. Trade cost | a) buy的side=1，sell的side= -1<br>b)熟悉Market adjusted cost的概念，剔除由于大盘上涨导致的交易成本 |

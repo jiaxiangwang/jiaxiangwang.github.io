@@ -1,10 +1,10 @@
 ---
-title: "资本市场预期 · CME"
+title: "CME · 资本市场预期｜主观题答题要点"
 collection: 主观题
 book: "Core Subjects"
 ---
 
-# 资本市场预期 · CME
+# CME · 资本市场预期
 
 Capital Market Expectations
 
@@ -99,9 +99,7 @@ economist. Cambo bases her equity market forecast on a time-series model using a
 
 > **答案要点**
 >
-
-|   | Discuss strengths and weaknesses of the economic forecasting approaches used by |   |
-|---|---|---|
+> Discuss strengths and weaknesses of the economic forecasting approaches used by
 
 |   |   | Cambo’s Forecasting Approach |   | Chief Economist’s Forecasting<br>Approach |
 |---|---|---|---|---|
@@ -166,8 +164,7 @@ for the Eastland economy:
 | Scenario 2 |   | If Eastland allows the exchange rate to float, it will now be able to run an<br>independent monetary policy. At the same time, the interest rates<br>determined in its domestic market. The link between interest rates and<br>exchange rates will depend on the expected future path of the exchange<br>rate. To equalize risk-adjusted returns across countries, interest rates<br>must generally be higher (lower) in the country whose currency is<br>expected to depreciate (appreciate). This dynamic often leads to a<br>situation where the currency overshoots in one direction or the other. |
 | Scenario 3 |   | Eastland and Northland will share the same yield curve if two conditions<br>are met. First, unrestricted capital mobility must occur between them to<br>ensure that risk-adjusted expected returns will be equalized. Second, the<br>exchange rate between the currencies must be credibly fixed forever. |
 
-|   | A shift in investors’ belief in the credibility of the fixed exchange rate will<br>likely cause risk and yield differentials to emerge. This situation will cause<br>the (default-free) yield curve to differ between Eastland and Northland. |
-|---|---|
+A shift in investors’ belief in the credibility of the fixed exchange rate will likely cause risk and yield differentials to emerge. This situation will cause the (default-free) yield curve to differ between Eastland and Northland.
 
 ## Module 2 Capital Market Expectations, Part 2: Forecasting Asset Class Returns
 

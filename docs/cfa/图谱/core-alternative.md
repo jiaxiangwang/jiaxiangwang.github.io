@@ -1,10 +1,10 @@
 ---
-title: "另类投资 · Alternative"
+title: "Alternative · 另类投资｜知识点图谱"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 另类投资 · Alternative
+# Alternative · 另类投资｜知识点图谱
 
 一、学科复习建议
 
@@ -28,11 +28,11 @@ Module Asset Allocation to Alternative Investments
 
 一、另类投资的资产配置
 
-| 重点 | 1. The Role of Alternative<br>Investments in a Multi-Asset<br>Portfolio | 重点掌握各另类资产在组合中的作用 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-| 重点 | 2. Diversifying Equity Risk | 理解在长期和短期投资中，bond和<br>alternativeinvestment分别在投资分散化中的作用。 |
+| 重点 | 2. Diversifying Equity Risk | 理解在长期和短期投资中，bond和<br>alternative investment分别在投资分散化中的作用。 |
 | 重点 | 3. Perspectives on the<br>Investment Opportunity Set | 熟练掌握Traditional Approaches vs<br>Risk-based approaches的区别和各自的优缺点 |
-|   | 4. Investment Considerations<br>Relevant to the Decision to<br>Invest in Alternatives | 重点掌握Selection of the appropriate<br>investment vehicle，其它了解即可。 |
+|   | 4. Investment Considerations<br>Relevant to the Decision to<br>Invest in Alternatives | 重点掌握Selection of the appropriateinvestment vehicle，其它了解即可。 |
 | 重点 | 5. Suitability Considerations | 考法：题干中会描述一个投资者的一些特征，判断是否适合投资另类资产。 |
 | 重点 | 6. Asset Allocation<br>Approaches | 理解理想分配的主要方法，即Monte Carlo<br>Simulation、Portfolio Optimization和Risk<br>Factor-Based Optimization的特点。 |
 | 重点 | 7. Liquidity Planning | 定量考察，重中之重 |

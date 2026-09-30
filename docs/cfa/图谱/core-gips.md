@@ -1,10 +1,10 @@
 ---
-title: "全球业绩标准 · GIPS"
+title: "GIPS · 全球投资业绩标准｜知识点图谱"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 全球业绩标准 · GIPS
+# GIPS · 全球投资业绩标准｜知识点图谱
 
 一、学科复习建议
 
@@ -34,19 +34,19 @@ Module 3 Global Investment Performance Standards
 
 一、The GIPS Standards for Firms
 
-|   | 1. Objective and Scope of the GIPS<br>Standards | 了解即可 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-|   | 2.Fundamentals of Compliance |   |
+|   | 2. Fundamentals of Compliance |   |
 | 重点 | （1）Definition of the Firm and<br>Discretion。 | 理解Firm and Discretion的定义。 |
 | 重点 | 3. Time-Weighted Return | 理解Time -Weighted Return的定义、计算周期和方法。 |
 |   | 4. Miscellaneous Return Calculation<br>Topics | 理解MWRs替代TWRs的原因，计算周期。基金相关的费用，以及估值的要求。 |
 | 重点 | 5. Composite Time -Weighted Return<br>Calculations | 理解哪些资产是公司的资产，哪些资产可以放进composite里，哪些不能。以及composite的计算方法。 |
-| 重点 | 6.Composites—Qualifying<br>and Defining Investment Strategies | 理解Discretion的定义，掌握哪些资产可以放进composite里，哪些不能。以及定义composite的方法。 |
-| 重点 | 7.Composites -Including and | Composite里加入组合的时间要求、 |
+| 重点 | 6. Composites—Qualifyingand Defining Investment Strategies | 理解Discretion的定义，掌握哪些资产可以放进composite里，哪些不能。以及定义composite的方法。 |
+| 重点 | 7. Composites -Including and | Composite里加入组合的时间要求、 |
 
 
-|   | Excluding portfolios | 方法以及注意事项。 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-| 重点 | 8.Presentation and Reporting<br>Requirements for Composites | 掌握业绩展示的时间要求、展示<br>composite report的元素，以及注意事项。 |
-|   | 9.Verification | Verification是自愿行为，重在理解。 |
+| 重点 | 8. Presentation and Reporting<br>Requirements for Composites | 掌握业绩展示的时间要求、展示<br>composite report的元素，以及注意事项。 |
+|   | 9. Verification | Verification是自愿行为，重在理解。 |
 

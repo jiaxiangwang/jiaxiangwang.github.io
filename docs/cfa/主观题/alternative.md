@@ -1,5 +1,5 @@
 ---
-title: "另类投资 · Alternative"
+title: "另类投资 · Alternative｜主观题答题要点"
 collection: 主观题
 book: "Core Subjects"
 ---
@@ -20,10 +20,7 @@ following three asset classes:
 
 ### 14. Determine which asset class is most likely to meet Pua’s investment
 
-| objective. Justify your response. |
-|---|
-
-• Public real estate • Private real assets (timber) • Equity long/short hedge funds
+objective. Justify your response. • Public real estate • Private real assets (timber) • Equity long/short hedge funds
 
 > **答案要点**
 >

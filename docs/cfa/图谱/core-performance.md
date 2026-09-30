@@ -1,10 +1,10 @@
 ---
-title: "绩效评估 · Performance"
+title: "Performance · 绩效评估｜知识点图谱"
 collection: 图谱
 book: "Core Subjects"
 ---
 
-# 绩效评估 · Performance
+# Performance · 绩效评估｜知识点图谱
 
 一、学科复习建议
 
@@ -48,7 +48,7 @@ Module 1 Portfolio Performance Evaluation
 
 一、Performance Evaluation
 
-|   | 1. Performance<br>measurement | a)业绩计算不在本学科中考查 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Performance attribution | b)区分三个名词的定义，以定性考查 |
 |   | 3. Performance appraisal |   |
@@ -56,19 +56,19 @@ Module 1 Portfolio Performance Evaluation
 
 二、Performance Attribution
 
-| 重点 | 1.三种业绩归因的方法 | 掌握各自的特点和优缺点 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
-| 重点 | 2. Return attribution | a)能区分微观归因&宏观归因能区分股票归因&债券归因<br>b) Brinson model以及macro attribution<br>会计算（利用画矩形求面积），其中Brinson<br>model要区分BHB model和BF model<br>的基准点；<br>c)债券归因以及factor-based会看表格并解 |
+| 重点 | 2. Return attribution | a)能区分微观归因&宏观归因能区分股票归因&债券归因<br>b) Brinson model以及macro attribution<br>会计算（利用画矩形求面积），其中Brinsonmodel要区分BHB model和BF model<br>的基准点；<br>c)债券归因以及factor-based会看表格并解 |
 
 
-|   |   | 读数据的含义，以基础班例题为标准 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 3. Risk attribution | 掌握基础班表格即可 |
 
 
 三、Benchmark
 
-|   | 1. Benchmark的分类 | 绝大部分benchmark是relative的 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Benchmark的特点 | SAMURAI |
 | 重点 | 3.检验benchmark的质量 | a)会画图计算每个具体分块（A、S、E）<br>b)理解每个分块之间的相关性 |
@@ -76,7 +76,7 @@ Module 1 Portfolio Performance Evaluation
 
 四、Performance appraisal
 
-|   | 1. 7个衡量业绩的指标 | a)掌握计算<br>b)重点掌握capture ratio和drawdown，更多以定性考查，考查频率高 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 
 
@@ -84,25 +84,25 @@ Module 2 Investment Manager Selection
 
 一、Type I Error And Type II Error
 
-|   | 1.定义 | a)在既定的场景下，能够分辨是否犯错；<br>b)若犯错，属于一类错误还是二类错误 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 | 重点 | 2.相关结论 | a)一类错误影响更大（请神容易送神难）<br>b)有效市场，好的经理和不好的经理表现差不多 |
 
 
 二、Quantitative Elements
 
-| 重点 | 1.风格分析 | a)对比Returns-based style analysis &<br>Holdings-based style analysis，掌握两类风格分析的优缺点<br>b)注意区分LM2的相关概念：<br>Returns-based attribution &<br>Holdings-based attribution |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 |   | 2. Capture ratios | 注意：CR和UC&DC研究的维度是不一样的：<br>a)单看UC和DC大于1或小于1：可以看出基金经理是underperformance或<br>overperformance；<br>b)而CR主要分析的是基金经理的对称性。 |
-|   | 3. Drawdown | 理解maximum drawdown和drawdown<br>duration |
+|   | 3. Drawdown | 理解maximum drawdown和drawdownduration |
 
 
 三、Qualitative Elements
 
-|   | 1. Investment due<br>diligence | 4P |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 
 
-| 重点 | 2. Operational due<br>diligence | a) Term：重点掌握费用计算<br>b) Investment Vehicle：掌握SMA的优点 |
+| 考频 | 知识点 | 备注 |
 |---|---|---|
 
