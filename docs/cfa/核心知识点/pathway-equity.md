@@ -43,11 +43,11 @@ book: "Portfolio Management Pathway"
 
 1. 主动份额用于衡量基金经理投资组合中的头寸数量和规模与基准指数的差异程度，反映投资组合中与基准不同的持仓比例。其计算无需统计分析或估计，只需知道投资组合中每只证券的权重及其在基准指数中的权重。主动份额的计算公式如下所示：1 n✓
 
-$$ Active Share = Weight −Weight $$
+$$ Active Share =^{1}^{n} Weight_{portfolio,i} −Weight_{benchmark,i} $$
 
 portfolio,i benchmark,i2
 
-$$ i=1 $$
+$$ po_{i=1}rtfolio,i benchmark,i $$
 
 其中，n表示投资组合或基准指数中包含的证券总数，w为投资组合中第i只证券的权重，w为基准指数中
 

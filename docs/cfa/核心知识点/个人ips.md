@@ -33,22 +33,22 @@ book: "Core Subjects"
 
 ## 税收对投资收益的影响
 
-1. 应计税款（Accrual taxes）：按周期征收和缴纳，通常为每年一次。T( )
+1. 应计税款（Accrual taxes）：按周期征收和缴纳，通常为每年一次。T
 
-$$ FVIF =1 + R 1 - t $$
+$$ FVIF_{T} = 1 + R 1 - t_{x} ^{T} $$
 
 T x
 
 2. 递延税（Deferred taxed）：项投资回报的税款被递延至投资期限T结束。（ T （ T （ T
 
-$$ FVIF = 1+R) − [ 1+R) −1]Δ t = 1+R) (1− t ) + t $$
+$$ FVIF_{CG} = （1+R)T −（[ 1+R)T −1]Δ t_{CG} =（1+R)T (1− t_{CG} ) + t_{CG} $$
 
 CG CG CG CG
 
 3. 成本基础（Cost basis）：是指一项投资的初始成本，包括为获取该投资而产生的任何额外费用，用于在资产出售时计算资本利得或损失。
 4. 不同收益来源与税收的影响（The Impactof DifferentSources of Returns with Taxes）：一个更全面的回报模型纳入了年收入部分R ，该部分按税率t每年征税，以及资本增值部分R ，该部分在清算时按资INC x CAPITAL本利得税率t征税。CGR
 
-$$ FVIF = [1+ R Δ (1− t ) + R ]T − CAPITAL Δ{[1+ R Δ (1− t ) + R ]T −1}Δ t $$
+$$ FVIF_{INC,CAPITALTX,}_{,TCG} = [1+ R_{INC} Δ (1− t_{x} ) + R_{CAPITAL} ]T −^{R} CAPITAL Δ{[1+ R_{INC} Δ (1− t_{x} ) + R_{CAPITAL} ]T −1}Δ t_{CG} $$
 
 INC,CAPITALTX, ,TCG INC x CAPITAL INC x CAPITAL CGR Δ (1− t ) + RINC x CAPITAL
 

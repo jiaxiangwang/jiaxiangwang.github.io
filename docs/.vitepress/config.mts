@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar'
+import { mathjax3 } from './math'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,6 +9,11 @@ export default defineConfig({
   description: 'not just the code, but the reasons behind it. code. eat. sleep. loop',
   cleanUrls: true,
   lastUpdated: true,
+  markdown: {
+    config(md) {
+      md.use(mathjax3 as any)
+    },
+  },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
     // 全站不被搜索引擎收录

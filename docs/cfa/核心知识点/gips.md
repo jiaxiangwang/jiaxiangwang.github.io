@@ -21,17 +21,17 @@ book: "Core Subjects"
 
 ## 计算方法
 
-$$ r = (1 + r ) Δ (1 + r ) Δ ... Δ (1 + r ) − 1 $$
+$$ return:_{1.} r_{twr} = (1 + r_{t,1} ) Δ (1 + r_{t,2} ) Δ ... Δ (1 + r_{t,n} ) − 1 $$
 
 计算portfolioreturn，time-weighted return:
 
 1. twr t,1 t,2 t,nV −V − CFModified Dietzmethod :
 
-$$ r = 1 0 $$
+$$ ModDietz^{1} n^{0} $$
 
-ModDietzn✓V + (CF Δ w )0 i i
+ModDietz✓V + (CF Δ w )0 i i
 
-$$ i=1 $$
+$$ 0_{i=1} i i $$
 
 2. 计算return的时间要求： ①在计算composite中除private market investment portfolios以外的所有portfolio的时间加权回报时，公司必须做到：至少每月计算一次收益；在日历月末或每月最后一个工作日计算每月收益；计算所有大额现金流时的分期收益。②除private market investment portfolios外，composite时间加权收益必须至少每月计算一次。
 3. Return的其他要求：①必须使用总回报；②必须使用交易日期会计；③权责发生制会计必须用于固定收益证券和所有其他赚取利息收入的投资。任何应计收入必须包括在开始和结束的投资组合价值中；④现金和现金等价物的回报必须包括在所有回报计算中；⑤少于一年的return不得年化。

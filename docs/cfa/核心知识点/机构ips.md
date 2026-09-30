@@ -37,8 +37,8 @@ book: "Core Subjects"
 
 1. 银行（Banks ）：流动性管理为核心，需满足监管要求（如流动性覆盖比率LCR ）；资产负债久期匹配（Duration Matching ）以管理利率风险。
 2. 保险公司（Insurers）：寿险公司（LifeInsurers）：长期负债，配置久期匹配的固定收益和另类资产；财险公司（P&C Insurers）：短期负债，侧重流动性和低风险资产。
-3. 股东权益久期（Duration ofShareholders’ Equity）：A A ◆i* * *
+3. 股东权益久期（Duration ofShareholders’ Equity）：A A ◆i
 
-$$ D = ( )D − ( −1)D ( ) $$
+$$ D*_{E} = (^{A} )D*_{A} − (^{A} −1)D*_{L} (^{◆i} ) $$
 
 E A LE E ◆y
