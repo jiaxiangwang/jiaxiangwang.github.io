@@ -73,11 +73,14 @@ book: "Portfolio Management Pathway"
 
 1. 分析流动性风险（Liquidityrisk）交易量（trading volume ）和买卖价差（bid-ask spread）:交易量越大，买卖价差越小，代表市场的流动性越好。一般发达国家的国债市场交易量大，且买卖价差小；刚刚发行的债券（on -the-run）流动性最好。
 2. 衡量尾部风险（tailrisk）的指标有：VaR （Value atrisk）：在一定时间内，在一定的概率水平下，资产的最大亏损。CVaR （Conditional VaR ）：对损失超过VaR时的所有尾部损失求一个平均值，该平均值为CVaR 。增量VaR （incremental VaR ）：在组合里加入新头寸后，引起的VaR的改变，衡量新增头寸的增量影响。相对VaR （relativeVaR ）：当存在比较基准（benchmark ）时，衡量相对于比较基准的VaR 。
-3. 计算债券一个月的，99%概率水平下的VaR ，已知利率的波动率是年化波动率annual volatility1−Duration Δ 2.33 Δ annual volatility Δ Δ market value12
+3. 计算债券一个月的，99%概率水平下的VaR ，已知利率的波动率是年化波动率annual volatility−Duration Δ 2.33 Δ annual volatility Δ Δ market value
 
 ## 利用CDS构建信用策略
 
-1. CDS合约的价格（每1元面值的价格）：CDS Price ≈ 1 + (Fixed Coupon – CDS Spread) × EffSpreadDurCDS
+1. CDS合约的价格（每1元面值的价格）：
+
+$$ Profit= max( 0,S_{T} –X)–c_{0} + max( 0,X–S_{T} )–p_{0} $$
+
 2. CDS的long-short策略预测A板块的信用风险上升，B板块的信用风险下降：买入A板块的CDS合约，赚取风险下降带来的理赔，同时卖出B板块的CDS合约，赚取卖出保险的保费——Buy CDS protectionon A,SellCDS protectionon B
 
 ## 信用风险策略

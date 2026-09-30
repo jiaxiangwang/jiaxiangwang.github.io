@@ -29,7 +29,11 @@ book: "Core Subjects"
 
 ## 债券收益率分解模型
 
-1. 通过收益率的来源，将债券的收益率分成五个模块，分别是利息收益（coupon income ）；持有债券过程中因为债券期限变短带来的价差收益（rolldown return）；基准利率改变带来的债券价差收益（pricechange based on changes on benchmark interestrate）；基于债券信用风险改变带来的价差收益（pricechange based on creditspread changes ）；投资海外债券汇率改变带来的收益（currency valuechanges ）。E(R)≈ Coupon income ± Rolldown return± E(△Pricedue to investors’view ofbenchmark yield)± E(△Pricedue to investors’view ofyieldspreads)± E(△Pricedue to investors’view ofcurrency value changes)
+1. 通过收益率的来源，将债券的收益率分成五个模块，分别是利息收益（coupon income ）；持有债券过程中因为债券期限变短带来的价差收益（rolldown return）；基准利率改变带来的债券价差收益（pricechange based on changes on benchmark interestrate）；基于债券信用风险改变带来的价差收益（pricechange based on creditspread changes ）；投资海外债券汇率改变带来的收益（currency valuechanges ）。
+
+$$ E(R)≈ Coupon income ± Rolldown return $$
+
+± E(△Pricedue to investors’view ofbenchmark yield)± E(△Pricedue to investors’view ofyieldspreads)± E(△Pricedue to investors’view ofcurrency value changes)
 
 ## 债券收益率分解模型
 

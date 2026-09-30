@@ -39,6 +39,6 @@ book: "Core Subjects"
 2. 保险公司（Insurers）：寿险公司（LifeInsurers）：长期负债，配置久期匹配的固定收益和另类资产；财险公司（P&C Insurers）：短期负债，侧重流动性和低风险资产。
 3. 股东权益久期（Duration ofShareholders’ Equity）：A A ◆i
 
-$$ D*_{E} = (^{A} )D*_{A} − (^{A} −1)D*_{L} (^{◆i} ) $$
+$$ D_{E}^{*} = (^{A} )D_{A}^{*} − (^{A} −1)D_{L}^{*} (^{◆i} ) $$
 
-E A LE E ◆y
+E E ◆y

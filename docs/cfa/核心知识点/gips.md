@@ -29,7 +29,7 @@ $$ return:_{1.} r_{twr} = (1 + r_{t,1} ) Δ (1 + r_{t,2} ) Δ ... Δ (1 + r_{t,n
 
 $$ ModDietz^{1} n^{0} $$
 
-ModDietz✓V + (CF Δ w )0 i i
+ModDietzV + (CF Δ w )
 
 $$ 0_{i=1} i i $$
 
