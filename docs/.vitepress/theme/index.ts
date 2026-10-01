@@ -14,6 +14,8 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import AccessGate from './AccessGate.vue'
+import CfaQuestion from './components/CfaQuestion.vue'
+import type { Theme } from 'vitepress'
 import './styles/vars.css'
 import './styles/base.css'
 import './styles/home.css'
@@ -22,5 +24,8 @@ import './styles/question.css'
 
 export default {
   extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('CfaQuestion', CfaQuestion)
+  },
   Layout: () => h(DefaultTheme.Layout, null, { 'layout-top': () => h(AccessGate) }),
-}
+} satisfies Theme

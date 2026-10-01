@@ -12,8 +12,8 @@ SECTIONS = [
     ("other", "其他"),
 ]
 
-# cfa 分区：仅收录 Other 题库（讲义资料——核心知识点/图谱/主观题 已从站点下线）
-CFA_SOURCE_ORDER = ["Other"]
+# cfa 分区：Review/Practice Topic 与已存在的来源题库共存。
+CFA_SOURCE_ORDER = ["asset-allocation", "Other"]
 
 
 def read_title(md_path):
@@ -42,6 +42,33 @@ def items_for(dir_path):
     return items
 
 
+def asset_allocation_group():
+    root = os.path.join(DOCS, "cfa", "asset-allocation")
+    base = "/cfa/asset-allocation"
+    review = []
+    review_root = os.path.join(root, "review")
+    for name in sorted(os.listdir(review_root)):
+        directory = os.path.join(review_root, name)
+        if not os.path.isdir(directory):
+            continue
+        pages = [{"text": "Overview", "link": f"{base}/review/{name}/"}]
+        for filename in sorted(os.listdir(directory)):
+            if filename.startswith("step-") and filename.endswith(".md"):
+                pages.append({"text": read_title(os.path.join(directory, filename)),
+                              "link": f"{base}/review/{name}/{filename[:-3]}"})
+        pages.append({"text": "Module Review", "link": f"{base}/review/{name}/review"})
+        title = read_title(os.path.join(directory, "index.md")).replace(" — Overview", "")
+        review.append({"text": title, "collapsed": True, "items": pages})
+    questions = items_for(os.path.join(root, "questions"))
+    return {"text": "CORE → Asset Allocation", "link": base + "/", "items": [
+        {"text": "Learning Map", "link": base + "/"},
+        {"text": "Review Course", "collapsed": False, "items": review},
+        {"text": "Topic Review", "link": base + "/topic-review"},
+        {"text": "Question Bank", "link": base + "/questions/", "collapsed": True, "items": questions},
+        {"text": "Sources & Coverage", "link": base + "/sources"},
+    ]}
+
+
 def groups_for(key):
     d = os.path.join(DOCS, key)
     if not os.path.isdir(d):
@@ -53,6 +80,9 @@ def groups_for(key):
         names = sorted(n for n in names if os.path.isdir(os.path.join(d, n)))
     groups = []
     for name in names:
+        if key == "cfa" and name == "asset-allocation":
+            groups.append(asset_allocation_group())
+            continue
         sd = os.path.join(d, name)
         if not os.path.isdir(sd):
             continue

@@ -1,0 +1,2181 @@
+{
+  "topic": "CORE → Asset Allocation",
+  "outline": "doc/目录.txt",
+  "los_status": "2027 verbatim LOS absent from repository",
+  "modules": [
+    {
+      "name": "CME Part 1",
+      "directory": "01-cme-part-1",
+      "steps": [
+        {
+          "concept": "framework",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+          "questions": [
+            "2020012102000001-1",
+            "2020012102000001-2",
+            "2021052701000001-1",
+            "2021052701000001-2",
+            "2021052701000002-3",
+            "2025060303000001"
+          ],
+          "connections": [
+            "robust",
+            "volatility"
+          ]
+        },
+        {
+          "concept": "growth",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-02",
+          "questions": [
+            "2020012102000001-3",
+            "2020012102000001-7",
+            "2021052701000002-1",
+            "2025060303000003"
+          ],
+          "connections": [
+            "equity",
+            "cycle"
+          ]
+        },
+        {
+          "concept": "cycle",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+          "questions": [
+            "2020012102000001-4",
+            "2020012102000001-5",
+            "2020012102000001-8",
+            "2021052701000002-2",
+            "2025060303000005",
+            "2025060303000008"
+          ],
+          "connections": [
+            "policy",
+            "bonds",
+            "taa"
+          ]
+        },
+        {
+          "concept": "inflation",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-04",
+          "questions": [
+            "2021052701000003-1",
+            "2025060303000006"
+          ],
+          "connections": [
+            "growth",
+            "realestate",
+            "goals"
+          ]
+        },
+        {
+          "concept": "policy",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-05",
+          "questions": [
+            "2020012102000001-6",
+            "2021052701000003-2",
+            "2025060303000007"
+          ],
+          "connections": [
+            "cycle",
+            "bonds",
+            "international"
+          ]
+        },
+        {
+          "concept": "international",
+          "review": "/cfa/asset-allocation/review/01-cme-part-1/step-06",
+          "questions": [
+            "2021052701000003-3",
+            "2025060303000009"
+          ],
+          "connections": [
+            "currency",
+            "policy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CME Part 2",
+      "directory": "02-cme-part-2",
+      "steps": [
+        {
+          "concept": "bonds",
+          "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+          "questions": [
+            "2020012102000002-1",
+            "2020012102000002-2",
+            "2020012102000003",
+            "2021052701000004-4",
+            "2021052701000004-5",
+            "2021052701000004-6",
+            "2021052701000004-7",
+            "2025060303000022"
+          ],
+          "connections": [
+            "policy",
+            "liability"
+          ]
+        },
+        {
+          "concept": "equity",
+          "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+          "questions": [
+            "2020012102000004-1",
+            "2020012102000004-2",
+            "2020012102000004-3",
+            "2020012102000005-1",
+            "2020012102000006",
+            "2021052701000005-2",
+            "2021052701000005-3",
+            "2021052701000005-4",
+            "2025060303000024",
+            "2025060303000025"
+          ],
+          "connections": [
+            "growth",
+            "robust",
+            "currency"
+          ]
+        },
+        {
+          "concept": "realestate",
+          "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+          "questions": [
+            "2020012102000007",
+            "2020012102000008",
+            "2021052701000004-1",
+            "2021052701000004-2",
+            "2021052701000004-3",
+            "2025060303000026",
+            "2025060303000027"
+          ],
+          "connections": [
+            "inflation",
+            "volatility",
+            "liquidity"
+          ]
+        },
+        {
+          "concept": "currency",
+          "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+          "questions": [
+            "2020012102000009",
+            "2020012102000010",
+            "2020012102000011",
+            "2021052701000005-5",
+            "2021052701000005-6",
+            "2021052701000005-7",
+            "2021052701000005-8",
+            "2025060303000028"
+          ],
+          "connections": [
+            "international",
+            "bonds",
+            "equity"
+          ]
+        },
+        {
+          "concept": "volatility",
+          "review": "/cfa/asset-allocation/review/02-cme-part-2/step-05",
+          "questions": [
+            "2021052701000005-1",
+            "2025060303000029"
+          ],
+          "connections": [
+            "realestate",
+            "robust",
+            "riskbudget"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overview of Asset Allocation",
+      "directory": "03-overview",
+      "steps": [
+        {
+          "concept": "governance",
+          "review": "/cfa/asset-allocation/review/03-overview/step-01",
+          "questions": [
+            "2025072102000001",
+            "2025072102000039-4"
+          ],
+          "connections": [
+            "taa",
+            "rebalancing",
+            "balance"
+          ]
+        },
+        {
+          "concept": "balance",
+          "review": "/cfa/asset-allocation/review/03-overview/step-02",
+          "questions": [
+            "2025072102000002",
+            "2025072102000014",
+            "2025072102000039-1",
+            "2025072102000040-1",
+            "2025072102000041-1",
+            "2025072102000041-2"
+          ],
+          "connections": [
+            "approaches",
+            "liability",
+            "liquidity"
+          ]
+        },
+        {
+          "concept": "approaches",
+          "review": "/cfa/asset-allocation/review/03-overview/step-03",
+          "questions": [
+            "2025072102000003",
+            "2025072102000004",
+            "2025072102000006",
+            "2025072102000039-2",
+            "2025072102000040-3"
+          ],
+          "connections": [
+            "balance",
+            "liability",
+            "goals"
+          ]
+        },
+        {
+          "concept": "classes",
+          "review": "/cfa/asset-allocation/review/03-overview/step-04",
+          "questions": [
+            "2025072102000040-4",
+            "2025072102000040-5",
+            "2025072102000041-3",
+            "2025072102000041-4"
+          ],
+          "connections": [
+            "factors",
+            "liquidity",
+            "volatility"
+          ]
+        },
+        {
+          "concept": "factors",
+          "review": "/cfa/asset-allocation/review/03-overview/step-05",
+          "questions": [
+            "2025072102000005",
+            "2025072102000013",
+            "2025072102000041-5",
+            "2025072102000047-5"
+          ],
+          "connections": [
+            "volatility",
+            "riskbudget",
+            "classes"
+          ]
+        },
+        {
+          "concept": "rebalancing",
+          "review": "/cfa/asset-allocation/review/03-overview/step-06",
+          "questions": [
+            "2025072102000009",
+            "2025072102000030",
+            "2025072102000041-8",
+            "2025072102000042-2",
+            "2025072102000043-3"
+          ],
+          "connections": [
+            "taxes",
+            "taa",
+            "liquidity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Principles of Asset Allocation",
+      "directory": "04-principles",
+      "steps": [
+        {
+          "concept": "mvo",
+          "review": "/cfa/asset-allocation/review/04-principles/step-01",
+          "questions": [
+            "2018031301000003",
+            "2025072102000016",
+            "2025072102000017",
+            "2025072102000021",
+            "2025072102000044-1",
+            "2025072102000046-4",
+            "2025072102000047-1"
+          ],
+          "connections": [
+            "robust",
+            "simulation",
+            "riskbudget"
+          ]
+        },
+        {
+          "concept": "robust",
+          "review": "/cfa/asset-allocation/review/04-principles/step-02",
+          "questions": [
+            "2018031301000004-1",
+            "2018031301000004-2",
+            "2025072102000007",
+            "2025072102000042-3",
+            "2025072102000042-4",
+            "2025072102000044-2",
+            "2025072102000046-1",
+            "2025072102000047-4"
+          ],
+          "connections": [
+            "framework",
+            "volatility",
+            "mvo"
+          ]
+        },
+        {
+          "concept": "simulation",
+          "review": "/cfa/asset-allocation/review/04-principles/step-03",
+          "questions": [
+            "2025072102000020",
+            "2025072102000045-2"
+          ],
+          "connections": [
+            "mvo",
+            "goals",
+            "liquidity"
+          ]
+        },
+        {
+          "concept": "riskbudget",
+          "review": "/cfa/asset-allocation/review/04-principles/step-04",
+          "questions": [
+            "2025072102000027",
+            "2025072102000028",
+            "2025072102000044-4",
+            "2025072102000044-5",
+            "2025072102000047-3"
+          ],
+          "connections": [
+            "factors",
+            "volatility",
+            "mvo"
+          ]
+        },
+        {
+          "concept": "liability",
+          "review": "/cfa/asset-allocation/review/04-principles/step-05",
+          "questions": [
+            "2018031301000005",
+            "2025072102000012",
+            "2025072102000015",
+            "2025072102000043-1",
+            "2025072102000043-5",
+            "2025072102000046-3",
+            "2025072102000046-5",
+            "2025072102000050-6"
+          ],
+          "connections": [
+            "balance",
+            "bonds",
+            "approaches"
+          ]
+        },
+        {
+          "concept": "goals",
+          "review": "/cfa/asset-allocation/review/04-principles/step-06",
+          "questions": [
+            "2025072102000010",
+            "2025072102000011",
+            "2025072102000040-2",
+            "2025072102000041-6",
+            "2025072102000042-1",
+            "2025072102000042-6",
+            "2025072102000044-6",
+            "2025072102000045-1",
+            "2025072102000046-6",
+            "2025072102000048-1",
+            "2025072102000048-2",
+            "2025072102000050-2"
+          ],
+          "connections": [
+            "approaches",
+            "simulation",
+            "taxes"
+          ]
+        },
+        {
+          "concept": "heuristics",
+          "review": "/cfa/asset-allocation/review/04-principles/step-07",
+          "questions": [
+            "2025072102000029",
+            "2025072102000042-5",
+            "2025072102000046-8"
+          ],
+          "connections": [
+            "mvo",
+            "liquidity",
+            "balance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Real-World Constraints",
+      "directory": "05-constraints",
+      "steps": [
+        {
+          "concept": "size",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+          "questions": [
+            "2025072102000034",
+            "2025072102000049-1",
+            "2025072102000049-3",
+            "2025072102000052-1",
+            "2025072102000052-2"
+          ],
+          "connections": [
+            "liquidity",
+            "classes",
+            "governance"
+          ]
+        },
+        {
+          "concept": "liquidity",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-02",
+          "questions": [
+            "2025072102000043-4",
+            "2025072102000047-2",
+            "2025072102000051-1"
+          ],
+          "connections": [
+            "realestate",
+            "simulation",
+            "size"
+          ]
+        },
+        {
+          "concept": "horizon",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+          "questions": [
+            "2018052801000003-4",
+            "2018052801000003-5",
+            "2025072102000033",
+            "2025072102000049-4",
+            "2025072102000050-1"
+          ],
+          "connections": [
+            "balance",
+            "goals",
+            "taa"
+          ]
+        },
+        {
+          "concept": "taxes",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+          "questions": [
+            "2018052801000003-2",
+            "2018052801000003-3",
+            "2025072102000032",
+            "2025072102000050-3",
+            "2025072102000050-4",
+            "2025072102000051-4",
+            "2025072102000051-6"
+          ],
+          "connections": [
+            "mvo",
+            "goals",
+            "rebalancing"
+          ]
+        },
+        {
+          "concept": "taa",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+          "questions": [
+            "2021052701000004-8",
+            "2025072102000035",
+            "2025072102000036",
+            "2025072102000039-3",
+            "2025072102000050-7",
+            "2025072102000051-2"
+          ],
+          "connections": [
+            "cycle",
+            "governance",
+            "rebalancing"
+          ]
+        },
+        {
+          "concept": "behavior",
+          "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+          "questions": [
+            "2018052801000003-1",
+            "2025072102000037",
+            "2025072102000049-2",
+            "2025072102000050-5",
+            "2025072102000051-5"
+          ],
+          "connections": [
+            "framework",
+            "balance",
+            "rebalancing"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "2020012102000001-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-4",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-5",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-6",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-05",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-7",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-7",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000001-8",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2020012102000001#q-2020012102000001-8",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000002-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2020012102000002#q-2020012102000002-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000002-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2020012102000002#q-2020012102000002-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000003",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2020012102000003#q-2020012102000003",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000004-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000004#q-2020012102000004-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000004-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000004#q-2020012102000004-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000004-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000004#q-2020012102000004-3",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000005-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000005#q-2020012102000005-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000006",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2020012102000006#q-2020012102000006",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000007",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2020012102000007#q-2020012102000007",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000008",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2020012102000008#q-2020012102000008",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000009",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2020012102000009#q-2020012102000009",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000010",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2020012102000010#q-2020012102000010",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2020012102000011",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2020012102000011#q-2020012102000011",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000001-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000001#q-2021052701000001-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000001-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000001#q-2021052701000001-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000002-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-02",
+      "url": "/cfa/asset-allocation/questions/2021052701000002#q-2021052701000002-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000002-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2021052701000002#q-2021052701000002-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000002-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000002#q-2021052701000002-3",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000003-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-04",
+      "url": "/cfa/asset-allocation/questions/2021052701000003#q-2021052701000003-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000003-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-05",
+      "url": "/cfa/asset-allocation/questions/2021052701000003#q-2021052701000003-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000003-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-06",
+      "url": "/cfa/asset-allocation/questions/2021052701000003#q-2021052701000003-3",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-4",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-5",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-6",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-7",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-7",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000004-8",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-8",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-1",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-05",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-2",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-3",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-4",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-5",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-6",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-7",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-7",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2021052701000005-8",
+      "source": "doc/原版书/Core-Asset Allocation-CME_ORIG.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2021052701000005#q-2021052701000005-8",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018031301000003",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2018031301000003#q-2018031301000003",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018031301000004-1",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2018031301000004#q-2018031301000004-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018031301000004-2",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2018031301000004#q-2018031301000004-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018031301000005",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2018031301000005#q-2018031301000005",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018052801000003-1",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+      "url": "/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018052801000003-2",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018052801000003-3",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-3",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018052801000003-4",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+      "url": "/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-4",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2018052801000003-5",
+      "source": "doc/原版书/Core-Asset Allocation-AA_ORIG.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+      "url": "/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-5",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000001",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-01",
+      "url": "/cfa/asset-allocation/questions/2025060303000001#q-2025060303000001",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000003",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-02",
+      "url": "/cfa/asset-allocation/questions/2025060303000003#q-2025060303000003",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000005",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2025060303000005#q-2025060303000005",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000006",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-04",
+      "url": "/cfa/asset-allocation/questions/2025060303000006#q-2025060303000006",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000007",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-05",
+      "url": "/cfa/asset-allocation/questions/2025060303000007#q-2025060303000007",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000008",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-03",
+      "url": "/cfa/asset-allocation/questions/2025060303000008#q-2025060303000008",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000009",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/01-cme-part-1/step-06",
+      "url": "/cfa/asset-allocation/questions/2025060303000009#q-2025060303000009",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000022",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2025060303000022#q-2025060303000022",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000024",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2025060303000024#q-2025060303000024",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000025",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
+      "url": "/cfa/asset-allocation/questions/2025060303000025#q-2025060303000025",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000026",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2025060303000026#q-2025060303000026",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000027",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-03",
+      "url": "/cfa/asset-allocation/questions/2025060303000027#q-2025060303000027",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000028",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-04",
+      "url": "/cfa/asset-allocation/questions/2025060303000028#q-2025060303000028",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025060303000029",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-05",
+      "url": "/cfa/asset-allocation/questions/2025060303000029#q-2025060303000029",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000001",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000001#q-2025072102000001",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000002",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000002#q-2025072102000002",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000003",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000003#q-2025072102000003",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000004",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000004#q-2025072102000004",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000005",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000005#q-2025072102000005",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000006",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000006#q-2025072102000006",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000007",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000007#q-2025072102000007",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000009",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000009#q-2025072102000009",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000010",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000010#q-2025072102000010",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000011",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000011#q-2025072102000011",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000012",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000012#q-2025072102000012",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000013",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000013#q-2025072102000013",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000014",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000014#q-2025072102000014",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000015",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000015#q-2025072102000015",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000016",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000016#q-2025072102000016",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000017",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000017#q-2025072102000017",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000020",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000020#q-2025072102000020",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000021",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000021#q-2025072102000021",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000027",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000027#q-2025072102000027",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000028",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000028#q-2025072102000028",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000029",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-07",
+      "url": "/cfa/asset-allocation/questions/2025072102000029#q-2025072102000029",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000030",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000030#q-2025072102000030",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000032",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000032#q-2025072102000032",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000033",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000033#q-2025072102000033",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000034",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000034#q-2025072102000034",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000035",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000035#q-2025072102000035",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000036",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000036#q-2025072102000036",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000037",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000037#q-2025072102000037",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000039-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000039-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000039-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000039-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000040-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000040-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000040-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000040-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000040-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000041-8",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-8",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-07",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000042-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000043-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000043-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000043-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000043-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000045-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000045#q-2025072102000045-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000045-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000045#q-2025072102000045-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-8",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-07",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-8",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000047-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000047-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000047-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000047-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000047-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000048-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000048#q-2025072102000048-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000048-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000048#q-2025072102000048-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000049-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000049-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000049-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000049-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-03",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000050-7",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-7",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000051-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000051-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000051-4",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-4",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000051-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000051-6",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-6",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000052-1",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000052#q-2025072102000052-1",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000052-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-01",
+      "url": "/cfa/asset-allocation/questions/2025072102000052#q-2025072102000052-2",
+      "type": "CR",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    }
+  ],
+  "merged_duplicates": {
+    "2017102002000001": "2025072102000041",
+    "2018031301000001": "2025072102000046",
+    "2018031301000002": "2025072102000047",
+    "2018031301000006": "2025072102000048",
+    "2018052801000001": "2025072102000051",
+    "2018052801000002": "2025072102000050",
+    "2018052801000004": "2025072102000052"
+  },
+  "skipped": {
+    "2025060303000002": "长期增长冲击的选项不能仅由题干唯一排序，无答案键。",
+    "2025060303000023": "多项主权风险指标相互冲突，列标题损坏且没有可靠答案键。",
+    "2020012102000005-2": "仅给均衡所需风险溢价，没有价格或预测收益，不能作 valuation attractiveness 排序。",
+    "2025072102000018": "最低固定权重选项把 residential real estate 与 human capital 的 20%/30% 对调；其他选项也不能准确表达经济风险约束。",
+    "2025072102000019": "global equity indexes 的具体集合与同质性定义缺失，风险/回报/相关性泛化无法唯一确认。",
+    "2025072102000031": "税率与税制缺失；不能凭利息占比推定所有 major economies 的税务排序。",
+    "2025072102000041-7": "三个组合没有收益/风险/成功率数据，且高成功率的 endowment 目标与通用 moderately important 示例不能可靠映射到唯一组合。",
+    "2025072102000043-2": "年龄、短端利率对工资型养老金负债/资产的净影响资料不足，无法唯一比较 funded status。",
+    "2025072102000044-3": "Statement 2 对 systematic risk 的表述与同源非流动性指数局限不一致；没有答案键，不能可靠判唯一选项。",
+    "2025072102000049-5": "TAA public equity weight 缺失、当前权重不合计 100%，关键 Exhibit 3 未导出；不反推缺失权重。",
+    "2025072102000051-3": "IG bonds 已在 lower limit，private real estate 已在 upper limit；预期收益最优选项违反 IPS，不能静默修订权重。",
+    "2025072102000046-2": "高风险资产的宽band建议混用纯交易次数与总体optimalcorridor口径；与同Topic其他题方向冲突，无答案键，不能唯一确认。",
+    "2025072102000046-7": "仅给domesticbonds与其他资产的lowcovariance与lowexpectedreturn，缺自身variance/完整VCV，无法可靠推出riskparitycapitalweight相对25%。",
+    "2025072102000008": "TAA成本选项对排除基准rebalancing成本的措辞有歧义，B/C可能分别在incrementalcost与assetlocation语境下成立；没有答案键，不强定唯一MCQ。"
+  },
+  "qa": {
+    "date": "2026-10-01",
+    "outlineCoverage": "All repository-defined modules and branches covered; official LOS text unavailable",
+    "reviewPages": 42,
+    "reviewSteps": 30,
+    "questions": 160,
+    "mcq": 126,
+    "constructedResponse": 34,
+    "mergedDuplicateRecords": 38,
+    "skippedQuestions": 14,
+    "sourceVerificationTodos": 1,
+    "checkedInternalLinks": 266,
+    "brokenLinks": 0,
+    "initialSsrAnalysisBlocks": 0,
+    "browserChecks": [
+      "MCQ answer hidden before submit",
+      "incorrect feedback identifies selected and correct answers",
+      "correct submission shows full analysis",
+      "reset hides analysis",
+      "CR reveal without automatic grading",
+      "case subquestions maintain independent state",
+      "Question-to-Review navigation resolves"
+    ],
+    "engineering": {
+      "build": "passed",
+      "lint": "not configured",
+      "typecheck": "not configured",
+      "test": "not configured"
+    },
+    "scope": "Only Asset Allocation content and necessary navigation/theme component/sidebar changes"
+  }
+}
