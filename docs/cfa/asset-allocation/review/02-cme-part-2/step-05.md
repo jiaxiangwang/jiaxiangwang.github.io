@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "05 · VCV、Factor Model 与 Shrinkage"
-study: {"section": "Review Course", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "step": 5, "total": 5}
+study: {"section": "Review Course", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "step": 5, "total": 5, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "区分 PPP 长期锚与 Capital Flows 短期力量", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-04"}, "map": {"label": "Learning Map", "title": "CME Part 2", "link": "/cfa/asset-allocation/review/02-cme-part-2/"}, "next": {"label": "Next Step →", "title": "Module Review", "link": "/cfa/asset-allocation/review/02-cme-part-2/review"}}
 ---
 

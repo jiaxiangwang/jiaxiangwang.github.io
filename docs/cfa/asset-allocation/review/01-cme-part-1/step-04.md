@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "04 · 预期通胀、意外通胀与通缩"
-study: {"section": "Review Course", "module": "CME Part 1", "moduleLink": "/cfa/asset-allocation/review/01-cme-part-1/", "step": 4, "total": 6}
+study: {"section": "Review Course", "module": "CME Part 1", "moduleLink": "/cfa/asset-allocation/review/01-cme-part-1/", "step": 4, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "从 Business Cycle 识别政策和资产方向", "link": "/cfa/asset-allocation/review/01-cme-part-1/step-03"}, "map": {"label": "Learning Map", "title": "CME Part 1", "link": "/cfa/asset-allocation/review/01-cme-part-1/"}, "next": {"label": "Next Step →", "title": "把 Monetary / Fiscal Policy 转成利率判断", "link": "/cfa/asset-allocation/review/01-cme-part-1/step-05"}}
 ---
 

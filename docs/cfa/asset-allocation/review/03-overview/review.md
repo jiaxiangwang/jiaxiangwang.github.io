@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Module Review", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/"}
+study: {"section": "Module Review", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "用成本与风险偏离确定 Rebalancing Policy", "link": "/cfa/asset-allocation/review/03-overview/step-06"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Module →", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}}
 ---
 

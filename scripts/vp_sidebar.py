@@ -6,16 +6,12 @@ import json
 
 DOCS = "/Users/jiaxiang/Documents/code/blog/docs"
 SECTIONS = [
-    ("cfa", "CFA 题库"),
+    ("cfa", "CFA 2027"),
     ("front-end", "前端"),
     ("back-end", "后端"),
     ("machine-learning", "机器学习"),
     ("other", "其他"),
 ]
-
-# cfa 分区：Review/Practice Topic 与已存在的来源题库共存。
-CFA_SOURCE_ORDER = ["asset-allocation", "Other"]
-
 
 def read_title(md_path):
     text = open(md_path).read(2048)
@@ -49,27 +45,17 @@ def items_for(dir_path):
     return items
 
 
-def asset_allocation_group():
-    root = os.path.join(DOCS, "cfa", "asset-allocation")
-    base = "/cfa/asset-allocation"
-    review = []
-    review_root = os.path.join(root, "review")
-    for name in sorted(os.listdir(review_root)):
-        directory = os.path.join(review_root, name)
-        if not os.path.isdir(directory):
-            continue
-        pages = [{"text": "Overview", "link": f"{base}/review/{name}/"}]
-        for filename in sorted(os.listdir(directory)):
-            if filename.startswith("step-") and filename.endswith(".md"):
-                pages.append({"text": read_sidebar_title(os.path.join(directory, filename)),
-                              "link": f"{base}/review/{name}/{filename[:-3]}"})
-        pages.append({"text": "Module Review", "link": f"{base}/review/{name}/review"})
-        title = read_title(os.path.join(directory, "index.md")).replace(" — Overview", "")
-        review.append({"text": title, "collapsed": True, "items": pages})
-    with open(os.path.join(root, "content-map.json")) as source:
-        content_map = json.load(source)
-    questions = []
+def topic_sidebars(group, entry, content_map):
+    root = os.path.join(DOCS, "cfa", entry["id"])
+    base = "/cfa/" + entry["id"]
+    review, questions = [], []
     for module in content_map["modules"]:
+        name = module["directory"]
+        pages = [{"text": "Overview", "link": f"{base}/review/{name}/"}]
+        pages.extend({"text": read_sidebar_title(os.path.join(DOCS, step["review"].lstrip("/") + ".md")),
+                      "link": step["review"]} for step in module["steps"])
+        pages.append({"text": "Module Review", "link": f"{base}/review/{name}/review"})
+        review.append({"text": module["name"], "collapsed": True, "items": pages})
         questions.append({
             "text": module["name"],
             "link": f'{base}/questions/#module-{module["directory"]}',
@@ -79,16 +65,66 @@ def asset_allocation_group():
                     "text": read_sidebar_title(os.path.join(DOCS, step["review"].lstrip("/") + ".md")),
                     "link": f'{base}/questions/#concept-{step["concept"]}',
                 }
-                for step in module["steps"]
+                for step in module["steps"] if step["questions"]
             ],
         })
-    return {"text": "CORE → Asset Allocation", "link": base + "/", "items": [
+    title = group["name"] + " → " + entry["name"]
+    sources = [{"text": "Sources & Coverage", "link": base + "/sources"}]
+    if os.path.exists(os.path.join(root, "skip-review.md")):
+        sources.append({"text": "跳过记录复核", "link": base + "/skip-review"})
+    utilities = {"text": "来源与核验", "collapsed": True, "items": sources}
+    overview = {"text": title, "link": base + "/", "items": [
         {"text": "Learning Map", "link": base + "/"},
-        {"text": "Review Course", "collapsed": False, "items": review},
+        {"text": "Learning Modules", "collapsed": False, "items": [
+            {"text": module["name"], "link": f'{base}/review/{module["directory"]}/'}
+            for module in content_map["modules"]
+        ]},
         {"text": "Topic Review", "link": base + "/topic-review"},
-        {"text": "Question Bank", "link": base + "/questions/", "collapsed": True, "items": questions},
-        {"text": "Sources & Coverage", "link": base + "/sources"},
+        {"text": "Question Bank →", "link": base + "/questions/"},
     ]}
+    course = {"text": title, "link": base + "/", "items": [
+        {"text": "Learning Map", "link": base + "/"},
+        {"text": "Question Bank →", "link": base + "/questions/"},
+        {"text": "Topic Review", "link": base + "/topic-review"},
+    ]}
+    bank = {"text": title, "link": base + "/questions/", "items": [
+        {"text": "Practice by Concept", "link": base + "/questions/"},
+        {"text": "Review Course →", "link": base + "/"},
+        {"text": "Topic Review", "link": base + "/topic-review"},
+    ]}
+    return {
+        base + "/": [overview, utilities],
+        base + "/review/": [course, *review, utilities],
+        base + "/questions/": [bank, *questions, utilities],
+    }
+
+
+def cfa_sidebars():
+    with open(os.path.join(DOCS, "cfa", "catalog.json")) as source:
+        catalog = json.load(source)
+    center = {"text": "CFA 2027 · 学习中心", "link": "/cfa/", "items": [
+        {"text": "Review Course", "link": "/cfa/review/"},
+        {"text": "Question Bank", "link": "/cfa/questions/"},
+    ]}
+    hubs = {mode: [center] for mode in ["all", "review", "questions"]}
+    routes = {}
+    for group in catalog["groups"]:
+        published = []
+        for entry in group["entries"]:
+            path = os.path.join(DOCS, "cfa", entry["id"], "content-map.json")
+            if not os.path.exists(path):
+                continue
+            with open(path) as source:
+                content_map = json.load(source)
+            published.append(entry)
+            routes.update(topic_sidebars(group, entry, content_map))
+        for mode in hubs:
+            hubs[mode].append({"text": group["name"], "link": "/cfa/#" + group["id"], "items": [
+                {"text": entry["name"], "link": "/cfa/" + entry["id"] + ("/questions/" if mode == "questions" else "/")}
+                for entry in published
+            ]})
+    routes.update({"/cfa/": hubs["all"], "/cfa/review/": hubs["review"], "/cfa/questions/": hubs["questions"]})
+    return routes
 
 
 def groups_for(key):
@@ -96,15 +132,9 @@ def groups_for(key):
     if not os.path.isdir(d):
         return []
     names = os.listdir(d)
-    if key == "cfa":
-        names = [n for n in CFA_SOURCE_ORDER if n in names]
-    else:
-        names = sorted(n for n in names if os.path.isdir(os.path.join(d, n)))
+    names = sorted(n for n in names if os.path.isdir(os.path.join(d, n)))
     groups = []
     for name in names:
-        if key == "cfa" and name == "asset-allocation":
-            groups.append(asset_allocation_group())
-            continue
         sd = os.path.join(d, name)
         if not os.path.isdir(sd):
             continue
@@ -143,13 +173,12 @@ def fmt(obj, indent=0):
 def main():
     lines = []
     for key, label in SECTIONS:
+        if key == "cfa":
+            for route, groups in cfa_sidebars().items():
+                lines.append(f"  '{route}': {fmt(groups, 1)},")
+                print(f"{route}: {len(groups)} groups")
+            continue
         groups = groups_for(key)
-        # cfa：每个大类（来源目录）独立侧边栏 key；/cfa/ 总览页保留聚合侧边栏
-        if key == "cfa" and groups:
-            for g in groups:
-                k = g["link"]  # 形如 /cfa/Other/
-                lines.append(f"  '{k}': {fmt([g], 1)},")
-                print(f"{k}: 1 group, {len(g['items'])} pages")
         lines.append(f"  '/{key}/': {fmt(groups, 1)},")
         total = sum(len(g["items"]) for g in groups)
         print(f"{key} ({label}): {len(groups)} groups, {total} pages")

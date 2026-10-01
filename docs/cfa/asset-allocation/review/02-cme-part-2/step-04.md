@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "04 · PPP、资本流动与汇率方向"
-study: {"section": "Review Course", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "step": 4, "total": 5}
+study: {"section": "Review Course", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "step": 4, "total": 5, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "把租金、Cap Rate 与估值平滑串起来", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-03"}, "map": {"label": "Learning Map", "title": "CME Part 2", "link": "/cfa/asset-allocation/review/02-cme-part-2/"}, "next": {"label": "Next Step →", "title": "让 Variance–Covariance Matrix 反映真实风险", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-05"}}
 ---
 

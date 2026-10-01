@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Overview", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/"}
+study: {"section": "Overview", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "Overview of Asset Allocation · Module Review", "link": "/cfa/asset-allocation/review/03-overview/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "开始 Step 1 →", "title": "从 Investor Utility 选择有效配置", "link": "/cfa/asset-allocation/review/04-principles/step-01"}}
 ---
 

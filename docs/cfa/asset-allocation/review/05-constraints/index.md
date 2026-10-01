@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Overview", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/"}
+study: {"section": "Overview", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "Principles of Asset Allocation · Module Review", "link": "/cfa/asset-allocation/review/04-principles/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "开始 Step 1 →", "title": "用 Asset Size、Capacity 与 Regulation 划定可行配置", "link": "/cfa/asset-allocation/review/05-constraints/step-01"}}
 ---
 

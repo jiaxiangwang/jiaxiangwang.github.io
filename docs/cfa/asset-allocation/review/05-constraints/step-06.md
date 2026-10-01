@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "06 · 行为证据与治理防线"
-study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 6, "total": 6}
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 6, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "将 Tactical Views 放在 SAA 与 IPS 边界内", "link": "/cfa/asset-allocation/review/05-constraints/step-05"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "Module Review", "link": "/cfa/asset-allocation/review/05-constraints/review"}}
 ---
 

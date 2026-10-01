@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "02 · 完整财富与 Human Capital"
-study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 2, "total": 6}
+study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 2, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "建立 SAA 的目标、授权与责任框架", "link": "/cfa/asset-allocation/review/03-overview/step-01"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Step →", "title": "选择与目标一致的 Risk Definition", "link": "/cfa/asset-allocation/review/03-overview/step-03"}}
 ---
 

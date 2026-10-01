@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "05 · TAA 观点、规则与 IPS"
-study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 5, "total": 6}
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 5, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "用 After-tax Exposure 进行配置与 Asset Location", "link": "/cfa/asset-allocation/review/05-constraints/step-04"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "把 Behavioral Bias 转成可执行的治理防线", "link": "/cfa/asset-allocation/review/05-constraints/step-06"}}
 ---
 
@@ -34,7 +34,7 @@ TAA 是在战略风险政策之内暂时利用相对回报机会。经理看好�
 
 **Intuition：** 市场上涨会使 TAA 组合赚钱，但政策组合也可能赚钱；真正评价的是相对基准的增量。Current drifted weights 反映价格历史，policy weights 才表达要比较的 SAA 策略。
 
-KUE 的 IG bonds 已在 lower limit 15%，private property 已在 upper limit 15%。不能只根据 EM 的 forecast 最高就进一步减 bonds 或加 property；应先找 permitted ranges 内能为该观点提供资金的调整。
+KUE 的 IG bonds 已在 lower limit 15%，private property 已在 upper limit 15%。不能只根据 EM 的 forecast 最高就进一步减 bonds 或加 property；应先找 permitted ranges 内能提供资金的调整。例如 developed equity 30% 与 infrastructure 12% 仍有合法空间，可将后者减 1 pp、前者加 1 pp，利用 +2% 相对 −1% 的 forecast；这正是 [KUE 对应练习](/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-3) 的可行选项。
 
 ## Example · KCPF：移动平均规则属于哪种决定？
 

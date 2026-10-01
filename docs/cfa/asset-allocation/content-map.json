@@ -116,7 +116,8 @@
             "2021052701000004-5",
             "2021052701000004-6",
             "2021052701000004-7",
-            "2025060303000022"
+            "2025060303000022",
+            "2025060303000023"
           ],
           "connections": [
             "policy",
@@ -225,6 +226,7 @@
           "questions": [
             "2025072102000002",
             "2025072102000014",
+            "2025072102000018",
             "2025072102000039-1",
             "2025072102000040-1",
             "2025072102000041-1",
@@ -294,7 +296,8 @@
             "2025072102000030",
             "2025072102000041-8",
             "2025072102000042-2",
-            "2025072102000043-3"
+            "2025072102000043-3",
+            "2025072102000046-2"
           ],
           "connections": [
             "taxes",
@@ -387,6 +390,7 @@
             "2025072102000012",
             "2025072102000015",
             "2025072102000043-1",
+            "2025072102000043-2",
             "2025072102000043-5",
             "2025072102000046-3",
             "2025072102000046-5",
@@ -466,6 +470,7 @@
           "review": "/cfa/asset-allocation/review/05-constraints/step-02",
           "questions": [
             "2025072102000043-4",
+            "2025072102000044-3",
             "2025072102000047-2",
             "2025072102000051-1"
           ],
@@ -499,6 +504,7 @@
           "questions": [
             "2018052801000003-2",
             "2018052801000003-3",
+            "2025072102000031",
             "2025072102000032",
             "2025072102000050-3",
             "2025072102000050-4",
@@ -520,8 +526,10 @@
             "2025072102000035",
             "2025072102000036",
             "2025072102000039-3",
+            "2025072102000049-5",
             "2025072102000050-7",
-            "2025072102000051-2"
+            "2025072102000051-2",
+            "2025072102000051-3"
           ],
           "connections": [
             "cycle",
@@ -1172,6 +1180,16 @@
       "answer_provenance": "derived"
     },
     {
+      "id": "2025060303000023",
+      "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
+      "review": "/cfa/asset-allocation/review/02-cme-part-2/step-01",
+      "url": "/cfa/asset-allocation/questions/2025060303000023#q-2025060303000023",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
       "id": "2025060303000024",
       "source": "doc/Other/Core-Asset Allocation-CME_OTH.md",
       "review": "/cfa/asset-allocation/review/02-cme-part-2/step-02",
@@ -1392,6 +1410,16 @@
       "answer_provenance": "derived"
     },
     {
+      "id": "2025072102000018",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000018#q-2025072102000018",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
       "id": "2025072102000020",
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/04-principles/step-03",
@@ -1446,6 +1474,16 @@
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/03-overview/step-06",
       "url": "/cfa/asset-allocation/questions/2025072102000030#q-2025072102000030",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000031",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-04",
+      "url": "/cfa/asset-allocation/questions/2025072102000031#q-2025072102000031",
       "type": "MCQ",
       "los": null,
       "year": null,
@@ -1742,6 +1780,16 @@
       "answer_provenance": "derived"
     },
     {
+      "id": "2025072102000043-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/04-principles/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
       "id": "2025072102000043-3",
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/03-overview/step-06",
@@ -1786,6 +1834,16 @@
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/04-principles/step-02",
       "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-2",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000044-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-02",
+      "url": "/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-3",
       "type": "MCQ",
       "los": null,
       "year": null,
@@ -1846,6 +1904,16 @@
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/04-principles/step-02",
       "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-1",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
+      "id": "2025072102000046-2",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/03-overview/step-06",
+      "url": "/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-2",
       "type": "MCQ",
       "los": null,
       "year": null,
@@ -2012,6 +2080,16 @@
       "answer_provenance": "derived"
     },
     {
+      "id": "2025072102000049-5",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-5",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
       "id": "2025072102000050-1",
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/05-constraints/step-03",
@@ -2102,6 +2180,16 @@
       "answer_provenance": "derived"
     },
     {
+      "id": "2025072102000051-3",
+      "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
+      "review": "/cfa/asset-allocation/review/05-constraints/step-05",
+      "url": "/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-3",
+      "type": "MCQ",
+      "los": null,
+      "year": null,
+      "answer_provenance": "derived"
+    },
+    {
       "id": "2025072102000051-4",
       "source": "doc/Other/Core-Asset Allocation-AA_OTH.md",
       "review": "/cfa/asset-allocation/review/05-constraints/step-04",
@@ -2162,33 +2250,25 @@
     "2018052801000004": "2025072102000052"
   },
   "skipped": {
-    "2025060303000002": "长期增长冲击的选项不能仅由题干唯一排序，无答案键。",
-    "2025060303000023": "多项主权风险指标相互冲突，列标题损坏且没有可靠答案键。",
-    "2020012102000005-2": "仅给均衡所需风险溢价，没有价格或预测收益，不能作 valuation attractiveness 排序。",
-    "2025072102000018": "最低固定权重选项把 residential real estate 与 human capital 的 20%/30% 对调；其他选项也不能准确表达经济风险约束。",
-    "2025072102000019": "global equity indexes 的具体集合与同质性定义缺失，风险/回报/相关性泛化无法唯一确认。",
-    "2025072102000031": "税率与税制缺失；不能凭利息占比推定所有 major economies 的税务排序。",
-    "2025072102000041-7": "三个组合没有收益/风险/成功率数据，且高成功率的 endowment 目标与通用 moderately important 示例不能可靠映射到唯一组合。",
-    "2025072102000043-2": "年龄、短端利率对工资型养老金负债/资产的净影响资料不足，无法唯一比较 funded status。",
-    "2025072102000044-3": "Statement 2 对 systematic risk 的表述与同源非流动性指数局限不一致；没有答案键，不能可靠判唯一选项。",
-    "2025072102000049-5": "TAA public equity weight 缺失、当前权重不合计 100%，关键 Exhibit 3 未导出；不反推缺失权重。",
-    "2025072102000051-3": "IG bonds 已在 lower limit，private real estate 已在 upper limit；预期收益最优选项违反 IPS，不能静默修订权重。",
-    "2025072102000046-2": "高风险资产的宽band建议混用纯交易次数与总体optimalcorridor口径；与同Topic其他题方向冲突，无答案键，不能唯一确认。",
-    "2025072102000046-7": "仅给domesticbonds与其他资产的lowcovariance与lowexpectedreturn，缺自身variance/完整VCV，无法可靠推出riskparitycapitalweight相对25%。",
-    "2025072102000008": "TAA成本选项对排除基准rebalancing成本的措辞有歧义，B/C可能分别在incrementalcost与assetlocation语境下成立；没有答案键，不强定唯一MCQ。"
+    "2025060303000002": "仍跳过。Financial crisis 是可能的 intended answer，但三种冲击的长期结果都依赖规模、持续时间、重建和制度反应。本地仅有问题/选项，没有原解释，不能把“灾害或战争之后可能重建升级”推成必然改善长期增长。保留到能核实原解释中的比较模型。",
+    "2020012102000005-2": "仍跳过。数据只足以计算 Singer–Terhaar equilibrium required premiums：healthcare 3.4588%、watch 1.9765%、consumer 2.4706%。没有价格、cash-flow valuation 或独立 forecast / implied-return 比较。更高 required premium 不等于 undervaluation；较低 premium 也不等于便宜。第 1 小题继续保留。",
+    "2025072102000019": "仍跳过。源题的 C（global equity indexes correlation close to one）可能是其 homogeneity 教学意图，但“over any reasonably long time period”仍缺指数集合、币种和相关性条件。一般国际股票相关性较高不等于稳定接近 1。未改成较弱的说法来制造唯一答案。",
+    "2025072102000041-7": "仍跳过。原版书 2017102002000001-7 确认三组合权重清晰，但仍没有目标 future amount / funding basis、组合 minimum-return 或 success-probability 数据。75/25 对 moderately important twenty-year goal 的建议不能唯一定位本题 high-probability endowment 目标；选择中间风险 Portfolio 3 只是可能意图，不能替代资金与概率条件。",
+    "2025072102000046-7": "仍跳过。两导出均只给 domestic bonds 最低 expected return 与对其他类最低 covariance，没有自身 variance 或完整 VCV。Risk parity 依赖 w_i(Σw)_i，expected return 不决定预算；最低 off-diagonal covariance 不保证最低 MCTR。下面的反例证明缺项会改变答案。",
+    "2025072102000008": "仍跳过。A 可判错，C 的一般 asset-location 建议有支持；但 B 的 exclude baseline rebalancing costs 也可合理理解为仅评估 TAA 的增量成本。净增量应扣 C_TAA−C_baseline，不能仅凭原句认定 B 错误。本地无答案解释可区分这两种读法；不收窄选项含义来强定 C。"
   },
   "qa": {
     "date": "2026-10-01",
     "outlineCoverage": "All repository-defined modules and branches covered; official LOS text unavailable",
     "reviewPages": 42,
     "reviewSteps": 30,
-    "questions": 160,
-    "mcq": 126,
+    "questions": 168,
+    "mcq": 134,
     "constructedResponse": 34,
     "mergedDuplicateRecords": 38,
-    "skippedQuestions": 14,
+    "skippedQuestions": 6,
     "sourceVerificationTodos": 1,
-    "checkedInternalLinks": 272,
+    "checkedInternalLinks": 294,
     "brokenLinks": 0,
     "initialSsrAnalysisBlocks": 0,
     "browserChecks": [
@@ -2202,7 +2282,11 @@
       "Desktop and mobile heading, source, formula, table, practice and navigation layout",
       "Light and dark theme contrast",
       "All 40 Module pages at 390 × 844: no document overflow",
-      "All 76 question/case pages at 390 × 844: no document overflow or initial answer blocks"
+      "All 79 question/case pages at 390 × 844: no document overflow or initial answer blocks",
+      "All 8 restored MCQ: A/B/C, hidden analysis, correct feedback and full knowledge review verified",
+      "Eight catalogue/topic/source pages at 390 × 844: no document overflow",
+      "CORE / Pathway and Review / Question Bank routing, module sidebar expansion and breadcrumbs verified",
+      "Long inline math scrolls inside the formula rather than widening the page"
     ],
     "engineering": {
       "build": "passed",
@@ -2221,10 +2305,16 @@
     "responsive": {
       "viewport": "390 × 844",
       "modulePagesChecked": 40,
-      "questionPagesChecked": 76,
+      "questionPagesChecked": 79,
       "documentOverflowPages": 0,
-      "wideDisplayMath": "Contained horizontal scroll on the MCTR formula; no document overflow"
-    }
+      "wideDisplayMath": "Display and long inline math use contained horizontal scroll",
+      "utilityPagesChecked": 8
+    },
+    "renderedCfaPages": 127,
+    "existingQuestionBodiesUnchanged": 160,
+    "restoredLocalQuestions": 8,
+    "catalogueNavigation": "Learning mode → CORE / Portfolio Management Pathway → Topic or source-defined Learning Module; unpublished entries are catalogue labels without learning-page links; route-specific sidebars generated from catalogue and content maps.",
+    "sourceRecheck": "All 14 prior skips reviewed against complete local stems, shared vignettes, exhibits and available duplicate exports: 8 restored, 6 retained. Risk-parity counterexample and OHF contributions independently recalculated."
   },
   "teaching_sequence": [
     "Why",
@@ -2236,5 +2326,128 @@
     "Connection",
     "Exam Focus",
     "Practice"
-  ]
+  ],
+  "skip_review": {
+    "date": "2026-10-01",
+    "originalSkipped": 14,
+    "restored": [
+      "2025072102000018",
+      "2025072102000031",
+      "2025060303000023",
+      "2025072102000043-2",
+      "2025072102000044-3",
+      "2025072102000046-2",
+      "2025072102000051-3",
+      "2025072102000049-5"
+    ],
+    "retained": [
+      "2025060303000002",
+      "2020012102000005-2",
+      "2025072102000019",
+      "2025072102000041-7",
+      "2025072102000046-7",
+      "2025072102000008"
+    ],
+    "method": "Read complete local question/vignette/exhibits and duplicate exports; distinguish false distractors, explicit question objective, recoverable budget identities, and genuine missing assumptions; all answers remain derived.",
+    "records": [
+      {
+        "id": "2025060303000002",
+        "previous_reason": "长期增长冲击的选项不能仅由题干唯一排序，无答案键。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。Financial crisis 是可能的 intended answer，但三种冲击的长期结果都依赖规模、持续时间、重建和制度反应。本地仅有问题/选项，没有原解释，不能把“灾害或战争之后可能重建升级”推成必然改善长期增长。保留到能核实原解释中的比较模型。"
+      },
+      {
+        "id": "2025060303000023",
+        "previous_reason": "多项主权风险指标相互冲突，列标题损坏且没有可靠答案键。",
+        "decision": "restored",
+        "answer": "C",
+        "conclusion": "恢复 C，保留定性边界。四行均有三个可识别数字，按选项顺序恢复 Country 1 / 2 / 3 标题；没有改数值。Country 3 的最大财政缺口与最低增长构成较弱可持续性组合，并有高债务及不足短债的储备。Country 2 的储备更弱仍须综合其他指标。答案是常规 sovereign-credit 筛查的 most likely 推导，不声称有指定评分权重或数学唯一性。"
+      },
+      {
+        "id": "2020012102000005-2",
+        "previous_reason": "仅给均衡所需风险溢价，没有价格或预测收益，不能作 valuation attractiveness 排序。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。数据只足以计算 Singer–Terhaar equilibrium required premiums：healthcare 3.4588%、watch 1.9765%、consumer 2.4706%。没有价格、cash-flow valuation 或独立 forecast / implied-return 比较。更高 required premium 不等于 undervaluation；较低 premium 也不等于便宜。第 1 小题继续保留。"
+      },
+      {
+        "id": "2025072102000018",
+        "previous_reason": "最低固定权重选项把 residential real estate 与 human capital 的 20%/30% 对调；其他选项也不能准确表达经济风险约束。",
+        "decision": "restored",
+        "answer": "C",
+        "conclusion": "恢复 C。总经济资产 GBP 2,000,000；400,000 / 2,000,000 = 20%，600,000 / 2,000,000 = 30%。原跳过记录读错了选项权重顺序；本地原题数据与 C 一致。"
+      },
+      {
+        "id": "2025072102000019",
+        "previous_reason": "global equity indexes 的具体集合与同质性定义缺失，风险/回报/相关性泛化无法唯一确认。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。源题的 C（global equity indexes correlation close to one）可能是其 homogeneity 教学意图，但“over any reasonably long time period”仍缺指数集合、币种和相关性条件。一般国际股票相关性较高不等于稳定接近 1。未改成较弱的说法来制造唯一答案。"
+      },
+      {
+        "id": "2025072102000031",
+        "previous_reason": "税率与税制缺失；不能凭利息占比推定所有 major economies 的税务排序。",
+        "decision": "restored",
+        "answer": "C",
+        "conclusion": "恢复 C，明确一般税务约定。使用通常 interest tax burden 高于 dividends / long-term gains 的 CFA 判断，而非推定某国税率。P3−P1 = 0.15(t_interest−t_gains)，P3−P2 = 0.15(t_interest−t_dividend)；两个差在该约定下为正。特殊税制会改变排序。"
+      },
+      {
+        "id": "2025072102000041-7",
+        "previous_reason": "三个组合没有收益/风险/成功率数据，且高成功率的 endowment 目标与通用 moderately important 示例不能可靠映射到唯一组合。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。原版书 2017102002000001-7 确认三组合权重清晰，但仍没有目标 future amount / funding basis、组合 minimum-return 或 success-probability 数据。75/25 对 moderately important twenty-year goal 的建议不能唯一定位本题 high-probability endowment 目标；选择中间风险 Portfolio 3 只是可能意图，不能替代资金与概率条件。"
+      },
+      {
+        "id": "2025072102000043-2",
+        "previous_reason": "年龄、短端利率对工资型养老金负债/资产的净影响资料不足，无法唯一比较 funded status。",
+        "decision": "restored",
+        "answer": "B",
+        "conclusion": "恢复 B，按 least likely 的相对判断。工资增长和支付时点直接改变 liabilities；short-term rates 不等于题设 10-year AA liability benchmark。完整源文提供了这一期限区分，不需要断言 funded ratio 必定改善。"
+      },
+      {
+        "id": "2025072102000044-3",
+        "previous_reason": "Statement 2 对 systematic risk 的表述与同源非流动性指数局限不一致；没有答案键，不能可靠判唯一选项。",
+        "decision": "restored",
+        "answer": "C",
+        "conclusion": "恢复 C。Statement 1 写 expected-return discount；Statement 2 写 non-idiosyncratic risk。两项错误表述都可作为干扰项，Statement 3 是本题实施框架下最准确的一项。不能仅因 statement 与正确知识冲突，就视为 source 损坏。"
+      },
+      {
+        "id": "2025072102000049-5",
+        "previous_reason": "TAA public equity weight 缺失、当前权重不合计 100%，关键 Exhibit 3 未导出；不反推缺失权重。",
+        "decision": "restored",
+        "answer": "C",
+        "conclusion": "恢复 C，明确预算推导。Policy 六类权重合计 100%；TAA 其余五类合计 35%，在完整 fully invested 配置条件下 public equity = 65%，符合源文 Phase 4 上限。主动贡献合计 0.525%，最接近 0.53%。源 Current 列异常与缺失 Exhibit 3 均不是本题所问 Exhibit 2 增量计算的必要输入。未将推导单元格伪装为已导出的事实。"
+      },
+      {
+        "id": "2025072102000051-3",
+        "previous_reason": "IG bonds 已在 lower limit，private real estate 已在 upper limit；预期收益最优选项违反 IPS，不能静默修订权重。",
+        "decision": "restored",
+        "answer": "A",
+        "conclusion": "恢复 A。A 在实际权重下有合法调仓空间；B 的 bonds 已在 lower limit，C 的 property 已在 upper limit。两个不可行选项是 IPS 干扰项，不是整题失效。原版书 2018052801000001-3 可互校。"
+      },
+      {
+        "id": "2025072102000046-2",
+        "previous_reason": "高风险资产的宽band建议混用纯交易次数与总体optimalcorridor口径；与同Topic其他题方向冲突，无答案键，不能唯一确认。",
+        "decision": "restored",
+        "answer": "A",
+        "conclusion": "恢复 A。原题明确 concerned about rebalancing-related transaction costs，而且 corridors proportional to target weights。针对减少交易频率，高风险类 wider 合理；less liquid / high-tax narrower 不合理。原版书 2018031301000001-2 同样保留该限定。"
+      },
+      {
+        "id": "2025072102000046-7",
+        "previous_reason": "仅给domesticbonds与其他资产的lowcovariance与lowexpectedreturn，缺自身variance/完整VCV，无法可靠推出riskparitycapitalweight相对25%。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。两导出均只给 domestic bonds 最低 expected return 与对其他类最低 covariance，没有自身 variance 或完整 VCV。Risk parity 依赖 w_i(Σw)_i，expected return 不决定预算；最低 off-diagonal covariance 不保证最低 MCTR。下面的反例证明缺项会改变答案。"
+      },
+      {
+        "id": "2025072102000008",
+        "previous_reason": "TAA成本选项对排除基准rebalancing成本的措辞有歧义，B/C可能分别在incrementalcost与assetlocation语境下成立；没有答案键，不强定唯一MCQ。",
+        "decision": "retained",
+        "answer": null,
+        "conclusion": "仍跳过。A 可判错，C 的一般 asset-location 建议有支持；但 B 的 exclude baseline rebalancing costs 也可合理理解为仅评估 TAA 的增量成本。净增量应扣 C_TAA−C_baseline，不能仅凭原句认定 B 错误。本地无答案解释可区分这两种读法；不收窄选项含义来强定 C。"
+      }
+    ]
+  }
 }

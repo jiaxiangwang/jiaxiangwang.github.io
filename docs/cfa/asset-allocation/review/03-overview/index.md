@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Overview", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/"}
+study: {"section": "Overview", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "CME Part 2 · Module Review", "link": "/cfa/asset-allocation/review/02-cme-part-2/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "开始 Step 1 →", "title": "建立 SAA 的目标、授权与责任框架", "link": "/cfa/asset-allocation/review/03-overview/step-01"}}
 ---
 

@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "06 · 再平衡的风险与成本取舍"
-study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 6, "total": 6}
+study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 6, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "透过资产标签检查共同 Risk Factors", "link": "/cfa/asset-allocation/review/03-overview/step-05"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Step →", "title": "Module Review", "link": "/cfa/asset-allocation/review/03-overview/review"}}
 ---
 
@@ -35,6 +35,10 @@ Rebalancing policy 要解决的是这个边际取舍：何时值得交易，交�
 | 更强 momentum belief | Wider | 更早逆向交易可能放弃趋势收益 |
 
 **Intuition：** Low correlation 的资产更有分散价值，任其漂移更可能破坏原有风险结构，因此其他条件相同时，更值得较早纠偏。关于 volatility，需要分清 asset / rest-of-portfolio、absolute / proportional bands，以及题目是在最优化总成本与风险，还是仅减少交易次数；不能将不同口径的方向机械拼接。
+
+> **Quick Recall：** 若题目只关注交易频率，且 corridor 按 target weight 比例设定，高波动资产用更宽范围能否减少交易？
+>
+> **Answer: Yes.** 它更少越界；若改为同时优化风险漂移和成本，需重新判断。[对应 Beade 练习](/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-2)。
 
 ## Example · Law：为什么建议 Global Equities 使用宽范围？
 

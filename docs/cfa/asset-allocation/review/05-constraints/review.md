@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Module Review", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/"}
+study: {"section": "Module Review", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "把 Behavioral Bias 转成可执行的治理防线", "link": "/cfa/asset-allocation/review/05-constraints/step-06"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Topic Review →", "title": "Asset Allocation", "link": "/cfa/asset-allocation/topic-review"}}
 ---
 

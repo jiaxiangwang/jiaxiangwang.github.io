@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Overview", "module": "CME Part 1", "moduleLink": "/cfa/asset-allocation/review/01-cme-part-1/"}
+study: {"section": "Overview", "module": "CME Part 1", "moduleLink": "/cfa/asset-allocation/review/01-cme-part-1/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "Topic Learning Map", "link": "/cfa/asset-allocation/"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "开始 Step 1 →", "title": "把经济观点变成可检验的 Capital Market Expectations", "link": "/cfa/asset-allocation/review/01-cme-part-1/step-01"}}
 ---
 

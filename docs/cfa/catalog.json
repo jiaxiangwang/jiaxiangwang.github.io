@@ -1,0 +1,213 @@
+{
+  "outline": "doc/目录.txt",
+  "groups": [
+    {
+      "id": "core",
+      "name": "CORE",
+      "unit": "Topic",
+      "entries": [
+        {
+          "id": "asset-allocation",
+          "name": "Asset Allocation",
+          "modules": [
+            {
+              "number": 1,
+              "name": "CME Part 1"
+            },
+            {
+              "number": 2,
+              "name": "CME Part 2"
+            },
+            {
+              "number": 3,
+              "name": "Overview of Asset Allocation"
+            },
+            {
+              "number": 4,
+              "name": "Principles of Asset Allocation"
+            },
+            {
+              "number": 5,
+              "name": "Real-World Constraints"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-construction",
+          "name": "Portfolio Construction",
+          "modules": [
+            {
+              "number": 6,
+              "name": "Overview of Equity Portfolio Management"
+            },
+            {
+              "number": 7,
+              "name": "Overview of Fixed-Income Portfolio Management"
+            },
+            {
+              "number": 8,
+              "name": "Alternative Investments Allocation"
+            },
+            {
+              "number": 9,
+              "name": "Private Wealth Management"
+            },
+            {
+              "number": 10,
+              "name": "Institutional Investors"
+            },
+            {
+              "number": 11,
+              "name": "Trading Costs & Electronic Markets"
+            },
+            {
+              "number": 12,
+              "name": "SWF Case Study"
+            }
+          ]
+        },
+        {
+          "id": "performance",
+          "name": "Performance",
+          "modules": [
+            {
+              "number": 13,
+              "name": "Portfolio Performance Evaluation"
+            },
+            {
+              "number": 14,
+              "name": "Investment Manager Selection"
+            },
+            {
+              "number": 15,
+              "name": "GIPS"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-risk-management",
+          "name": "Derivatives & Risk Management",
+          "modules": [
+            {
+              "number": 16,
+              "name": "Options Strategies"
+            },
+            {
+              "number": 17,
+              "name": "Swaps / Forwards / Futures"
+            },
+            {
+              "number": 18,
+              "name": "Currency Management"
+            }
+          ]
+        },
+        {
+          "id": "ethics",
+          "name": "Ethics",
+          "modules": [
+            {
+              "number": 19,
+              "name": "Code & Standards"
+            },
+            {
+              "number": 20,
+              "name": "Level III Applications"
+            },
+            {
+              "number": 21,
+              "name": "Asset Manager Code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-management",
+      "name": "Portfolio Management Pathway",
+      "unit": "Learning Module",
+      "entries": [
+        {
+          "id": "index-based-equity-strategies",
+          "name": "Index-Based Equity Strategies",
+          "modules": [
+            {
+              "number": 22,
+              "name": "Index-Based Equity Strategies"
+            }
+          ]
+        },
+        {
+          "id": "active-equity-strategies",
+          "name": "Active Equity Investing: Strategies",
+          "modules": [
+            {
+              "number": 23,
+              "name": "Active Equity Investing: Strategies"
+            }
+          ]
+        },
+        {
+          "id": "active-equity-portfolio-construction",
+          "name": "Active Equity: Portfolio Construction",
+          "modules": [
+            {
+              "number": 24,
+              "name": "Active Equity: Portfolio Construction"
+            }
+          ]
+        },
+        {
+          "id": "liability-driven-index-based-strategies",
+          "name": "Liability-Driven & Index-Based Strategies",
+          "modules": [
+            {
+              "number": 25,
+              "name": "Liability-Driven & Index-Based Strategies"
+            }
+          ]
+        },
+        {
+          "id": "yield-curve-strategies",
+          "name": "Yield Curve Strategies",
+          "modules": [
+            {
+              "number": 26,
+              "name": "Yield Curve Strategies"
+            }
+          ]
+        },
+        {
+          "id": "credit-strategies",
+          "name": "Credit Strategies",
+          "modules": [
+            {
+              "number": 27,
+              "name": "Credit Strategies"
+            }
+          ]
+        },
+        {
+          "id": "trade-strategy-execution",
+          "name": "Trade Strategy & Execution",
+          "modules": [
+            {
+              "number": 28,
+              "name": "Trade Strategy & Execution"
+            }
+          ]
+        },
+        {
+          "id": "endowment-case-study",
+          "name": "Endowment Case Study",
+          "modules": [
+            {
+              "number": 29,
+              "name": "Endowment Case Study"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

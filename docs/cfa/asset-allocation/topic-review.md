@@ -3,7 +3,7 @@ title: "CORE → Asset Allocation Topic Review"
 pageClass: cfa-study
 prev: false
 next: false
-study: {"section": "Topic Review"}
+study: {"section": "Topic Review", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous Module Review", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "Question Bank →", "title": "Module Practice", "link": "/cfa/asset-allocation/questions/"}}
 ---
 

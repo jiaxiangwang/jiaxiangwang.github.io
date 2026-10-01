@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Overview", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/"}
+study: {"section": "Overview", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "CME Part 1 · Module Review", "link": "/cfa/asset-allocation/review/01-cme-part-1/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "开始 Step 1 →", "title": "将 Yield、Risk Premium 与实现回报分开", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-01"}}
 ---
 

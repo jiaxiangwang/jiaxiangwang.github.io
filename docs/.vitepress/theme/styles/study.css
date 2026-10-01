@@ -19,10 +19,13 @@
 .cfa-study .vp-doc blockquote { margin: 24px 0; padding: 12px 18px; border-left: 3px solid var(--vp-c-brand-1); }
 .cfa-study .vp-doc blockquote p { margin: 4px 0; font-size: 15px; }
 .cfa-study mjx-container[jax="SVG"][display="true"] { display: block; padding: 12px 0; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+.cfa-study mjx-container[jax="SVG"]:not([display="true"]) { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; }
 
 .study-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 22px; color: var(--vp-c-text-2); font-size: 12px; line-height: 1.6; }
 .study-header nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .study-header a:hover { color: var(--vp-c-brand-1); }
+.study-header nav { min-width: 0; }
+.study-header nav a { overflow-wrap: anywhere; }
 .study-position { flex-shrink: 0; font-size: 11px; font-weight: 600; letter-spacing: .08em; color: var(--vp-c-brand-1); padding: 4px 8px; border-radius: 5px; background: var(--vp-c-brand-soft); }
 .study-nav { display: grid; grid-template-columns: 1fr .8fr 1fr; gap: 12px; margin: 36px 0 48px; }
 .study-nav a { min-width: 0; border: 1px solid var(--vp-c-divider); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 6px; background: var(--vp-c-bg); transition: border-color .2s; }
@@ -67,6 +70,39 @@
 .cfa-study .cfa-interactive .cfa-analysis { margin-top: 24px; padding-top: 24px; }
 .cfa-study .cfa-interactive .cfa-result { padding: 14px 18px; background: var(--vp-c-bg-alt); border-radius: 8px; }
 
+/* Curriculum navigation: learning mode first, then CORE or Pathway and Topic. */
+.cfa-catalog-page .VPDoc .content-container { max-width: 880px; }
+.cfa-catalog-page .catalog-modes, .cfa-catalog-page .catalog-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.cfa-catalog-page .catalog-modes { margin: 28px 0; }
+.cfa-catalog-page .catalog-modes > a { display: flex; flex-direction: column; gap: 10px; padding: 24px; text-decoration: none; border: 1px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-alt); }
+.cfa-catalog-page .catalog-modes strong { font-size: 20px; color: var(--vp-c-text-1); }
+.cfa-catalog-page .catalog-modes strong span { float: right; color: var(--vp-c-brand-1); }
+.cfa-catalog-page .catalog-modes > a > span:last-child { color: var(--vp-c-text-2); font-size: 14px; line-height: 1.8; }
+.cfa-catalog-page .catalog-modes > a:hover, .cfa-catalog-page .catalog-topic:has(h3 a):hover { border-color: var(--vp-c-brand-1); }
+.cfa-catalog-page .catalog-eyebrow { font-size: 12px; color: var(--vp-c-text-2); letter-spacing: .02em; }
+.cfa-catalog-page .catalog-categories { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 36px; }
+.cfa-catalog-page .catalog-categories a { border: 1px solid var(--vp-c-divider); border-radius: 6px; padding: 6px 12px; text-decoration: none; font-size: 13px; }
+.cfa-catalog-page .catalog-group > h2 { scroll-margin-top: 100px; margin-bottom: 8px; }
+.cfa-catalog-page .catalog-group-note { margin: 0 0 20px; color: var(--vp-c-text-2); font-size: 14px; }
+.cfa-catalog-page .catalog-topic { min-width: 0; padding: 22px; border: 1px solid var(--vp-c-divider); border-radius: 12px; }
+.cfa-catalog-page .catalog-topic:only-child { grid-column: 1 / -1; }
+.cfa-catalog-page .catalog-topic h3 { font-size: 18px; margin: 10px 0 12px; line-height: 1.6; }
+.cfa-catalog-page .catalog-topic h3 a { text-decoration: none; }
+.cfa-catalog-page .catalog-stats { margin: 10px 0 0; font-size: 13px; color: var(--vp-c-text-2); }
+.cfa-catalog-page .catalog-topic-actions { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 18px 0 0; font-size: 13px; }
+.cfa-catalog-page .catalog-pending { background: var(--vp-c-bg-alt); }
+.cfa-catalog-page .catalog-pending h3 { color: var(--vp-c-text-2); }
+.cfa-catalog-page .catalog-status { float: right; color: var(--vp-c-text-3); }
+.cfa-catalog-page .catalog-outline { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--vp-c-divider); font-size: 13px; }
+.cfa-catalog-page .catalog-outline summary { cursor: pointer; color: var(--vp-c-text-2); }
+.cfa-catalog-page .catalog-outline ol { margin: 14px 0 0; padding-left: 22px; }
+.cfa-catalog-page .catalog-outline li { padding-left: 4px; line-height: 1.7; }
+.cfa-catalog-page .catalog-module-group .catalog-topic { padding: 16px 20px; }
+.cfa-catalog-page .catalog-module-group h3 { font-size: 16px; margin-bottom: 8px; }
+.cfa-catalog-page .catalog-empty { padding: 20px; border: 1px solid var(--vp-c-divider); border-radius: 10px; background: var(--vp-c-bg-alt); font-size: 14px; }
+.cfa-catalog-page .catalog-return { margin-top: 36px; font-size: 14px; }
+.cfa-catalog-page a:focus-visible, .cfa-catalog-page summary:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 4px; }
+
 @media (max-width: 640px) {
   .cfa-study .vp-doc { font-size: 15px; }
   .cfa-study .vp-doc h1 { font-size: 25px; }
@@ -81,4 +117,7 @@
   .cfa-practice-index .concept-practice ul { grid-template-columns: 1fr; }
   .cfa-study .question-nav { grid-template-columns: 1fr 1fr; }
   .cfa-study .question-nav p:nth-child(2) { grid-column: 1 / -1; grid-row: 1; }
+  .cfa-catalog-page .catalog-modes, .cfa-catalog-page .catalog-topics { grid-template-columns: 1fr; gap: 12px; }
+  .cfa-catalog-page .catalog-modes > a, .cfa-catalog-page .catalog-topic { padding: 18px; }
+  .cfa-catalog-page .catalog-categories { margin-bottom: 28px; }
 }

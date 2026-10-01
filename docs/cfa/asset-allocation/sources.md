@@ -3,7 +3,7 @@ title: "Asset Allocation — Sources & Coverage"
 pageClass: cfa-study
 prev: false
 next: false
-study: {"section": "Sources & Coverage"}
+study: {"section": "Sources & Coverage", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/#core", "system": null}
 ---
 
 # Sources & Coverage
@@ -25,14 +25,14 @@ study: {"section": "Sources & Coverage"}
 
 这些文件是 2026-09-13 的题目导出，名称/标签未提供可核实的出版年份或具体 CFA 官方出处。**不从 Question ID 前四位推断出版年份，不将 “原版书”自动等同于已验证的官方 EOC。** Public question label 使用实际本地 collection、filename 和原 ID；均为 adapted。
 
-所有 160 道纳入题的 reference answers、scoring points 与 explanations 均由题干和清晰 Exhibit 推导。仓库无答案键，不标 “Official Answer”。MCQ 不使用模型/后台评分；Constructed Response 不自动判分。
+所有 168 道纳入题的 reference answers、scoring points 与 explanations 均由题干和清晰 Exhibit 推导。仓库无答案键，不标 “Official Answer”。MCQ 不使用模型/后台评分；Constructed Response 不自动判分。
 
 ## 处理汇总
 
 - 扫描 212 条独立小题记录（按 Case 小题计数）。
-- 纳入 160 道唯一题。
+- 纳入 168 道唯一题。
 - 38 条重复记录合并，映射如下。
-- 14 道因无法可靠确认而跳过，原因逐项列出。
+- 6 道继续跳过；原 14 道中经独立复核恢复 8 道，详见 [逐条复核结论](/cfa/asset-allocation/skip-review)。
 
 ## 重复合并
 
@@ -48,27 +48,23 @@ study: {"section": "Sources & Coverage"}
 
 同源不同导出的清晰版本可互校公式/表格，但不凭重复次数认定答案权威。
 
-## 跳过记录
+## 当前跳过记录
 
-| Source question ID | 原因 |
+[查看原 14 个记录的独立复核、恢复理由与反例 →](/cfa/asset-allocation/skip-review)
+
+| Source question ID | 仍需确认的关键条件 |
 | --- | --- |
-| 2025060303000002 | 长期增长冲击的选项不能仅由题干唯一排序，无答案键。 |
-| 2025060303000023 | 多项主权风险指标相互冲突，列标题损坏且没有可靠答案键。 |
-| 2020012102000005-2 | 仅给均衡所需风险溢价，没有价格或预测收益，不能作 valuation attractiveness 排序。 |
-| 2025072102000018 | 最低固定权重选项把 residential real estate 与 human capital 的 20%/30% 对调；其他选项也不能准确表达经济风险约束。 |
-| 2025072102000019 | global equity indexes 的具体集合与同质性定义缺失，风险/回报/相关性泛化无法唯一确认。 |
-| 2025072102000031 | 税率与税制缺失；不能凭利息占比推定所有 major economies 的税务排序。 |
-| 2025072102000041-7 | 三个组合没有收益/风险/成功率数据，且高成功率的 endowment 目标与通用 moderately important 示例不能可靠映射到唯一组合。 |
-| 2025072102000043-2 | 年龄、短端利率对工资型养老金负债/资产的净影响资料不足，无法唯一比较 funded status。 |
-| 2025072102000044-3 | Statement 2 对 systematic risk 的表述与同源非流动性指数局限不一致；没有答案键，不能可靠判唯一选项。 |
-| 2025072102000049-5 | TAA public equity weight 缺失、当前权重不合计 100%，关键 Exhibit 3 未导出；不反推缺失权重。 |
-| 2025072102000051-3 | IG bonds 已在 lower limit，private real estate 已在 upper limit；预期收益最优选项违反 IPS，不能静默修订权重。 |
-| 2025072102000046-2 | 高风险资产的宽band建议混用纯交易次数与总体optimalcorridor口径；与同Topic其他题方向冲突，无答案键，不能唯一确认。 |
-| 2025072102000046-7 | 仅给domesticbonds与其他资产的lowcovariance与lowexpectedreturn，缺自身variance/完整VCV，无法可靠推出riskparitycapitalweight相对25%。 |
-| 2025072102000008 | TAA成本选项对排除基准rebalancing成本的措辞有歧义，B/C可能分别在incrementalcost与assetlocation语境下成立；没有答案键，不强定唯一MCQ。 |
+| [2025060303000002](/cfa/asset-allocation/skip-review#review-2025060303000002) | 仍跳过。Financial crisis 是可能的 intended answer，但三种冲击的长期结果都依赖规模、持续时间、重建和制度反应。本地仅有问题/选项，没有原解释，不能把“灾害或战争之后可能重建升级”推成必然改善长期增长。保留到能核实原解释中的比较模型。 |
+| [2020012102000005-2](/cfa/asset-allocation/skip-review#review-2020012102000005-2) | 仍跳过。数据只足以计算 Singer–Terhaar equilibrium required premiums：healthcare 3.4588%、watch 1.9765%、consumer 2.4706%。没有价格、cash-flow valuation 或独立 forecast / implied-return 比较。更高 required premium 不等于 undervaluation；较低 premium 也不等于便宜。第 1 小题继续保留。 |
+| [2025072102000019](/cfa/asset-allocation/skip-review#review-2025072102000019) | 仍跳过。源题的 C（global equity indexes correlation close to one）可能是其 homogeneity 教学意图，但“over any reasonably long time period”仍缺指数集合、币种和相关性条件。一般国际股票相关性较高不等于稳定接近 1。未改成较弱的说法来制造唯一答案。 |
+| [2025072102000041-7](/cfa/asset-allocation/skip-review#review-2025072102000041-7) | 仍跳过。原版书 2017102002000001-7 确认三组合权重清晰，但仍没有目标 future amount / funding basis、组合 minimum-return 或 success-probability 数据。75/25 对 moderately important twenty-year goal 的建议不能唯一定位本题 high-probability endowment 目标；选择中间风险 Portfolio 3 只是可能意图，不能替代资金与概率条件。 |
+| [2025072102000046-7](/cfa/asset-allocation/skip-review#review-2025072102000046-7) | 仍跳过。两导出均只给 domestic bonds 最低 expected return 与对其他类最低 covariance，没有自身 variance 或完整 VCV。Risk parity 依赖 w_i(Σw)_i，expected return 不决定预算；最低 off-diagonal covariance 不保证最低 MCTR。下面的反例证明缺项会改变答案。 |
+| [2025072102000008](/cfa/asset-allocation/skip-review#review-2025072102000008) | 仍跳过。A 可判错，C 的一般 asset-location 建议有支持；但 B 的 exclude baseline rebalancing costs 也可合理理解为仅评估 TAA 的增量成本。净增量应扣 C_TAA−C_baseline，不能仅凭原句认定 B 错误。本地无答案解释可区分这两种读法；不收窄选项含义来强定 C。 |
 
 ## 有限条件下保留的题
 
+- OHF 的 TAA equity cell 明确为完整六资产预算条件下推导（65%），不伪装成原始导出单元格；gross incremental return 为 0.525%。
+- 主权风险、一般税务处理和 funded-status 的 most / least likely 题使用题目对应的定性框架；分析明确条件，不宣称数学唯一排序或现行税法结论。
 - Armstrong goals funding 的首笔 spending 时点未明示：CR 分别显示立即提款与年末提款两种结果，不宣称唯一数字。
 - Young municipal-bond 问题：明确 tax-exempt convention 是推断，并同时检查全部收益按 25% 征税的替代；两者均支持 P3。
 - Singer–Terhaar 整合变化题：区分 transition valuation gain 与整合后长期 required return；不把 required premium 直接当 valuation attractiveness。

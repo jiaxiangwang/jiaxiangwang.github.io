@@ -5,7 +5,7 @@ outline: [2, 2]
 prev: false
 next: false
 sidebarTitle: "02 · 现金流压力与非流动性预算"
-study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 2, "total": 6}
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 2, "total": 6, "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "用 Asset Size、Capacity 与 Regulation 划定可行配置", "link": "/cfa/asset-allocation/review/05-constraints/step-01"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "识别 Goals、Constraints 与 Beliefs 的变化", "link": "/cfa/asset-allocation/review/05-constraints/step-03"}}
 ---
 

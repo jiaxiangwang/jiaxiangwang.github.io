@@ -30,6 +30,11 @@ export default defineConfig({
     sidebar,
     nav: [
       { text: '首页', link: '/' },
+      { text: 'CFA 2027', items: [
+        { text: '学习中心', link: '/cfa/' },
+        { text: 'Review Course', link: '/cfa/review/' },
+        { text: 'Question Bank', link: '/cfa/questions/' },
+      ] },
       { text: '关于', link: '/about/' },
     ],
     search: {

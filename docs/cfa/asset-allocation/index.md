@@ -3,7 +3,7 @@ title: "CORE → Asset Allocation"
 pageClass: cfa-study
 prev: false
 next: false
-study: {"section": "Review Course"}
+study: {"section": "Review Course", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 ---
 
 # Asset Allocation

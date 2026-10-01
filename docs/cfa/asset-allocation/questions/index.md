@@ -4,12 +4,12 @@ pageClass: cfa-study cfa-practice-index
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Module Practice"}
+study: {"section": "Module Practice", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/questions/#core", "system": "questions"}
 ---
 
 # Asset Allocation — Question Bank
 
-160 道本地来源改编题：126 道 MCQ、34 道 Constructed Response。Case 保留共享材料，每个小题独立作答与分析。
+168 道本地来源改编题：134 道 MCQ、34 道 Constructed Response。Case 保留共享材料，每个小题独立作答与分析。
 
 MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：输入简短答案 → Show Answer → 自核得分点；不自动评分。所有参考答案均由本地题干推导，年份与官方答案状态未确认。
 
@@ -124,6 +124,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 - [Trunch Foundation · Q6 · MCQ](/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-6) <span class="practice-id">2021052701000004-6</span>
 - [Trunch Foundation · Q7 · MCQ](/cfa/asset-allocation/questions/2021052701000004#q-2021052701000004-7) <span class="practice-id">2021052701000004-7</span>
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025060303000022#q-2025060303000022) <span class="practice-id">2025060303000022</span>
+- [Emerging Sovereigns · Credit Risk · MCQ](/cfa/asset-allocation/questions/2025060303000023#q-2025060303000023) <span class="practice-id">2025060303000023</span>
 
 </div>
 
@@ -223,6 +224,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000002#q-2025072102000002) <span class="practice-id">2025072102000002</span>
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000014#q-2025072102000014) <span class="practice-id">2025072102000014</span>
+- [Sunderland · Economic Balance Sheet · MCQ](/cfa/asset-allocation/questions/2025072102000018#q-2025072102000018) <span class="practice-id">2025072102000018</span>
 - [Vitting University · Q1 · MCQ](/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-1) <span class="practice-id">2025072102000039-1</span>
 - [Lennon · Q1 · MCQ](/cfa/asset-allocation/questions/2025072102000040#q-2025072102000040-1) <span class="practice-id">2025072102000040-1</span>
 - [Law Family · Q1 · MCQ](/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-1) <span class="practice-id">2025072102000041-1</span>
@@ -289,6 +291,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 - [Law Family · Q8 · MCQ](/cfa/asset-allocation/questions/2025072102000041#q-2025072102000041-8) <span class="practice-id">2025072102000041-8</span>
 - [Shipman & Sebastian · Q2 · MCQ](/cfa/asset-allocation/questions/2025072102000042#q-2025072102000042-2) <span class="practice-id">2025072102000042-2</span>
 - [Sabonete Pension · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-3) <span class="practice-id">2025072102000043-3</span>
+- [Beade & Müller · Q2 · MCQ](/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-2) <span class="practice-id">2025072102000046-2</span>
 
 </div>
 
@@ -372,6 +375,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000012#q-2025072102000012) <span class="practice-id">2025072102000012</span>
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000015#q-2025072102000015) <span class="practice-id">2025072102000015</span>
 - [Sabonete Pension · Q1 · MCQ](/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-1) <span class="practice-id">2025072102000043-1</span>
+- [Sabonete · Q2 · MCQ](/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-2) <span class="practice-id">2025072102000043-2</span>
 - [Sabonete Pension · Q5 · MCQ](/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-5) <span class="practice-id">2025072102000043-5</span>
 - [Beade & Müller · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-3) <span class="practice-id">2025072102000046-3</span>
 - [Beade & Müller · Q5 · MCQ](/cfa/asset-allocation/questions/2025072102000046#q-2025072102000046-5) <span class="practice-id">2025072102000046-5</span>
@@ -443,6 +447,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 [Review This Concept](/cfa/asset-allocation/review/05-constraints/step-02)
 
 - [Sabonete Pension · Q4 · MCQ](/cfa/asset-allocation/questions/2025072102000043#q-2025072102000043-4) <span class="practice-id">2025072102000043-4</span>
+- [XTR & Private Clients · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000044#q-2025072102000044-3) <span class="practice-id">2025072102000044-3</span>
 - [Monteo · Q2 · MCQ](/cfa/asset-allocation/questions/2025072102000047#q-2025072102000047-2) <span class="practice-id">2025072102000047-2</span>
 - [KUE & Koval · Q1 · MCQ](/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-1) <span class="practice-id">2025072102000051-1</span>
 
@@ -474,6 +479,7 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 
 - [Young · Q2 · CR](/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-2) <span class="practice-id">2018052801000003-2</span>
 - [Young · Q3 · CR](/cfa/asset-allocation/questions/2018052801000003#q-2018052801000003-3) <span class="practice-id">2018052801000003-3</span>
+- [Income Mix · Tax Efficiency · MCQ](/cfa/asset-allocation/questions/2025072102000031#q-2025072102000031) <span class="practice-id">2025072102000031</span>
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000032#q-2025072102000032) <span class="practice-id">2025072102000032</span>
 - [Martin & KCPF · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-3) <span class="practice-id">2025072102000050-3</span>
 - [Martin & KCPF · Q4 · MCQ](/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-4) <span class="practice-id">2025072102000050-4</span>
@@ -494,8 +500,10 @@ MCQ：选择 A/B/C → Submit Answer → 完整分析。Constructed Response：�
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000035#q-2025072102000035) <span class="practice-id">2025072102000035</span>
 - [练习 · MCQ](/cfa/asset-allocation/questions/2025072102000036#q-2025072102000036) <span class="practice-id">2025072102000036</span>
 - [Vitting University · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000039#q-2025072102000039-3) <span class="practice-id">2025072102000039-3</span>
+- [OHF · Q5 · MCQ](/cfa/asset-allocation/questions/2025072102000049#q-2025072102000049-5) <span class="practice-id">2025072102000049-5</span>
 - [Martin & KCPF · Q7 · MCQ](/cfa/asset-allocation/questions/2025072102000050#q-2025072102000050-7) <span class="practice-id">2025072102000050-7</span>
 - [KUE & Koval · Q2 · MCQ](/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-2) <span class="practice-id">2025072102000051-2</span>
+- [KUE & Koval · Q3 · MCQ](/cfa/asset-allocation/questions/2025072102000051#q-2025072102000051-3) <span class="practice-id">2025072102000051-3</span>
 
 </div>
 

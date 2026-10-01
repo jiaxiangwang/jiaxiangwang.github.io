@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Module Review", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/"}
+study: {"section": "Module Review", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "让 Variance–Covariance Matrix 反映真实风险", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-05"}, "map": {"label": "Learning Map", "title": "CME Part 2", "link": "/cfa/asset-allocation/review/02-cme-part-2/"}, "next": {"label": "Next Module →", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}}
 ---
 

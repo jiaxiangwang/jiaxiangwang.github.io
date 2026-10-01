@@ -4,7 +4,7 @@ pageClass: cfa-study
 outline: [2, 2]
 prev: false
 next: false
-study: {"section": "Module Review", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/"}
+study: {"section": "Module Review", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/", "topic": "Asset Allocation", "topicLink": "/cfa/asset-allocation/", "category": "CORE", "categoryLink": "/cfa/review/#core", "system": "review"}
 studyNav: {"previous": {"label": "← Previous", "title": "把配置经验法当作基准而非答案", "link": "/cfa/asset-allocation/review/04-principles/step-07"}, "map": {"label": "Learning Map", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}, "next": {"label": "Next Module →", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}}
 ---
 

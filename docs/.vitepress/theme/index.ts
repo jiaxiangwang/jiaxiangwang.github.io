@@ -17,6 +17,7 @@ import AccessGate from './AccessGate.vue'
 import CfaQuestion from './components/CfaQuestion.vue'
 import CfaStudyHeader from './components/CfaStudyHeader.vue'
 import CfaStudyNav from './components/CfaStudyNav.vue'
+import CfaCatalog from './components/CfaCatalog.vue'
 import type { Theme } from 'vitepress'
 import './styles/vars.css'
 import './styles/base.css'
@@ -29,6 +30,7 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('CfaQuestion', CfaQuestion)
+    app.component('CfaCatalog', CfaCatalog)
   },
   Layout: () => h(DefaultTheme.Layout, null, {
     'layout-top': () => h(AccessGate),
