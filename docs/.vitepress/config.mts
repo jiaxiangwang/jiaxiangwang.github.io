@@ -35,9 +35,6 @@ export default defineConfig({
         items: [
           { text: '总览', link: '/cfa/' },
           { text: '题库 · Other（358 题）', link: '/cfa/Other/' },
-          { text: '核心知识点', link: '/cfa/核心知识点/' },
-          { text: '知识点图谱', link: '/cfa/图谱/' },
-          { text: '主观题要点', link: '/cfa/主观题/' },
         ],
       },
       { text: '关于', link: '/about/' },

@@ -12,8 +12,8 @@ SECTIONS = [
     ("other", "其他"),
 ]
 
-# cfa 分区：来源目录的自定义顺序（题库在前，讲义资料按学习顺序排列）
-CFA_SOURCE_ORDER = ["Other", "核心知识点", "图谱", "主观题"]
+# cfa 分区：仅收录 Other 题库（讲义资料——核心知识点/图谱/主观题 已从站点下线）
+CFA_SOURCE_ORDER = ["Other"]
 
 
 def read_title(md_path):
@@ -48,9 +48,7 @@ def groups_for(key):
         return []
     names = os.listdir(d)
     if key == "cfa":
-        names = [n for n in CFA_SOURCE_ORDER if n in names] + sorted(
-            n for n in names if n not in CFA_SOURCE_ORDER and os.path.isdir(os.path.join(d, n))
-        )
+        names = [n for n in CFA_SOURCE_ORDER if n in names]
     else:
         names = sorted(n for n in names if os.path.isdir(os.path.join(d, n)))
     groups = []

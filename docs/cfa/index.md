@@ -5,7 +5,6 @@ title: "CFA 题库"
 # CFA Level III 备考资料库
 
 > 题库来源：品职 PZ Academy 导出（2026-09-13）· Other 系列｜共 **358** 题、**15** 个大类。
-> 讲义资料来源：品职教育 2027 年三级讲义 PDF（2026-09-29 导入），含**核心知识点**、**知识点图谱**、**主观题答题要点**三个合集。
 
 ## 题库（358 题）
 
@@ -24,9 +23,3 @@ title: "CFA 题库"
 - [Pathway · 组合管理-交易](/cfa/Other/pathway-portfolio-management-trading_OTH)（16 题）
 - [Pathway · 组合管理-机构IPS](/cfa/Other/pathway-portfolio-management-机构ips_OTH)（8 题）
 - [Pathway · 私人财富管理](/cfa/Other/pathway-private-wealth_OTH)（100 题）
-
-## 讲义资料
-
-- [核心知识点合集](/cfa/核心知识点/)（15 个学科 · 讲义核心结论浓缩卡片）
-- [知识点图谱合集](/cfa/图谱/)（15 个学科 · 知识点框架 × 掌握程度标注）
-- [主观题答题要点合集](/cfa/主观题/)（11 个章节 · 课后题主观题答案要点）
