@@ -33,7 +33,6 @@ export default defineConfig({
       {
         text: 'CFA 三级',
         items: [
-          { text: '总览', link: '/cfa/' },
           { text: '题库 · Other（358 题）', link: '/cfa/Other/' },
         ],
       },
