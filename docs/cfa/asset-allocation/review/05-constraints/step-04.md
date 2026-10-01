@@ -1,53 +1,107 @@
 ---
 title: "Step 4 — 用 After-tax Exposure 进行配置与 Asset Location"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "04 · 税后配置与 Asset Location"
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 4, "total": 6}
+studyNav: {"previous": {"label": "← Previous", "title": "识别 Goals、Constraints 与 Beliefs 的变化", "link": "/cfa/asset-allocation/review/05-constraints/step-03"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "将 Tactical Views 放在 SAA 与 IPS 边界内", "link": "/cfa/asset-allocation/review/05-constraints/step-05"}}
 ---
 
-# Step 4 — 用 After-tax Exposure 进行配置与 Asset Location
+# 用 After-tax Exposure 进行配置与 Asset Location
 
-## Tax 改的是实际可消费财富
+::: info 本步目标
+能区分整体资产暴露与账户位置，在题干税制下计算税后输入，并解释税对 correlation 与再平衡的条件性影响。
+:::
 
-税前相同的资产，在不同账户和收益来源下提供的净现金流不同。**Asset allocation** 决定整体 economic exposures，**asset location** 决定哪些 exposures 放在哪些 taxable / tax-advantaged accounts。先定整体风险，再安排账户位置。
+## Why · 为什么税前余额相同，不代表可消费财富相同？
 
-在题设明确 interest tax 较高、dividends / long-term gains 税较低的情况下，tax-inefficient high-turnover / income-heavy assets 优先考虑 tax-advantaged accounts；较低周转、capital-gains-oriented exposures 更适合 taxable accounts。不要不看税制就断言所有国家股票/债券的税务排序。
+Taxable account 的收益可能当期缴税，tax-deferred account 的余额也可能包含未来税务负债。同样的税前配置，在不同收益来源和账户中，能够支持的净支出不同。
 
-## 线性 Tax Scaling 的最小模型
+先决定整体 **asset allocation**，再安排 **asset location**：前者决定承担什么经济风险，后者决定这些暴露放在哪类账户。不能只为减税，将投资者整体风险变成另一个组合。
 
-**Know how to use（constant effective tax + symmetric treatment 的简化）：**
+## Core & Intuition · 净回报、净风险、账户位置与交易成本
 
-$$R_{AT}=(1-t)R_{PT},\quad\sigma_{AT}=(1-t)\sigma_{PT}$$
+税务分析从题干给定的制度开始：interest、dividends、capital gains 的税率与实现时点，losses 如何抵扣，以及账户是否递延。不同国家或产品不能无条件套同一个排序。
 
-分布均值更低、dispersion 更小。若各资产正的线性缩放系数固定，correlation 不变；covariance 按 $(1-t_i)(1-t_j)$ 缩放。现实 progressive rates、deferred gains、不同损失抵扣与现金流时点会破坏简单线性关系。
+若题干明确 interest tax 较高、dividends / long-term gains 较低，可优先把 income-heavy / high-turnover exposures 放在 tax-advantaged accounts，把相对 tax-efficient exposures 留在 taxable accounts；仍需检查总资金与风险。
 
-不同税种和账户不能只套一个 $t$。Deferred capital gains 先享受未缴税资本的复利；实际卖出时才实现税负。Tax-deferred account 的余额也可能含未来税务负债，合并账户时要按净可消费 exposures 考虑。
+**Intuition：** 在固定、对称的线性税收模型中，正负回报都按同一比例缩小，所以 mean 和 volatility 一起缩放，correlation 可以不变。现实的 deferral、progressive rates、loss restrictions 或税务择时打破了这个简化。
 
-## Rebalancing 与税的权衡
+税还提高 taxable rebalancing 的成本。可以用更宽 bands、新资金或其他账户协同调权，但必须合并检查整个投资者的 exposures；减少实现税并不取消 IPS limits。
 
-Taxable account 实现 gains 会支付税，所以相同经济风险下可设更宽 bands、用现金流/其他账户协同调权。题干提供 80%±8% 和 75%±10.7% 两种近似同 risk-profile 方案时，taxable 选较宽的后者、tax-deferred 选前者；不能只比较税前 target weights。
+## Example · Martin：为什么较税务友好的股票不优先占用递延账户？
 
-本地 Young Case 的 municipal-bond 题按其常见教学语境推导时，municipal income 的 tax-exempt 处理是一项**明确的解题假设**，不是仓库提供的现实税法。题库会将这一假设显示在分析中，避免把税制推断冒充来源事实。
+<p class="source-note">Source: Local Other AA / No.2025072102000050-3 — adapted；答案为推导。</p>
 
-**Exam Trigger — Calculate / Determine：** 先读收益来源、税率、账户类型和 loss treatment，再算净收益和风险。**Common Trap：** 把最受税务优待的资产反而放进 tax-deferred account；或税后只改 mean 不改 volatility。
+Martin 的 interest income 税率为 35%，dividends 与 capital gains 为 20%。Neal 认为获得更有利税务待遇的资产应放入 tax-deferred accounts。
 
-## Immediate Practice
+在题设环境下，递延空间更适合相对 tax-inefficient 的利息类 exposure。把已经较 tax-efficient 的资产放进去，会占用本可保护高税率收入的空间。结论是账户位置要按净税务作用比较，不能仅凭“有利税务待遇”四个字反转逻辑。
 
-Source: Local Other AA，No.2025072102000051-6 — adapted；答案为推导。
+若题干没有说明 municipal bonds 是否免税，应先确认适用税制。若完全免税，taxable account 保留免税优势；若仍有税负，就按净收益比较，不能仅凭债券名称决定位置。
 
-Under fixed positive linear tax scaling, which MVO input can remain unchanged?
+## CFA Language & Formula
 
-A. Expected returns.\
-B. Correlations.\
-C. Standard deviations.
+::: info Formula · Know how to use · 简化线性 Tax Scaling
+若税率 $t$ 固定、正负回报对称处理，净回报是原回报的正比例缩放：
 
-**Answer: B.** Mean 与 volatility 被缩放，correlation 在这个简化假设下不变。
+$$R_{AT}=(1-t)R_{PT},\qquad\sigma_{AT}=(1-t)\sigma_{PT}$$
+
+例如 mean 8%、volatility 10%、$t=25\%$，净 mean 为 6%，净 volatility 为 7.5%。对两个资产：
+
+$$Cov_{AT}(i,j)=(1-t_i)(1-t_j)Cov_{PT}(i,j)$$
+
+Covariance 与各 standard deviations 同比例变化，所以 correlation 不变。输入是 constant effective tax rates；不能把 progressive marginal tax 或 deferred gains 随意代入这个模型。
+:::
+
+**Asset location** 改变税务位置；**after-tax economic exposure** 才说明支持消费的净风险。Capital-gains deferral 让未缴税资本继续复利，但最终实现税负仍需处理。
 
 ## Connection
 
-Tax 改变 MVO 输入、goal funding 和 rebalancing cost；整体经济风险要跨账户合并，而不能按税前名义余额直接加权。
+[MVO](/cfa/asset-allocation/review/04-principles/step-01) 应使用与决策一致的净输入，[Goals Funding](/cfa/asset-allocation/review/04-principles/step-06) 要对应净可消费回报。[Rebalancing](/cfa/asset-allocation/review/03-overview/step-06) 则把 realized-gains taxes 当作纠偏成本。
 
-[从 Investor Utility 选择有效配置](/cfa/asset-allocation/review/04-principles/step-01) · [把 Probability、Horizon 与 Funding Cost 连起来](/cfa/asset-allocation/review/04-principles/step-06) · [用成本与风险偏离确定 Rebalancing Policy](/cfa/asset-allocation/review/03-overview/step-06)
+## Exam Focus
+
+- **Exam Trigger — Calculate / Determine：** 收益类型 → 税率与时点 → loss treatment → account type → 净输入或 location。
+- **Common Trap：** 税后只改 mean 不改 volatility；把较 tax-efficient assets 反而优先放递延账户；用税前名义余额直接合并净财富。
+- **Boundary Condition：** Correlation 不变依赖固定正线性 scaling；实际税制、递延和不同亏损抵扣可改变关系。具体税率以题干为准。
+- **Constructed Response：** 写“higher-tax income is relatively more tax-inefficient, so sheltering it uses the tax-deferred space more effectively”。
+
+> **Quick Recall：** 固定线性 scaling 下，covariance 与 correlation 都不变吗？\
+> **Answer: No.** Covariance 缩放，correlation 可保持不变。
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000051-6 — adapted；答案为推导。</p>
+
+Under fixed positive linear tax scaling, which MVO input can remain unchanged?
+
+
+<div class="review-options">
+
+A. Expected returns.
+
+B. Correlations.
+
+C. Standard deviations.
+
+
+
+</div>
+
+::: tip Answer & Reasoning
+**Answer: B.** Mean 与 volatility 被缩放，correlation 在这个简化假设下不变。
+
+**Exam Takeaway：** 税前风险、税后风险与账户位置分开分析，再合并检查可消费财富。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-taxes)
 
----
-
-[← Previous](/cfa/asset-allocation/review/05-constraints/step-03) · [Learning Map](/cfa/asset-allocation/review/05-constraints/) · [Next Step →](/cfa/asset-allocation/review/05-constraints/step-05)
+</div>

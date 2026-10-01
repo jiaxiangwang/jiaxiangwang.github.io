@@ -1,50 +1,91 @@
 ---
 title: "Step 4 — 用可实施的 Asset Classes 建立机会集"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "04 · 可实施的资产分类"
+study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 4, "total": 6}
+studyNav: {"previous": {"label": "← Previous", "title": "选择与目标一致的 Risk Definition", "link": "/cfa/asset-allocation/review/03-overview/step-03"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Step →", "title": "透过资产标签检查共同 Risk Factors", "link": "/cfa/asset-allocation/review/03-overview/step-05"}}
 ---
 
-# Step 4 — 用可实施的 Asset Classes 建立机会集
+# 用可实施的 Asset Classes 建立机会集
 
-## 资产分类是为了分配经济风险
+::: info 本步目标
+能用分类目的检查 homogeneous、diversifying、mutually exclusive 与 capacity，并区分资产类、风险来源和投资策略。
+:::
 
-同一 asset class 内应 relatively homogeneous，类别之间应有足够不同的风险回报和 diversification potential，分类避免 holdings 的重叠且能表达重要投资机会。还要有足够的容量和可实施工具；不是每类资产都必须低交易成本、高流动性。
+## Why · 为什么一个“Debt”标签还不够成为配置对象？
 
-| 分类要求 | 想解决的问题 | 本地 Case 的反例 |
+SAA 的权重必须有稳定的经济含义。如果一个类别混合公司债与直接房地产，增加 10% “Debt”究竟增加了什么风险，就变得不清楚。类别间名称不同，也不保证它们具有分散作用。
+
+资产分类是为配置服务：先让同类权重能代表相对一致的机会，再验证不同类别确实提供有意义的差异，最后检查是否有足够容量和实施工具。
+
+## Core & Intuition · 内部相似、外部不同、持仓不重复、政策可落地
+
+四项要求各解决一个问题，不能互相代替：
+
+| 要求 | 解决的配置问题 | 典型失效 |
 | --- | --- | --- |
-| Relatively homogeneous | 同类权重有稳定经济含义 | 将 corporate bonds 与 direct real estate 放在 “debt” |
-| Diversifying | 不同名称代表不同经济暴露 | “equity” 与实际主要为 foreign equities 的 “derivatives” 高度共振 |
-| Mutually exclusive holdings | 不重复记同一证券或嵌套类别 | 同时计算 US equities 与含 US 的 global equities，未做拆分 |
-| Sufficient investment capacity | 政策能落地 | 小基金面临私募最低投资额，大基金面临策略容量 |
+| Relatively homogeneous | 同类资产有相对一致的经济含义 | 将 direct property 与 corporate bonds 混成一类 |
+| Diversifying | 类别间提供不同风险回报来源 | 用不同名称描述高度相同的股票暴露 |
+| Mutually exclusive holdings | 同一证券或嵌套类别不重复记账 | 同时计算 US equities 与含 US 的 global equities，未拆分 |
+| Sufficient capacity / implementability | 政策权重可以实际执行 | 低容量策略或最低投资门槛与资金规模不匹配 |
 
-“Mutually exclusive”并不要求**risk factors 完全不重叠**。全球股票、地产、信用债可以都含 growth risk；若要求因子零重叠，很多现实资产类将被错误排除。
+**Intuition：** 互斥要求持仓的账目不重复，却不要求 risk factors 零重叠。股票、地产与信用债都可能暴露 growth risk；如果要求风险来源完全不重叠，很多有意义的现实类别都会被错误排除。
 
-## Asset class 与 Strategy 的区分
+Asset class 的 ex ante premium 不依赖某个特定经理的技能；strategy 通过 selection、timing、leverage 或规则改变暴露与结果。区别不是“资产类一定赚钱、策略全靠 alpha”，而是不能仅因某经理历史表现好，就创造一个政策资产类别。
 
-Asset class 提供不依赖某个经理特定技能的 ex ante risk premium；strategy 通过特定规则、selection、leverage 或 timing 改变暴露与结果。不是说所有 strategies 都只有 alpha，或所有 asset classes 必然产生正实现回报，而是分类不能仅依赖某经理曾经做得好。
+## Example · Law：低相关性不能修复内部异质
 
-全球 equity indexes 长期风险与回报可能趋同，分组时应检查各区域风险是否真的不同。关于“相关性必定接近一”等绝对断言不能仅靠名称证明，本地缺乏完整条件的小题已在 source audit 中记录。
+<p class="source-note">Source: Local Other AA / No.2025072102000041-3/4 — adapted；答案为推导。</p>
 
-## 为什么 Low correlation 还不够？
+原顾问将 global investment-grade corporate bonds 与 real estate 一起放在 “Debt”，把 foreign equities 放在 “Derivatives”。报告说 Debt 与其余类低相关，Equity 与 Derivatives 高相关。
 
-一个指数与别的类低相关，但内部混入互不相似的投资，或者无可投资 vehicle，仍不适合直接成为稳定的 SAA 权重对象。Appraisal smoothing 还会制造虚假的低相关性。
+要分开诊断：Debt 内的公司债与物业不够 homogeneous；Equity 与实际股票型 Derivatives 则缺少 diversification。一个类别与外部低相关，不能消除它内部混杂的经济性质；一个 vehicle 名称不同，也不能消除同源风险。
 
-**Exam Trigger — Least accurate statement：** “所有类都要足够流动、低成本”过度限制真实机会集。**Common Trap：** 将互斥 holdings 误写成互斥风险来源。**Boundary Condition：** 分类可以保留合理细分，但必须用实际 vehicle 和经济暴露验证其意义。
+## CFA Language
 
-## Immediate Practice
+**Asset class** 是配置机会的分类；**investment vehicle** 是实施方式；**strategy** 是改变暴露的投资方法；**risk factor** 是解释回报共变的来源。题干可能把它们混放在一列，分析时仍要恢复这四层。
 
-Source: Local Other AA，No.2025072102000040-4 — adapted；答案为推导。
-
-An adviser says every asset class must have high liquidity and low transaction costs for rebalancing. **Explain** the flaw.
-
-**Minimum Passing Answer:** Illiquid asset classes can still be legitimate allocation choices. Their implementation and rebalancing costs must be modeled; high liquidity and low costs are not universal defining requirements.
+本步为 **Understand only**，不需要新的计算式。尤其保留 **non–skill-based ex ante expected return premium** 的含义：它区别资产类别的机会来源与特定经理技能，不保证任何一期 realized return 为正。
 
 ## Connection
 
-资产类只是对风险的第一层表达；factor analysis 识别跨类共同暴露，real-world liquidity 与 size 决定其可实施性。
+下一 Step 的 [Factor Analysis](/cfa/asset-allocation/review/03-overview/step-05) 检查跨类共同驱动。[Asset Size / Capacity](/cfa/asset-allocation/review/05-constraints/step-01) 与 [Liquidity](/cfa/asset-allocation/review/05-constraints/step-02) 决定分类是否可实施；[VCV](/cfa/asset-allocation/review/02-cme-part-2/step-05) 还需要排除平滑数据制造的低相关假象。
 
-[透过资产标签检查共同 Risk Factors](/cfa/asset-allocation/review/03-overview/step-05) · [用现金流压力检验 Illiquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02) · [让 Variance–Covariance Matrix 反映真实风险](/cfa/asset-allocation/review/02-cme-part-2/step-05)
+## Exam Focus
+
+- **Exam Trigger — Least accurate statement：** “所有类都必须高流动性、低交易成本”过度限制真实机会集。
+- **Common Trap：** 将 mutually exclusive holdings 误写成“没有共同 risk factors”；或把外部低 correlation 当作内部 homogeneous。
+- **Boundary Condition：** Illiquid asset classes 可以合理存在，但需在规模、现金流与再平衡政策中处理成本；不是无条件可配置。
+- **Constructed Response：** 先指出违反的是哪项标准，再对应题干的经济暴露，不只说“分类不合理”。
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000040-4 — adapted；答案为推导。</p>
+
+An adviser says every asset class must have high liquidity and low transaction costs for rebalancing. **Explain** the flaw.
+
+::: tip Answer & Reasoning
+**Conclusion:** These are not universal defining requirements of an asset class.
+
+**Scoring Points:**
+
+- Illiquid asset classes can provide legitimate allocation opportunities.
+- Their costs, liquidity and rebalancing limits must be reflected in implementation.
+
+**Minimum Passing Answer:** Illiquid asset classes may be valid choices; liquidity and transaction costs must be modeled rather than imposed as universal defining requirements.
+
+**Exam Takeaway：** 用经济性质检查分类；低相关性、互斥与可实施性各有独立作用。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-classes)
 
----
-
-[← Previous](/cfa/asset-allocation/review/03-overview/step-03) · [Learning Map](/cfa/asset-allocation/review/03-overview/) · [Next Step →](/cfa/asset-allocation/review/03-overview/step-05)
+</div>

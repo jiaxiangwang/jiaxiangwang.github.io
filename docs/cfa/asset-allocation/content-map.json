@@ -21,7 +21,8 @@
           "connections": [
             "robust",
             "volatility"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "growth",
@@ -35,7 +36,8 @@
           "connections": [
             "equity",
             "cycle"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "cycle",
@@ -52,7 +54,8 @@
             "policy",
             "bonds",
             "taa"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "inflation",
@@ -65,7 +68,8 @@
             "growth",
             "realestate",
             "goals"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "policy",
@@ -79,7 +83,8 @@
             "cycle",
             "bonds",
             "international"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "international",
@@ -91,7 +96,8 @@
           "connections": [
             "currency",
             "policy"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         }
       ]
     },
@@ -115,7 +121,8 @@
           "connections": [
             "policy",
             "liability"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "equity",
@@ -136,7 +143,8 @@
             "growth",
             "robust",
             "currency"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "realestate",
@@ -154,7 +162,8 @@
             "inflation",
             "volatility",
             "liquidity"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "currency",
@@ -173,7 +182,8 @@
             "international",
             "bonds",
             "equity"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "volatility",
@@ -186,7 +196,8 @@
             "realestate",
             "robust",
             "riskbudget"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         }
       ]
     },
@@ -205,7 +216,8 @@
             "taa",
             "rebalancing",
             "balance"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "balance",
@@ -222,7 +234,8 @@
             "approaches",
             "liability",
             "liquidity"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "approaches",
@@ -238,7 +251,8 @@
             "balance",
             "liability",
             "goals"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "classes",
@@ -253,7 +267,8 @@
             "factors",
             "liquidity",
             "volatility"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "factors",
@@ -268,7 +283,8 @@
             "volatility",
             "riskbudget",
             "classes"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "rebalancing",
@@ -284,7 +300,8 @@
             "taxes",
             "taa",
             "liquidity"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         }
       ]
     },
@@ -308,7 +325,8 @@
             "robust",
             "simulation",
             "riskbudget"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "robust",
@@ -327,7 +345,8 @@
             "framework",
             "volatility",
             "mvo"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "simulation",
@@ -340,7 +359,8 @@
             "mvo",
             "goals",
             "liquidity"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "riskbudget",
@@ -356,7 +376,8 @@
             "factors",
             "volatility",
             "mvo"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "liability",
@@ -375,7 +396,8 @@
             "balance",
             "bonds",
             "approaches"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "goals",
@@ -398,7 +420,8 @@
             "approaches",
             "simulation",
             "taxes"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "heuristics",
@@ -412,7 +435,8 @@
             "mvo",
             "liquidity",
             "balance"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         }
       ]
     },
@@ -434,7 +458,8 @@
             "liquidity",
             "classes",
             "governance"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "liquidity",
@@ -448,7 +473,8 @@
             "realestate",
             "simulation",
             "size"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "horizon",
@@ -464,7 +490,8 @@
             "balance",
             "goals",
             "taa"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "taxes",
@@ -482,7 +509,8 @@
             "mvo",
             "goals",
             "rebalancing"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "taa",
@@ -499,7 +527,8 @@
             "cycle",
             "governance",
             "rebalancing"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         },
         {
           "concept": "behavior",
@@ -515,7 +544,8 @@
             "framework",
             "balance",
             "rebalancing"
-          ]
+          ],
+          "teaching_review": "Rewritten with investment problem, framework and intuition, concrete example, English recognition, formula meaning/inputs where relevant, connections before exam focus and practice."
         }
       ]
     }
@@ -2158,7 +2188,7 @@
     "mergedDuplicateRecords": 38,
     "skippedQuestions": 14,
     "sourceVerificationTodos": 1,
-    "checkedInternalLinks": 266,
+    "checkedInternalLinks": 272,
     "brokenLinks": 0,
     "initialSsrAnalysisBlocks": 0,
     "browserChecks": [
@@ -2168,7 +2198,11 @@
       "reset hides analysis",
       "CR reveal without automatic grading",
       "case subquestions maintain independent state",
-      "Question-to-Review navigation resolves"
+      "Question-to-Review navigation resolves",
+      "Desktop and mobile heading, source, formula, table, practice and navigation layout",
+      "Light and dark theme contrast",
+      "All 40 Module pages at 390 × 844: no document overflow",
+      "All 76 question/case pages at 390 × 844: no document overflow or initial answer blocks"
     ],
     "engineering": {
       "build": "passed",
@@ -2176,6 +2210,31 @@
       "typecheck": "not configured",
       "test": "not configured"
     },
-    "scope": "Only Asset Allocation content and necessary navigation/theme component/sidebar changes"
-  }
+    "scope": "Only Asset Allocation content and necessary navigation/theme component/sidebar changes",
+    "teachingSequenceReview": "All 30 Steps reviewed in Why → Core → Intuition → Example → CFA Language / Formula → Connection → Exam Focus → Practice order; grouped sections preserve natural teaching flow",
+    "questionContentCorrections": [
+      {
+        "id": "2021052701000001-1",
+        "reason": "Local vignette already includes historical-data research; missing steps are forecast requirements, consistent documented expectations, and monitoring/feedback. Additional information from subquestion 2 is identified separately."
+      }
+    ],
+    "responsive": {
+      "viewport": "390 × 844",
+      "modulePagesChecked": 40,
+      "questionPagesChecked": 76,
+      "documentOverflowPages": 0,
+      "wideDisplayMath": "Contained horizontal scroll on the MCTR formula; no document overflow"
+    }
+  },
+  "teaching_sequence": [
+    "Why",
+    "Core",
+    "Intuition",
+    "Example",
+    "CFA Language",
+    "Formula where relevant",
+    "Connection",
+    "Exam Focus",
+    "Practice"
+  ]
 }

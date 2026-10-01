@@ -1,52 +1,103 @@
 ---
 title: "Step 3 — 用 Scenario / Monte Carlo 检查路径与目标风险"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "03 · 财富路径、Scenario 与 Monte Carlo"
+study: {"section": "Review Course", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/", "step": 3, "total": 7}
+studyNav: {"previous": {"label": "← Previous", "title": "减少 MVO 输入误差造成的极端权重", "link": "/cfa/asset-allocation/review/04-principles/step-02"}, "map": {"label": "Learning Map", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}, "next": {"label": "Next Step →", "title": "用 MCTR 区分 Capital Weight 与 Risk Weight", "link": "/cfa/asset-allocation/review/04-principles/step-04"}}
 ---
 
-# Step 3 — 用 Scenario / Monte Carlo 检查路径与目标风险
+# 用 Scenario / Monte Carlo 检查路径与目标风险
 
-## 单期效率不保证多期目标成功
+::: info 本步目标
+能用提款例子解释 sequence risk，区分特定情景与概率路径，并判断模拟输出究竟依赖哪些假设。
+:::
 
-没有现金流时，terminal wealth 主要取决于累计回报；有提款时，同样一组年度回报的顺序可以产生不同终值。退休初期亏损后提款，会卖出更多份额，后续上涨作用于更小资本，这就是 sequence risk。
+## Why · 为什么相同累计回报仍可能不能完成退休目标？
 
-**Know how to use：** 若期末提款，$W_{t+1}=W_t(1+R_{t+1})-C_{t+1}$；若期初提款，$W_{t+1}=(W_t-C_t)(1+R_{t+1})$。先写现金流时点，再决定模型。假设初始 100，每年期末提款 10，回报 -20%、+25% 时终值 77.5；顺序相反时终值 82。无提款两者都是 100。
+没有现金流时，回报的乘积决定终值；有提款时，亏损之后必须卖出更多份额，之后上涨作用于更少资本。回报顺序因此会改变剩余财富。
 
-## Scenario Analysis 与 Monte Carlo 各看什么？
+单期 mean / variance 的效率无法完整回答多期支出目标。Scenario analysis 与 Monte Carlo 的用途，是把回报、现金流、规则和目标放入时间路径，检验在哪些条件下会失败。
 
-Scenario analysis 把一致的特定环境传给资产、负债与现金流，例如通胀冲击、growth recession、liquidity freeze。它清楚展示机制，但不能仅用几个主观情景声称已估计精确概率。
+## Core & Intuition · 特定机制与条件性结果分布
 
-Monte Carlo simulation 从指定 joint return / factor / cash-flow 模型产生许多路径，记录终值、shortfall、funding ratio、required contributions 等分布。可纳入非正态回报、动态支出、税和 rebalancing cost；它不局限于均值与波动率，但必须显式建模这些特征。
+**Scenario analysis** 将一个一致环境传给资产、负债与现金流，例如 recession、inflation shock 或 liquidity freeze。它帮助看清机制，少数情景却不足以自动得出精确成功概率。
 
-## 模型允许，不代表结果可靠
+**Monte Carlo simulation** 从指定 joint return / factor / cash-flow model 产生多条路径，再观察 terminal wealth、shortfall、funding ratio 或 contributions 的分布。税、非正态回报、动态支出与 rebalancing costs 都可以纳入，但必须显式建模。
 
-如果模拟只用正常时期固定相关性、独立正态回报、无成本，运行十万次也不会自动覆盖 liquidity crisis。Simulation 产生的是**给定输入与规则的条件性结果**。参数、tail assumptions、withdrawal timing、inflation 和再平衡机制应作 sensitivity analysis。
+**Intuition：** “可以处理”不等于“已经处理”。如果输入假设为独立正态回报、固定正常相关性、没有费用，运行十万次也不会自动出现未建模的 liquidity crisis。更多模拟降低数值抽样误差，不会消除参数或模型错误。
 
-VU Case 指出交易成本和非均值—方差分布特征，Monte Carlo 可处理它们；不是“只要用 Monte Carlo 就正确”，而是方法能够承载这些问题。
+有效的检查应同时改变重要假设：return tails、serial dependence、inflation、withdrawal timing、资产可售性和再平衡规则。得到的是 conditional results，应说明条件，再解释投资含义。
 
-**Exam Trigger — Explain why required：** 明确“cash flows make terminal wealth path dependent”，而非笼统说长期要模拟。**Boundary Condition：** Monte Carlo 是检验配置的工具，不是独立投资目标；与 resampled MVO 的输入采样用途不同。
+## Example · 同一组回报，提款把顺序变成风险
 
-> Quick Recall：相同累计回报，有提款时终值一定相同吗？\
-> **Answer: No。** 现金流让回报顺序影响可参与后续复利的资本。
+<p class="source-note">Source: Original teaching example（用于说明本地 sequence-risk 知识点）。</p>
 
-## Immediate Practice
+起始财富 100，每年年末提款 10。先 −20%、后 +25%：第一年剩 70，第二年 $70\times1.25-10=77.5$。先 +25%、后 −20%：第一年剩 115，第二年 $115\times0.8-10=82$。
 
-Source: Local Other AA，No.2025072102000020 — adapted；答案为推导。
+无提款时，两条路径都为 $100\times0.8\times1.25=100$。有提款后，早期亏损留下更小的复利基础，所以终值不同。这就是 sequence risk；“累计回报相同”不能代替目标的现金流检验。
 
-Monte Carlo is **most likely** needed to model future wealth when:
+## CFA Language & Formula
 
-A. There are no cash flows.\
-B. Cash flows make terminal wealth path dependent.\
-C. Cash flows exist but terminal wealth is path independent.
+::: info Formula · Know how to use
+财富递推式的经济含义是“投资增长后扣支出”，或“先支出，再让剩余资金增长”：
 
-**Answer: B.** 核心理由是路径依赖，不是简单“有很多资产”。
+$$W_{t+1}=W_t(1+R_{t+1})-C_{t+1}\quad\text{(期末提款)}$$
+
+$$W_{t+1}=(W_t-C_t)(1+R_{t+1})\quad\text{(期初提款)}$$
+
+$W$ 为可参与复利的财富，$C$ 为提款。先确认现金流时点，再套式子；future nominal spending 和 real spending 需以一致 inflation assumptions 转换。
+:::
+
+**Sequence risk** 是现金流与回报顺序的共同影响；**model risk** 是使用错误过程或规则的风险。它们不是“样本次数不足”的同义词。
 
 ## Connection
 
-MVO 选单期效率，goals-based 定成功概率，Monte Carlo 检查多期实现；liquidity 与 rebalancing 规则必须在路径里体现。
+[MVO](/cfa/asset-allocation/review/04-principles/step-01) 提供单期候选，[Goals-based allocation](/cfa/asset-allocation/review/04-principles/step-06) 定义成功标准。模拟需要把 [Liquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02) 和 rebalancing 规则嵌入路径，而非只生成资产收益。
 
-[从 Investor Utility 选择有效配置](/cfa/asset-allocation/review/04-principles/step-01) · [把 Probability、Horizon 与 Funding Cost 连起来](/cfa/asset-allocation/review/04-principles/step-06) · [用现金流压力检验 Illiquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02)
+## Exam Focus
+
+- **Exam Trigger — Explain why required：** 写 “Cash flows make terminal wealth path dependent”，说明为何需要多期建模。
+- **Common Trap：** 将 simulation 当作目标；将很多路径当作假设可靠的证明；把它与 resampled MVO 的输入采样混为一谈。
+- **Boundary Condition：** 若不建模 tails、correlation changes 和交易限制，输出不会自动包括这些风险。少数主观 scenarios 也不能直接宣称精确概率。
+- **Constructed Response：** 用“early loss + withdrawal → less capital for later recovery”说明 sequence risk，比只写路径依赖更具体。
+
+> **Quick Recall：** 有提款时，相同累计回报能保证相同终值吗？\
+> **Answer: No.** 提款改变后续参与复利的本金。
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000020 — adapted；答案为推导。</p>
+
+Monte Carlo is **most likely** needed to model future wealth when:
+
+
+<div class="review-options">
+
+A. There are no cash flows.
+
+B. Cash flows make terminal wealth path dependent.
+
+C. Cash flows exist but terminal wealth is path independent.
+
+
+
+</div>
+
+::: tip Answer & Reasoning
+**Answer: B.** 核心理由是路径依赖，不是简单“有很多资产”。
+
+**Exam Takeaway：** 先确定现金流时点与规则，再把模拟结果解释为有条件的目标检验。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-simulation)
 
----
-
-[← Previous](/cfa/asset-allocation/review/04-principles/step-02) · [Learning Map](/cfa/asset-allocation/review/04-principles/) · [Next Step →](/cfa/asset-allocation/review/04-principles/step-04)
+</div>

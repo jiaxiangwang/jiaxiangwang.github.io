@@ -2,6 +2,7 @@
 """Generate docs/.vitepress/sidebar.ts from the docs directory tree + frontmatter titles."""
 import os
 import re
+import json
 
 DOCS = "/Users/jiaxiang/Documents/code/blog/docs"
 SECTIONS = [
@@ -26,6 +27,12 @@ def read_title(md_path):
         return t
     m = re.search(r"^#\s+(.+)$", text, re.M)
     return m.group(1).strip() if m else os.path.basename(md_path)
+
+
+def read_sidebar_title(md_path):
+    text = open(md_path).read(2048)
+    match = re.search(r'^sidebarTitle:\s*"(.+)"$', text, re.M)
+    return match.group(1) if match else read_title(md_path)
 
 
 def items_for(dir_path):
@@ -54,12 +61,27 @@ def asset_allocation_group():
         pages = [{"text": "Overview", "link": f"{base}/review/{name}/"}]
         for filename in sorted(os.listdir(directory)):
             if filename.startswith("step-") and filename.endswith(".md"):
-                pages.append({"text": read_title(os.path.join(directory, filename)),
+                pages.append({"text": read_sidebar_title(os.path.join(directory, filename)),
                               "link": f"{base}/review/{name}/{filename[:-3]}"})
         pages.append({"text": "Module Review", "link": f"{base}/review/{name}/review"})
         title = read_title(os.path.join(directory, "index.md")).replace(" — Overview", "")
         review.append({"text": title, "collapsed": True, "items": pages})
-    questions = items_for(os.path.join(root, "questions"))
+    with open(os.path.join(root, "content-map.json")) as source:
+        content_map = json.load(source)
+    questions = []
+    for module in content_map["modules"]:
+        questions.append({
+            "text": module["name"],
+            "link": f'{base}/questions/#module-{module["directory"]}',
+            "collapsed": True,
+            "items": [
+                {
+                    "text": read_sidebar_title(os.path.join(DOCS, step["review"].lstrip("/") + ".md")),
+                    "link": f'{base}/questions/#concept-{step["concept"]}',
+                }
+                for step in module["steps"]
+            ],
+        })
     return {"text": "CORE → Asset Allocation", "link": base + "/", "items": [
         {"text": "Learning Map", "link": base + "/"},
         {"text": "Review Course", "collapsed": False, "items": review},

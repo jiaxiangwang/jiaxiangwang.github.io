@@ -1,45 +1,102 @@
 ---
 title: "Step 1 — 用 Asset Size、Capacity 与 Regulation 划定可行配置"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "01 · 规模、Capacity 与授权边界"
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 1, "total": 6}
+studyNav: {"previous": {"label": "← Previous", "title": "Overview", "link": "/cfa/asset-allocation/review/05-constraints/"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "用现金流压力检验 Illiquidity Budget", "link": "/cfa/asset-allocation/review/05-constraints/step-02"}}
 ---
 
-# Step 1 — 用 Asset Size、Capacity 与 Regulation 划定可行配置
+# 用 Asset Size、Capacity 与 Regulation 划定可行配置
 
-## 规模限制不只发生在小账户
+::: info 本步目标
+能把配置比例转为金额，分别检查 minimum ticket、vehicle concentration、strategy capacity、治理资源与 regulation。
+:::
 
-小投资者受到 minimum ticket、产品可达性、费用和治理资源限制；大投资者受到 strategy capacity、market impact、经理数量与监督负担限制。配置权重看似只有 10%，但绝对资金决定能否落地。
+## Why · 为什么同样 10% 的 PE 配置，大小账户问题不同？
 
-**Know how to use：** $Investment\ Amount=AUM\times target\ weight$。Titan AUM $10m$、PE weight 10%，投资 $1m$ 恰等于 minimum ticket；这表示可以买到，并不表示一只基金 10% 集中或 liquidity 合适。Fordhart $2bn$、PE weight 10%，投资 $200m$ 占 $500m$ fund 的 40%，minimum $5m$ 完全不是问题，vehicle concentration/capacity 才是重点。
+10% 对小基金可能刚够最低投资额，对大基金却可能占一只产品的大部分容量。比例看起来相同，实施风险完全不同。
 
-## 容量与治理是同一条实施链
+Asset size 的分析必须把权重转为绝对金额，并区分“能够买到”“有能力管理”和“适合投资者”。再高的预期收益，也只能在已授权、可执行的机会集中比较。
 
-机构越大越容易谈费用、聘团队、接触 direct/private opportunities，却也可能需要太多 managers 才能分散规模。OHF 从小基金扩大到大型多资产、外部经理单户 $75m$ 限制后，监督和治理资源的要求上升，不应只盯着更高 liquidity demand。
+## Core & Intuition · 资金规模 → 产品可达性 → 容量与治理 → 硬约束
 
-Small asset owners 可能通过 pooled vehicles 获得 exposure；large owners 可更多 internal management，但小容量 alpha opportunities 难以显著影响总回报。不要用“规模越大越好”替代具体 cost/capacity 分析。
+小投资者常受 minimum ticket、费用和专业资源限制；大投资者更容易聘团队、议价和接触 direct opportunities，却可能受到 market impact、strategy capacity 与经理监督数量限制。
 
-## Regulation 是硬约束，不是模型偏好
+| 限制 | 检查什么？ | 为什么不等价？ |
+| --- | --- | --- |
+| Minimum investment | 拟投资金额是否达到产品门槛 | 达标只证明可参与，不证明适合 |
+| Vehicle concentration | 投资占自身财富和产品总规模多少 | 一个门槛不高的产品仍可能装不下资金 |
+| Strategy capacity | 策略能否在扩大规模后维持效果 | 低容量机会难以影响大机构总回报 |
+| Governance resources | 能否选择、监督经理并管理 commitments | 多经理分散可能增加监督负担 |
+| Mandate / regulation | 哪些资产或比例根本不允许 | 这是可行集合边界，不是 optimizer 的软偏好 |
 
-OHF 初期只允许 cash 与 investment-grade bonds，长达 20 年无提款仍不能配置 equity，决定性限制是 investment mandate / regulation，不是 liquidity。题干中的法定 spending、投资上限、地域禁投等条件必须先进入可行集合。
+**Intuition：** 为分散大型资产而不断增加 managers，可以缓解单个 manager capacity，却提高 due diligence 与监督要求。规模优势因此需要实施能力支撑，不能认为 AUM 越大越容易得到好结果。
 
-具体法规应以题干为准；此处不推定现实国家当前的法律、税率或基金持有上限。若模型算出的最高 expected return 方案越过授权，先判不合法/不可行，再比较剩余方案。
+法规、地域限制和 policy caps 应先写入可行集合。本 Topic 按虚构案例给定的规则分析，不推定任何现实国家当前的具体法规。
 
-**Exam Trigger — Discuss two reasons：** 每个理由必须有一个 case fact 和一个影响。**Common Trap：** minimum ticket 能满足就声称 PE 配置合适；或将 fund AUM 与 investor AUM 混淆。**Boundary Condition：** 产品可达性、策略容量、vehicle concentration 与 investor liquidity 是不同限制，可能同时存在。
+## Example · Titan 与 Fordhart：同一比例的两种规模约束
 
-## Immediate Practice
+<p class="source-note">Source: Local Other AA / No.2025072102000052 — adapted；答案为推导。</p>
 
-Source: Local Other AA，No.2025072102000052-2 — adapted；答案为推导。
+Titan AUM 10 million，10% PE 是 1 million，恰达到产品 minimum ticket。它能买到一只基金，却要承受自身财富 10% 集中和锁定，仍需检查支出。
 
-Fordhart has $2bn; a proposed 10% allocation targets a $500m private-equity fund. **Discuss** one implementation concern.
+Fordhart AUM 2 billion，10% PE 是 200 million；若目标基金总规模为 500 million，这笔资金占 vehicle 的 40%。5 million minimum 已不重要，产品容量与集中才是问题。
 
-**Minimum Passing Answer:** The $200m allocation is 40% of the fund, creating vehicle concentration and potential capacity/commitment issues. The $5m minimum is not the binding constraint.
+两个例子都不能只根据 “10%” 或 “minimum met” 得出适合结论；必须同时看 investor AUM、fund AUM 和 liquidity needs。
+
+## CFA Language & Formula
+
+::: info Formula · Know how to use
+把政策比例还原为实际资金，再量化产品集中：
+
+$$Investment\ Amount=AUM_{investor}\times w$$
+
+$$Vehicle\ Share=\frac{Investment\ Amount}{AUM_{fund}}$$
+
+$w$ 使用小数，investor AUM 与 fund AUM 不能混淆；minimum ticket 是金额，不是比例。先统一 million / billion 单位再比较。
+:::
+
+**Capacity** 是策略或产品能承受的规模；**access** 是可否进入；**liquidity** 是需要退出或支付时资金是否可得。达到其中一个条件，不自动满足另外两个。
 
 ## Connection
 
-可行机会集先限制 MVO，再与 liquidity budget 和 IPS 授权结合；资产规模不改变目标本身，却改变实施方式。
+[Asset Classes](/cfa/asset-allocation/review/03-overview/step-04) 定义机会集，本步筛选是否可实施。[Liquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02) 检查资金时点，[Governance](/cfa/asset-allocation/review/03-overview/step-01) 确定谁能批准与监督实际配置。
 
-[用现金流压力检验 Illiquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02) · [用可实施的 Asset Classes 建立机会集](/cfa/asset-allocation/review/03-overview/step-04) · [建立 SAA 的目标、授权与责任框架](/cfa/asset-allocation/review/03-overview/step-01)
+## Exam Focus
+
+- **Exam Trigger — Discuss two reasons：** 每个理由写一个 case fact 和一个实施后果，避免两个理由只是同一事实改写。
+- **Common Trap：** Minimum ticket 达标即适合；将 fund AUM 与 investor AUM 混淆；用高 expected return 推翻法定上限。
+- **Boundary Condition：** 长期没有提款也不能取消 mandate 的资产限制；可达性、capacity、concentration 和 liquidity 可能同时绑定。
+- **Constructed Response：** “The proposed $200m commitment is 40% of the vehicle, creating concentration/capacity concerns.” 是具体证据与影响。
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000052-2 — adapted；答案为推导。</p>
+
+Fordhart has $2bn; a proposed 10% allocation targets a $500m private-equity fund. **Discuss** one implementation concern.
+
+::: tip Answer & Reasoning
+**Conclusion:** The proposed investment creates vehicle concentration and capacity concerns.
+
+**Scoring Points:**
+
+- Commitment = $2bn × 10% = $200m.
+- $200m is 40% of the $500m fund; the $5m minimum is not binding.
+
+**Minimum Passing Answer:** The $200m allocation would represent 40% of the vehicle, creating concentration and potential capacity issues; meeting the minimum does not establish suitability.
+
+**Exam Takeaway：** 配置比例必须变成金额，再分别检验产品、策略、治理与授权限制。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-size)
 
----
-
-[← Previous](/cfa/asset-allocation/review/05-constraints/) · [Learning Map](/cfa/asset-allocation/review/05-constraints/) · [Next Step →](/cfa/asset-allocation/review/05-constraints/step-02)
+</div>

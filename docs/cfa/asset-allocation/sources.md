@@ -1,5 +1,9 @@
 ---
 title: "Asset Allocation — Sources & Coverage"
+pageClass: cfa-study
+prev: false
+next: false
+study: {"section": "Sources & Coverage"}
 ---
 
 # Sources & Coverage

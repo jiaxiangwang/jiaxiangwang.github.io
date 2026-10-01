@@ -1,8 +1,14 @@
 ---
 title: "Principles of Asset Allocation — Module Review"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+study: {"section": "Module Review", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/"}
+studyNav: {"previous": {"label": "← Previous", "title": "把配置经验法当作基准而非答案", "link": "/cfa/asset-allocation/review/04-principles/step-07"}, "map": {"label": "Learning Map", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}, "next": {"label": "Next Module →", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}}
 ---
 
-# Principles of Asset Allocation — Module Review
+# Principles of Asset Allocation · Module Review
 
 ## Big Picture
 
@@ -35,10 +41,18 @@ A client's 10-year goal requires 90% success. Portfolio A has a higher mean but 
 
 **Answer:** B；use its matched minimum return to discount the goal。再检查目标现金流路径、liquidity 与联合资金充足性，而不是仅比较 mean/Sharpe。
 
-## Review Map
+## 返回关键步骤
 
-[从 Investor Utility 选择有效配置](/cfa/asset-allocation/review/04-principles/step-01) → [减少 MVO 输入误差造成的极端权重](/cfa/asset-allocation/review/04-principles/step-02) → [用 Scenario / Monte Carlo 检查路径与目标风险](/cfa/asset-allocation/review/04-principles/step-03) → [用 MCTR 区分 Capital Weight 与 Risk Weight](/cfa/asset-allocation/review/04-principles/step-04) → [按 Funding Situation 选择 Liability-relative 方法](/cfa/asset-allocation/review/04-principles/step-05) → [把 Probability、Horizon 与 Funding Cost 连起来](/cfa/asset-allocation/review/04-principles/step-06) → [把配置经验法当作基准而非答案](/cfa/asset-allocation/review/04-principles/step-07)
+- [从 Investor Utility 选择有效配置](/cfa/asset-allocation/review/04-principles/step-01)
+- [减少 MVO 输入误差造成的极端权重](/cfa/asset-allocation/review/04-principles/step-02)
+- [用 Scenario / Monte Carlo 检查路径与目标风险](/cfa/asset-allocation/review/04-principles/step-03)
+- [用 MCTR 区分 Capital Weight 与 Risk Weight](/cfa/asset-allocation/review/04-principles/step-04)
+- [按 Funding Situation 选择 Liability-relative 方法](/cfa/asset-allocation/review/04-principles/step-05)
+- [把 Probability、Horizon 与 Funding Cost 连起来](/cfa/asset-allocation/review/04-principles/step-06)
+- [把配置经验法当作基准而非答案](/cfa/asset-allocation/review/04-principles/step-07)
 
-[Practice More Questions →](/cfa/asset-allocation/questions/)
+<div class="study-actions">
 
-[← Previous](/cfa/asset-allocation/review/04-principles/step-07) · [Learning Map](/cfa/asset-allocation/review/04-principles/) · [Next Module →](/cfa/asset-allocation/review/05-constraints/)
+[Practice More Questions →](/cfa/asset-allocation/questions/#module-04-principles)
+
+</div>

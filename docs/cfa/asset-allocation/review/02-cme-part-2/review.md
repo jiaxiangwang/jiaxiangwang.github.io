@@ -1,8 +1,14 @@
 ---
 title: "CME Part 2 — Module Review"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+study: {"section": "Module Review", "module": "CME Part 2", "moduleLink": "/cfa/asset-allocation/review/02-cme-part-2/"}
+studyNav: {"previous": {"label": "← Previous", "title": "让 Variance–Covariance Matrix 反映真实风险", "link": "/cfa/asset-allocation/review/02-cme-part-2/step-05"}, "map": {"label": "Learning Map", "title": "CME Part 2", "link": "/cfa/asset-allocation/review/02-cme-part-2/"}, "next": {"label": "Next Module →", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}}
 ---
 
-# CME Part 2 — Module Review
+# CME Part 2 · Module Review
 
 ## Big Picture
 
@@ -33,10 +39,16 @@ title: "CME Part 2 — Module Review"
 
 **Scoring Points：** appraisal smoothing understates property risk/correlation；bond price risk dominates reinvestment over the shorter horizon。两项均应在 MVO 输入前处理，而非等优化后再解释。
 
-## Review Map
+## 返回关键步骤
 
-[将 Yield、Risk Premium 与实现回报分开](/cfa/asset-allocation/review/02-cme-part-2/step-01) → [从盈利、分红与估值拆解 Equity Return](/cfa/asset-allocation/review/02-cme-part-2/step-02) → [把租金、Cap Rate 与估值平滑串起来](/cfa/asset-allocation/review/02-cme-part-2/step-03) → [区分 PPP 长期锚与 Capital Flows 短期力量](/cfa/asset-allocation/review/02-cme-part-2/step-04) → [让 Variance–Covariance Matrix 反映真实风险](/cfa/asset-allocation/review/02-cme-part-2/step-05)
+- [将 Yield、Risk Premium 与实现回报分开](/cfa/asset-allocation/review/02-cme-part-2/step-01)
+- [从盈利、分红与估值拆解 Equity Return](/cfa/asset-allocation/review/02-cme-part-2/step-02)
+- [把租金、Cap Rate 与估值平滑串起来](/cfa/asset-allocation/review/02-cme-part-2/step-03)
+- [区分 PPP 长期锚与 Capital Flows 短期力量](/cfa/asset-allocation/review/02-cme-part-2/step-04)
+- [让 Variance–Covariance Matrix 反映真实风险](/cfa/asset-allocation/review/02-cme-part-2/step-05)
 
-[Practice More Questions →](/cfa/asset-allocation/questions/)
+<div class="study-actions">
 
-[← Previous](/cfa/asset-allocation/review/02-cme-part-2/step-05) · [Learning Map](/cfa/asset-allocation/review/02-cme-part-2/) · [Next Module →](/cfa/asset-allocation/review/03-overview/)
+[Practice More Questions →](/cfa/asset-allocation/questions/#module-02-cme-part-2)
+
+</div>

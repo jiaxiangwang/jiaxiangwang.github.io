@@ -15,17 +15,24 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import AccessGate from './AccessGate.vue'
 import CfaQuestion from './components/CfaQuestion.vue'
+import CfaStudyHeader from './components/CfaStudyHeader.vue'
+import CfaStudyNav from './components/CfaStudyNav.vue'
 import type { Theme } from 'vitepress'
 import './styles/vars.css'
 import './styles/base.css'
 import './styles/home.css'
 import './styles/components.css'
 import './styles/question.css'
+import './styles/study.css'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('CfaQuestion', CfaQuestion)
   },
-  Layout: () => h(DefaultTheme.Layout, null, { 'layout-top': () => h(AccessGate) }),
+  Layout: () => h(DefaultTheme.Layout, null, {
+    'layout-top': () => h(AccessGate),
+    'doc-before': () => h(CfaStudyHeader),
+    'doc-footer-before': () => h(CfaStudyNav),
+  }),
 } satisfies Theme

@@ -1,54 +1,105 @@
 ---
 title: "Step 2 — 减少 MVO 输入误差造成的极端权重"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "02 · 稳健输入与 Global Market 基准"
+study: {"section": "Review Course", "module": "Principles of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/04-principles/", "step": 2, "total": 7}
+studyNav: {"previous": {"label": "← Previous", "title": "从 Investor Utility 选择有效配置", "link": "/cfa/asset-allocation/review/04-principles/step-01"}, "map": {"label": "Learning Map", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}, "next": {"label": "Next Step →", "title": "用 Scenario / Monte Carlo 检查路径与目标风险", "link": "/cfa/asset-allocation/review/04-principles/step-03"}}
 ---
 
-# Step 2 — 减少 MVO 输入误差造成的极端权重
+# 减少 MVO 输入误差造成的极端权重
 
-## Optimizer 会把输入中的“便宜机会”放大
+::: info 本步目标
+能解释 MVO 的输入敏感性，区分 reverse optimization、Black–Litterman 与 resampling，并避免宣称这些方法消除错误。
+:::
 
-MVO 对 expected returns 尤其敏感，少量高估就可能使某类资产占据大量权重。历史平均不是免估计误差的事实，相关性和风险也可能因 regime change 变化。改进方法的共同问题是：**如何约束噪声，而不是追求更精细的单点答案？**
+## Why · 为什么精确计算也可能产生极端权重？
 
-| 方法 | 起点与处理 | 解决什么 | 仍有什么局限 |
+优化器把输入当作可信事实。某资产 expected return 被高估一点，优化器可能大幅增加其权重；输出的小数位很多，并不说明预期准确。MVO 尤其容易对 expected-return errors 敏感。
+
+稳健方法的目的，是控制噪声怎样进入配置。先识别起点、处理对象和剩余局限，不能把所有“更分散”结果都称作同一种方法。
+
+## Core & Intuition · 限制、均衡基准、观点与输入采样
+
+方法之间的关系可沿普通 MVO 的方向恢复：returns / covariance → weights。不同改进在链条不同位置工作：
+
+| Method | 从哪里出发？ | 主要处理 | 仍需警惕 |
 | --- | --- | --- | --- |
-| Weight constraints / shrinkage | 限制集中，向稳定目标收缩 | 减少极端权重或参数噪声 | 约束可能任意，目标可能错误 |
-| Reverse optimization | 从 market weights 与风险推 implied returns | 给内部一致的均衡基准 | 市场组合未必适合投资者 |
-| Black–Litterman | 均衡基准 + views + confidence | 将观点温和融入 expected returns | 观点和信心仍可出错 |
-| Resampled MVO | 对输入采样，逐次优化后组合结果 | 让权重更分散且较稳定 | 仍继承原始输入误差，未必位于原 frontier |
+| Constraints / shrinkage | 权重范围或稳定的参数目标 | 限制集中或输入噪声 | 任意约束、错误 target |
+| Reverse optimization | Investable global market weights 与风险 | 反推出 implied equilibrium returns | 市场基准不自动适合客户 |
+| Black–Litterman | 均衡输入 + investor views + confidence | 将观点按信心融入预期 | 错误观点与不合理信心 |
+| Resampled MVO | 对输入不确定性作抽样 | 反复优化、综合 weights，使配置更稳定 | 仍继承基础输入与模型误差 |
 
-## Reverse Optimization 是反过来问
+**Intuition：** Reverse optimization 先问“什么 returns 能使给定市场权重合理”，提供内部一致的起点。Black–Litterman 才进一步问“有证据的观点应让这个起点移动多少”。高信心会使观点影响更大，所以 confidence 本身也要有依据。
 
-普通 MVO 是 returns/covariances → weights；reverse optimization 是市场权重与风险关系 → equilibrium returns。不是从 expected returns 反推全部 risk parameters。
+Resampling 不是多次从真实未来观察结果，而是从指定输入分布产生可能的输入，再平均配置。错误的中心假设仍可能产生稳定但错误的平均结果；平均权重也不保证位于原来 estimated frontier 上。
 
-**Know how to use：** 题给 asset beta relative to global market，可用 $E(R_i)=r_f+\beta_i RP_G$。$r_f=2\%,RP_G=5.5\%,\beta_{US}=1.4$ 时 implied return 9.7%；global bonds beta 0.6 时为 5.3%。均衡权重由 market capitalization proportions 得到，不照搬此前 MVO 权重。
+## Example · Patel：Reverse Optimization 改变的是什么？
 
-## Black–Litterman 为什么不等于 Reverse Optimization？
+<p class="source-note">Source: Local 原版书 AA / No.2018031301000004 — adapted；答案为推导。</p>
 
-Reverse optimization 只提供起点。加入投资者对某市场的 relative/absolute views，并按 confidence 权衡基准与观点，才构成 Black–Litterman 的关键用途。不把“在市场组合上有任何 tilt”都当成相同方法；识别题要有均衡推导、观点调整的线索。
+Patel 的表按给定的五个独立资产类别列出 market caps，总额 107.8 trillion；US equity 为 22.2 trillion、global-market beta 1.4，$r_f=2.0\%$、global premium 5.5%。
 
-Resampling 对输入不确定性作模拟，不能证明真实未来会符合输入。真实非流动投资的 vehicle、费用、leverage 与指数统计差异，也不是靠 resampling 自动解决。
+US equity 的均衡权重按 market cap 为 $22.2/107.8=20.59\%$，不同于原 MVO 的 35%。其 implied return 为 $2+1.4\times5.5=9.7\%$，不同于原 return input 8.6%。
 
-**Exam Trigger — Contrast：** 分别对 weights 和 expected returns 作答。**Common Trap：** “reverse optimization eliminates estimation error”与“resampling fixes wrong inputs”都过度承诺。
+这显示 reverse optimization 用既定市场权重恢复一致 returns，并不是从给定 returns 反推全部 risk parameters。案例的类别按源表使用，不能自行重定义其 global / US 覆盖而改掉数据。
 
-## Immediate Practice
+## CFA Language & Formula
 
-Source: Local Other AA，No.2025072102000042-3 — adapted；答案为推导。
+::: info Formula · Know how to use
+本地题用 market-cap proportions 作为 equilibrium weights，用 global-market beta 求 implied return：
 
-An allocation starts from investable global market weights, derives equilibrium inputs and then adjusts for investor views. It is **best** described as:
+$$w_i^{market}=\frac{MC_i}{\sum_j MC_j},\qquad E(R_i)=r_f+\beta_{i,G}RP_G$$
 
-A. Black–Litterman.\
-B. Reverse optimization alone.\
-C. Unadjusted historical MVO.
+$\beta_{i,G}$ 的 benchmark 是 global market，$RP_G$ 是 premium。先统一 market-cap 单位；不要拿旧 MVO weights 代替市场权重。
+:::
 
-**Answer: A.** B 提供基准，但没有包含后续 views integration。
+**Reverse optimization** 只描述反推均衡输入；**Black–Litterman** 还需要 views 和 confidence。**Resampled MVO** 重复处理输入不确定性；它与模拟投资财富路径的 Monte Carlo 使用目的不同。
 
 ## Connection
 
-对数据偏差与 VCV 噪声的理解决定如何选稳健方法；实际配置还要交给 liquidity 与 Monte Carlo 做可实施/路径检查。
+[CME bias checks](/cfa/asset-allocation/review/01-cme-part-1/step-01) 与 [VCV shrinkage](/cfa/asset-allocation/review/02-cme-part-2/step-05) 处理基础输入。稳健 MVO 之后仍需 [Simulation](/cfa/asset-allocation/review/04-principles/step-03) 检查路径，以及 real-world liquidity / implementation constraints。
 
-[把经济观点变成可检验的 Capital Market Expectations](/cfa/asset-allocation/review/01-cme-part-1/step-01) · [让 Variance–Covariance Matrix 反映真实风险](/cfa/asset-allocation/review/02-cme-part-2/step-05) · [从 Investor Utility 选择有效配置](/cfa/asset-allocation/review/04-principles/step-01)
+## Exam Focus
+
+- **Exam Trigger — Contrast：** 分别回答 asset mix 与 expected returns；说明 ordinary MVO 和 reverse optimization 的方向相反。
+- **Common Trap：** 声称 reverse optimization eliminates estimation error；看到任何 market tilt 就叫 Black–Litterman；认为 resampling 能修正系统性错误输入。
+- **Boundary Condition：** Global market portfolio 是可解释的基准，不是所有投资者的最终 SAA；费用、vehicle 风险与流动性仍须单独纳入。
+- **Constructed Response：** “Reverse optimization derives returns consistent with market weights; Black–Litterman combines those returns with views and their confidence.”
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000042-3 — adapted；答案为推导。</p>
+
+An allocation starts from investable global market weights, derives equilibrium inputs and then adjusts for investor views. It is **best** described as:
+
+
+<div class="review-options">
+
+A. Black–Litterman.
+
+B. Reverse optimization alone.
+
+C. Unadjusted historical MVO.
+
+
+
+</div>
+
+::: tip Answer & Reasoning
+**Answer: A.** B 提供基准，但没有包含后续 views integration。
+
+**Exam Takeaway：** 看起点、处理对象与剩余误差，才能正确区分稳健配置方法。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-robust)
 
----
-
-[← Previous](/cfa/asset-allocation/review/04-principles/step-01) · [Learning Map](/cfa/asset-allocation/review/04-principles/) · [Next Step →](/cfa/asset-allocation/review/04-principles/step-03)
+</div>

@@ -1,8 +1,14 @@
 ---
 title: "Real-World Constraints — Module Review"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+study: {"section": "Module Review", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/"}
+studyNav: {"previous": {"label": "← Previous", "title": "把 Behavioral Bias 转成可执行的治理防线", "link": "/cfa/asset-allocation/review/05-constraints/step-06"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Topic Review →", "title": "Asset Allocation", "link": "/cfa/asset-allocation/topic-review"}}
 ---
 
-# Real-World Constraints — Module Review
+# Real-World Constraints · Module Review
 
 ## Big Picture
 
@@ -35,10 +41,17 @@ An investor refuses to sell equities after recent strong performance; a manager 
 
 **Answer:** representativeness / unwarranted extrapolation；TAA outside authorization。处理方式是恢复书面再平衡纪律，并在执行前取得合法政策变更，而不是用预期 alpha 抹去约束。
 
-## Review Map
+## 返回关键步骤
 
-[用 Asset Size、Capacity 与 Regulation 划定可行配置](/cfa/asset-allocation/review/05-constraints/step-01) → [用现金流压力检验 Illiquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02) → [识别 Goals、Constraints 与 Beliefs 的变化](/cfa/asset-allocation/review/05-constraints/step-03) → [用 After-tax Exposure 进行配置与 Asset Location](/cfa/asset-allocation/review/05-constraints/step-04) → [将 Tactical Views 放在 SAA 与 IPS 边界内](/cfa/asset-allocation/review/05-constraints/step-05) → [把 Behavioral Bias 转成可执行的治理防线](/cfa/asset-allocation/review/05-constraints/step-06)
+- [用 Asset Size、Capacity 与 Regulation 划定可行配置](/cfa/asset-allocation/review/05-constraints/step-01)
+- [用现金流压力检验 Illiquidity Budget](/cfa/asset-allocation/review/05-constraints/step-02)
+- [识别 Goals、Constraints 与 Beliefs 的变化](/cfa/asset-allocation/review/05-constraints/step-03)
+- [用 After-tax Exposure 进行配置与 Asset Location](/cfa/asset-allocation/review/05-constraints/step-04)
+- [将 Tactical Views 放在 SAA 与 IPS 边界内](/cfa/asset-allocation/review/05-constraints/step-05)
+- [把 Behavioral Bias 转成可执行的治理防线](/cfa/asset-allocation/review/05-constraints/step-06)
 
-[Practice More Questions →](/cfa/asset-allocation/questions/)
+<div class="study-actions">
 
-[← Previous](/cfa/asset-allocation/review/05-constraints/step-06) · [Learning Map](/cfa/asset-allocation/review/05-constraints/) · [Next Module →](/cfa/asset-allocation/topic-review)
+[Practice More Questions →](/cfa/asset-allocation/questions/#module-05-constraints)
+
+</div>

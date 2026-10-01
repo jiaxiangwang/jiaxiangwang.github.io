@@ -1,8 +1,14 @@
 ---
 title: "CME Part 1 — Module Review"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+study: {"section": "Module Review", "module": "CME Part 1", "moduleLink": "/cfa/asset-allocation/review/01-cme-part-1/"}
+studyNav: {"previous": {"label": "← Previous", "title": "把国内宏观判断放进开放经济约束", "link": "/cfa/asset-allocation/review/01-cme-part-1/step-06"}, "map": {"label": "Learning Map", "title": "CME Part 1", "link": "/cfa/asset-allocation/review/01-cme-part-1/"}, "next": {"label": "Next Module →", "title": "CME Part 2", "link": "/cfa/asset-allocation/review/02-cme-part-2/"}}
 ---
 
-# CME Part 1 — Module Review
+# CME Part 1 · Module Review
 
 ## Big Picture
 
@@ -32,10 +38,17 @@ CME Part 1 解决“经济环境如何形成可信输入”。重点不是准确
 
 **Scoring Points：** profit share cannot rise indefinitely；valuation expansion cannot compound indefinitely。短期外推还可能造成 forecasting bias，但须与题干证据对应。
 
-## Review Map
+## 返回关键步骤
 
-[把经济观点变成可检验的 Capital Market Expectations](/cfa/asset-allocation/review/01-cme-part-1/step-01) → [区分 Trend Growth 与周期增长](/cfa/asset-allocation/review/01-cme-part-1/step-02) → [从 Business Cycle 识别政策和资产方向](/cfa/asset-allocation/review/01-cme-part-1/step-03) → [区分预期通胀、意外通胀与 Deflation](/cfa/asset-allocation/review/01-cme-part-1/step-04) → [把 Monetary / Fiscal Policy 转成利率判断](/cfa/asset-allocation/review/01-cme-part-1/step-05) → [把国内宏观判断放进开放经济约束](/cfa/asset-allocation/review/01-cme-part-1/step-06)
+- [把经济观点变成可检验的 Capital Market Expectations](/cfa/asset-allocation/review/01-cme-part-1/step-01)
+- [区分 Trend Growth 与周期增长](/cfa/asset-allocation/review/01-cme-part-1/step-02)
+- [从 Business Cycle 识别政策和资产方向](/cfa/asset-allocation/review/01-cme-part-1/step-03)
+- [区分预期通胀、意外通胀与 Deflation](/cfa/asset-allocation/review/01-cme-part-1/step-04)
+- [把 Monetary / Fiscal Policy 转成利率判断](/cfa/asset-allocation/review/01-cme-part-1/step-05)
+- [把国内宏观判断放进开放经济约束](/cfa/asset-allocation/review/01-cme-part-1/step-06)
 
-[Practice More Questions →](/cfa/asset-allocation/questions/)
+<div class="study-actions">
 
-[← Previous](/cfa/asset-allocation/review/01-cme-part-1/step-06) · [Learning Map](/cfa/asset-allocation/review/01-cme-part-1/) · [Next Module →](/cfa/asset-allocation/review/02-cme-part-2/)
+[Practice More Questions →](/cfa/asset-allocation/questions/#module-01-cme-part-1)
+
+</div>

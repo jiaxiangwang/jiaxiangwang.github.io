@@ -67,7 +67,7 @@ watch(() => props.id, reset)
 .cfa-options input { flex-shrink: 0; accent-color: var(--vp-c-brand-1); }
 .cr-input textarea { display: block; width: 100%; resize: vertical; padding: .75rem; border: 1px solid var(--vp-c-border); border-radius: 7px; color: var(--vp-c-text-1); background: var(--vp-c-bg); font: inherit; }
 .cfa-actions { display: flex; gap: .75rem; margin: 1rem 0; }
-.cfa-actions button { border-radius: 6px; padding: .5rem 1rem; background: var(--vp-c-brand-1); color: var(--vp-c-white); font-weight: 600; cursor: pointer; }
+.cfa-actions button { border-radius: 7px; padding: .65rem 1.1rem; background: var(--vp-button-brand-bg); color: var(--vp-button-brand-text); font-weight: 600; cursor: pointer; }
 .cfa-actions button:disabled { opacity: .5; cursor: default; }
 .cfa-actions .reset { color: var(--vp-c-text-1); background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-border); }
 .cfa-analysis { border-top: 1px solid var(--vp-c-divider); padding-top: 1rem; }

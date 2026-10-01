@@ -1,0 +1,84 @@
+/* Asset Allocation only: a readable lesson, with distinct study and practice areas. */
+.cfa-study .VPDoc .content-container { max-width: 760px; }
+.cfa-study .vp-doc { font-size: 16px; }
+.cfa-study .vp-doc p { text-align: start; line-height: 1.9; margin: 18px 0; }
+.cfa-study .vp-doc h1 { font-size: clamp(26px, 3vw, 32px); line-height: 1.4; letter-spacing: -.025em; margin: 0 0 24px; text-wrap: balance; }
+.cfa-study .vp-doc h2 { margin-top: 44px; padding-top: 0; border-top: 0; font-size: 22px; line-height: 1.5; letter-spacing: -.015em; }
+.cfa-study .vp-doc h3 { font-size: 18px; line-height: 1.5; margin-top: 28px; }
+.cfa-study .vp-doc li + li { margin-top: 8px; }
+.cfa-study .vp-doc table { display: block; overflow-x: auto; border: 1px solid var(--vp-c-divider); border-radius: 10px; font-size: 14px; line-height: 1.7; }
+.cfa-study .vp-doc th { white-space: nowrap; }
+.cfa-study .vp-doc th, .cfa-study .vp-doc td { padding: 12px 14px; border: 0; border-bottom: 1px solid var(--vp-c-divider); min-width: 120px; }
+.cfa-study .vp-doc tr:last-child td { border-bottom: 0; }
+.cfa-study .vp-doc tbody tr:nth-child(2n) { background: transparent; }
+.cfa-study .vp-doc tbody tr:hover { background: var(--vp-c-bg-alt); }
+.cfa-study .vp-doc .custom-block { padding: 18px 22px; border-radius: 10px; margin: 24px 0; }
+.cfa-study .vp-doc .custom-block p { margin: 10px 0; line-height: 1.8; }
+.cfa-study .vp-doc .custom-block-title { font-size: 13px; letter-spacing: .02em; }
+.cfa-study .vp-doc .custom-block.info { background: var(--vp-c-bg-alt); border-color: var(--vp-c-divider); }
+.cfa-study .vp-doc blockquote { margin: 24px 0; padding: 12px 18px; border-left: 3px solid var(--vp-c-brand-1); }
+.cfa-study .vp-doc blockquote p { margin: 4px 0; font-size: 15px; }
+.cfa-study mjx-container[jax="SVG"][display="true"] { display: block; padding: 12px 0; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.study-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 22px; color: var(--vp-c-text-2); font-size: 12px; line-height: 1.6; }
+.study-header nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.study-header a:hover { color: var(--vp-c-brand-1); }
+.study-position { flex-shrink: 0; font-size: 11px; font-weight: 600; letter-spacing: .08em; color: var(--vp-c-brand-1); padding: 4px 8px; border-radius: 5px; background: var(--vp-c-brand-soft); }
+.study-nav { display: grid; grid-template-columns: 1fr .8fr 1fr; gap: 12px; margin: 36px 0 48px; }
+.study-nav a { min-width: 0; border: 1px solid var(--vp-c-divider); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 6px; background: var(--vp-c-bg); transition: border-color .2s; }
+.study-nav a:hover { border-color: var(--vp-c-brand-1); }
+.study-nav span { color: var(--vp-c-text-3); font-size: 12px; }
+.study-nav strong { font-weight: 600; font-size: 14px; line-height: 1.6; color: var(--vp-c-text-1); }
+.study-nav .study-nav-map { text-align: center; background: var(--vp-c-bg-alt); }
+.study-nav .study-nav-next { text-align: right; }
+.study-nav a:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
+
+.cfa-study .review-practice { margin-top: 22px; padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-alt); }
+.cfa-study .review-practice > :first-child { margin-top: 0; }
+.cfa-study .review-practice > :last-child { margin-bottom: 0; }
+.cfa-study .review-options p { padding: 10px 14px; margin: 8px 0; border: 1px solid var(--vp-c-divider); border-radius: 7px; background: var(--vp-c-bg); line-height: 1.7; }
+.cfa-study .review-practice .custom-block.tip { background: var(--vp-c-bg); border-color: var(--vp-c-divider); border-left: 3px solid var(--vp-c-brand-1); }
+.cfa-study .vp-doc .source-note { font-size: 12px; line-height: 1.7; color: var(--vp-c-text-2); }
+.cfa-study .study-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
+.cfa-study .vp-doc .study-actions p { margin: 0; }
+.cfa-study .vp-doc .study-actions a { padding: 10px 16px; border-radius: 7px; border: 1px solid var(--vp-c-divider); text-decoration: none; font-size: 14px; font-weight: 600; background: var(--vp-c-bg-alt); }
+.cfa-study .vp-doc .study-actions > p:first-child a { background: var(--vp-button-brand-bg); color: var(--vp-button-brand-text); border-color: var(--vp-button-brand-bg); }
+.cfa-study .course-map { list-style: none; padding: 0; counter-reset: course-step; }
+.cfa-study .course-map li { position: relative; padding: 16px 18px 16px 54px; margin: 10px 0; border: 1px solid var(--vp-c-divider); border-radius: 10px; counter-increment: course-step; }
+.cfa-study .course-map li::before { content: counter(course-step, decimal-leading-zero); position: absolute; top: 16px; left: 18px; color: var(--vp-c-brand-1); font-size: 13px; font-weight: 700; }
+.cfa-study .course-map a { font-weight: 600; text-decoration: none; }
+.cfa-study .course-map p { margin: 6px 0 0; font-size: 14px; color: var(--vp-c-text-2); }
+.cfa-study .course-map .priority { font-size: 11px; color: var(--vp-c-text-3); font-weight: 500; margin-left: 8px; white-space: nowrap; }
+.cfa-practice-index .vp-doc h3 { margin: 0 0 12px; padding: 0; }
+.cfa-practice-index .concept-practice { padding: 20px 22px; border: 1px solid var(--vp-c-divider); border-radius: 10px; margin: 16px 0; }
+.cfa-practice-index .concept-practice > p { margin: 8px 0 14px; font-size: 13px; }
+.cfa-practice-index .concept-practice ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; list-style: none; margin: 0; padding: 0; }
+.cfa-practice-index .concept-practice li { margin: 0; padding: 0; font-size: 13px; }
+.cfa-practice-index .concept-practice li a { text-decoration: none; overflow-wrap: anywhere; }
+.cfa-practice-index .practice-id { display: block; font-size: 11px; color: var(--vp-c-text-3); margin-top: 2px; }
+.cfa-study .question-nav { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 28px 0 40px; }
+.cfa-study .question-nav p { margin: 0; }
+.cfa-study .question-nav a { display: block; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 12px; font-size: 13px; text-decoration: none; text-align: center; }
+.cfa-study .question-nav a:hover { border-color: var(--vp-c-brand-1); }
+.cfa-study .cfa-interactive { background: var(--vp-c-bg); box-shadow: none; padding: 24px; }
+.cfa-study .cfa-interactive:hover { border-color: var(--vp-c-divider); box-shadow: none; }
+.cfa-study .vp-doc .cfa-options p { margin: 0; line-height: 1.7; }
+.cfa-study .cfa-interactive .cfa-analysis h3 { margin-top: 30px; border-left: 3px solid var(--vp-c-brand-1); padding-left: 12px; }
+.cfa-study .cfa-interactive .cfa-analysis { margin-top: 24px; padding-top: 24px; }
+.cfa-study .cfa-interactive .cfa-result { padding: 14px 18px; background: var(--vp-c-bg-alt); border-radius: 8px; }
+
+@media (max-width: 640px) {
+  .cfa-study .vp-doc { font-size: 15px; }
+  .cfa-study .vp-doc h1 { font-size: 25px; }
+  .cfa-study .vp-doc h2 { font-size: 20px; margin-top: 36px; }
+  .study-header { align-items: start; flex-direction: column; gap: 10px; }
+  .study-nav { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .study-nav .study-nav-map { grid-column: 1 / -1; grid-row: 1; }
+  .study-nav a { padding: 12px; }
+  .cfa-study .review-practice, .cfa-study .cfa-interactive { padding: 16px; }
+  .cfa-study .vp-doc .custom-block { padding: 14px 16px; }
+  .cfa-practice-index .concept-practice { padding: 16px; }
+  .cfa-practice-index .concept-practice ul { grid-template-columns: 1fr; }
+  .cfa-study .question-nav { grid-template-columns: 1fr 1fr; }
+  .cfa-study .question-nav p:nth-child(2) { grid-column: 1 / -1; grid-row: 1; }
+}

@@ -1,53 +1,103 @@
 ---
 title: "Step 5 — 将 Tactical Views 放在 SAA 与 IPS 边界内"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "05 · TAA 观点、规则与 IPS"
+study: {"section": "Review Course", "module": "Real-World Constraints", "moduleLink": "/cfa/asset-allocation/review/05-constraints/", "step": 5, "total": 6}
+studyNav: {"previous": {"label": "← Previous", "title": "用 After-tax Exposure 进行配置与 Asset Location", "link": "/cfa/asset-allocation/review/05-constraints/step-04"}, "map": {"label": "Learning Map", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/"}, "next": {"label": "Next Step →", "title": "把 Behavioral Bias 转成可执行的治理防线", "link": "/cfa/asset-allocation/review/05-constraints/step-06"}}
 ---
 
-# Step 5 — 将 Tactical Views 放在 SAA 与 IPS 边界内
+# 将 Tactical Views 放在 SAA 与 IPS 边界内
 
-## TAA 追求短期机会，仍承担政策责任
+::: info 本步目标
+能区分 systematic / discretionary TAA，检验观点是否有授权，并相对 policy SAA 衡量净增量收益。
+:::
 
-Tactical Asset Allocation (TAA) 根据短期 economic / market conditions 暂时偏离 SAA，目标是提高 risk-adjusted return。它不是新长期目标，也不是简单把涨后过重的资产卖回目标。
+## Why · 为什么 Positive Alpha Forecast 仍不能越过 IPS？
 
-**Discretionary TAA** 用判断性宏观、估值与市场观点；**systematic TAA** 用预先规定的模型/规则捕捉相对回报或趋势。50-day moving average 穿越 200-day 后自动调 equity 5% 属 systematic，不因规则含 market data 就叫 discretionary。
+TAA 是在战略风险政策之内暂时利用相对回报机会。经理看好某市场，并不获得自行取消上限的权力；高 expected Sharpe 也不能使越界方案成为可执行选择。
 
-## 先检查授权与成本，再实施观点
+本步先辨认观点产生方式，再检查 permitted tilt、实施成本和评价基准。少任何一环，短期好观点都可能变成错误的配置决定。
 
-流程是 **CME view → permitted tilt → implementation / cost → evaluation vs SAA**。Positive alpha forecast 不能授权越过 IPS upper/lower limits；某类已在 lower bound 时不能再减来给另一类融资。
+## Core & Intuition · 观点 → 授权范围 → 实施 → 相对评价
 
-KUE Case 的 IG bonds 已在 lower bound 15%、property 已在 upper bound 15%。不能看到 EM 的 5% forecast 最高就把 bonds 再往下减。该小题提供的选项与政策边界冲突，题库按原资料记录为跳过，未悄悄修订 Exhibit。
+**Discretionary TAA** 使用判断性 macro、valuation 与 market views；**systematic TAA** 使用预先规定的模型或规则捕捉相对回报/趋势。两者都可能参考经济数据，区别是决定如何形成和执行。
 
-## 衡量增量回报而非市场上涨
+| 检查 | 需要回答的问题 |
+| --- | --- |
+| View / signal | 是相对市场已定价信息的机会，还是仅描述经济？ |
+| Permitted tilt | 各资产 upper / lower limits 与整体约束是否允许？ |
+| Implementation | 调仓资金来自哪里，有哪些增量 cost / tax / liquidity effects？ |
+| Evaluation | 相对原 policy SAA，风险调整与净回报是否改善？ |
 
-**Know how to use：**
+**Intuition：** 市场上涨会使 TAA 组合赚钱，但政策组合也可能赚钱；真正评价的是相对基准的增量。Current drifted weights 反映价格历史，policy weights 才表达要比较的 SAA 策略。
+
+KUE 的 IG bonds 已在 lower limit 15%，private property 已在 upper limit 15%。不能只根据 EM 的 forecast 最高就进一步减 bonds 或加 property；应先找 permitted ranges 内能为该观点提供资金的调整。
+
+## Example · KCPF：移动平均规则属于哪种决定？
+
+<p class="source-note">Source: Local Other AA / No.2025072102000050-7 — adapted；答案为推导。</p>
+
+KCPF 计划在 50-day moving average 上穿或下穿 200-day average 时，自动将 equity allocation 增加或减少 5%。
+
+规则事先明确，交易由信号自动触发，所以是 systematic TAA。它不是因为用了市场数据就变成 discretionary，也不只是把上涨权重带回 target 的 routine rebalancing。若该信号持续多年仍偏离政策，则还需复核长期 beliefs 和 SAA，而不是默认永久战术化。
+
+## CFA Language & Formula
+
+::: info Formula · Know how to use
+毛增量收益比较同一期间下两套权重：
 
 $$R_{TAA}-R_{SAA}=\sum_i(w_i^{TAA}-w_i^{SAA})R_i$$
 
-权重须均合计 100%，return period 和 asset definitions 一致。净增量还要减**相对实施 SAA/rebalancing 的额外成本**；SAA 本身需要的正常 rebalancing cost 不应重复归为 TAA 增量成本。
+两套 weights 均应合计 100%，asset definitions 和 return period 一致；基准为 policy SAA，不是随意选择的 drifted portfolio。净增量还需扣相对实施该 SAA 的额外交易/税务成本，正常 SAA rebalancing cost 不重复计入。
+:::
 
-Sharpe ratio 可比较策略与 SAA 的 risk-adjusted performance，但均值、volatility 和 $r_f$ 要同窗口同口径，还应看 drawdown、tail risk 与约束。比较 realized Sharpe，不能拿 Sharpe 和 t-statistic 或 risk-free rate 直接相减评价。
-
-**Exam Trigger — Identify / Evaluate：** systematic vs discretionary、净增量、IPS 限制。**Common Trap：** 用 current drifted weights 而不是 policy SAA weights 作基准；或者以更高 expected Sharpe 为越界理由。**Boundary Condition：** 若改变持续多个周期并涉及长期 beliefs，要回到 SAA review。
-
-## Immediate Practice
-
-Source: Local Other AA，No.2025072102000050-7 — adapted；答案为推导。
-
-A pension automatically changes equity weight by 5% when a 50-day moving average crosses a 200-day average. This is:
-
-A. De-risking only.\
-B. Systematic TAA.\
-C. Discretionary TAA.
-
-**Answer: B.** 预先规定、自动执行的趋势规则。
+**Sharpe ratio** 可用于相同窗口、同 $r_f$、同口径的 risk-adjusted comparison；还要检查 tails、drawdown 和 constraints，不能将其与 t-statistic 直接相减。**Systematic** 是规则性质，不是收益保证。
 
 ## Connection
 
-CME 提供战术输入，governance 限定授权，liquidity/tax 决定实施代价；rebalancing 是无战术观点时的风险恢复机制。
+[Business Cycle CME](/cfa/asset-allocation/review/01-cme-part-1/step-03) 提供条件性观点，[Governance](/cfa/asset-allocation/review/03-overview/step-01) 提供授权。[Rebalancing](/cfa/asset-allocation/review/03-overview/step-06) 有不同目的；[Taxes](/cfa/asset-allocation/review/05-constraints/step-04) 改变观点实施的净增益。
 
-[从 Business Cycle 识别政策和资产方向](/cfa/asset-allocation/review/01-cme-part-1/step-03) · [建立 SAA 的目标、授权与责任框架](/cfa/asset-allocation/review/03-overview/step-01) · [用成本与风险偏离确定 Rebalancing Policy](/cfa/asset-allocation/review/03-overview/step-06)
+## Exam Focus
+
+- **Exam Trigger — Identify / Evaluate：** 判断规则/主观、政策边界、relative return 与净成本。
+- **Common Trap：** 最高 forecast 就买入，不看资金来源及上下限；以 current weights 代 policy SAA；高 risk-adjusted expectation 就允许越界。
+- **Boundary Condition：** 缺 weight 或关键 Exhibit 时不能反推增量回报；持续跨周期的环境变化可能要求 SAA review。
+- **Constructed Response：** “The moving-average rule is systematic TAA, subject to the approved allocation limits.”
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000050-7 — adapted；答案为推导。</p>
+
+A pension automatically changes equity weight by 5% when a 50-day moving average crosses a 200-day average. This is:
+
+
+<div class="review-options">
+
+A. De-risking only.
+
+B. Systematic TAA.
+
+C. Discretionary TAA.
+
+
+
+</div>
+
+::: tip Answer & Reasoning
+**Answer: B.** 预先规定、自动执行的趋势规则。
+
+**Exam Takeaway：** TAA 的有效性要同时通过观点、授权、资金和相对净绩效四项检查。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-taa)
 
----
-
-[← Previous](/cfa/asset-allocation/review/05-constraints/step-04) · [Learning Map](/cfa/asset-allocation/review/05-constraints/) · [Next Step →](/cfa/asset-allocation/review/05-constraints/step-06)
+</div>

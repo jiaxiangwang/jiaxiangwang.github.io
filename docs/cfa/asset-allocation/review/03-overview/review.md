@@ -1,8 +1,14 @@
 ---
 title: "Overview of Asset Allocation — Module Review"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+study: {"section": "Module Review", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/"}
+studyNav: {"previous": {"label": "← Previous", "title": "用成本与风险偏离确定 Rebalancing Policy", "link": "/cfa/asset-allocation/review/03-overview/step-06"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Module →", "title": "Principles of Asset Allocation", "link": "/cfa/asset-allocation/review/04-principles/"}}
 ---
 
-# Overview of Asset Allocation — Module Review
+# Overview of Asset Allocation · Module Review
 
 ## Big Picture
 
@@ -30,10 +36,17 @@ Two spouses work for the same firm and hold most equities in employer shares. Th
 
 **Scoring Points：** goal segmentation；near-term priority；human/financial capital 共振。长期捐赠也要看成功概率，不单凭长 horizon 自动选最高 equity weight。
 
-## Review Map
+## 返回关键步骤
 
-[建立 SAA 的目标、授权与责任框架](/cfa/asset-allocation/review/03-overview/step-01) → [用 Economic Balance Sheet 看完整风险](/cfa/asset-allocation/review/03-overview/step-02) → [选择与目标一致的 Risk Definition](/cfa/asset-allocation/review/03-overview/step-03) → [用可实施的 Asset Classes 建立机会集](/cfa/asset-allocation/review/03-overview/step-04) → [透过资产标签检查共同 Risk Factors](/cfa/asset-allocation/review/03-overview/step-05) → [用成本与风险偏离确定 Rebalancing Policy](/cfa/asset-allocation/review/03-overview/step-06)
+- [建立 SAA 的目标、授权与责任框架](/cfa/asset-allocation/review/03-overview/step-01)
+- [用 Economic Balance Sheet 看完整风险](/cfa/asset-allocation/review/03-overview/step-02)
+- [选择与目标一致的 Risk Definition](/cfa/asset-allocation/review/03-overview/step-03)
+- [用可实施的 Asset Classes 建立机会集](/cfa/asset-allocation/review/03-overview/step-04)
+- [透过资产标签检查共同 Risk Factors](/cfa/asset-allocation/review/03-overview/step-05)
+- [用成本与风险偏离确定 Rebalancing Policy](/cfa/asset-allocation/review/03-overview/step-06)
 
-[Practice More Questions →](/cfa/asset-allocation/questions/)
+<div class="study-actions">
 
-[← Previous](/cfa/asset-allocation/review/03-overview/step-06) · [Learning Map](/cfa/asset-allocation/review/03-overview/) · [Next Module →](/cfa/asset-allocation/review/04-principles/)
+[Practice More Questions →](/cfa/asset-allocation/questions/#module-03-overview)
+
+</div>

@@ -1,8 +1,13 @@
 ---
 title: "CORE → Asset Allocation Topic Review"
+pageClass: cfa-study
+prev: false
+next: false
+study: {"section": "Topic Review"}
+studyNav: {"previous": {"label": "← Previous Module Review", "title": "Real-World Constraints", "link": "/cfa/asset-allocation/review/05-constraints/review"}, "map": {"label": "Learning Map", "title": "Asset Allocation", "link": "/cfa/asset-allocation/"}, "next": {"label": "Question Bank →", "title": "Module Practice", "link": "/cfa/asset-allocation/questions/"}}
 ---
 
-# CORE → Asset Allocation Topic Review
+# Asset Allocation · Topic Review
 
 ## Big Picture
 
@@ -77,6 +82,8 @@ Asset Allocation 的最终问题是：**以可实施、可长期执行的风险�
 
 ### Case 1 — Sponsor Risk、Funding 与模型选择
 
+<div class="review-practice">
+
 Source: Local Other AA，Sabonete Case No.2025072102000043 — adapted；答案为推导。
 
 SPP is 90% funded, closed to new employees but still accruing benefits. Its sponsor is heavily exposed to emerging markets and African property. It wants full funding in five years, stable contributions and low costs. Option 1 has higher asset Sharpe and a 95% chance of full funding but variable contributions; Option 2 has steadier contributions with a lower chance of full funding.
@@ -93,7 +100,11 @@ SPP is 90% funded, closed to new employees but still accruing benefits. Its spon
 
 [Review This Concept →](/cfa/asset-allocation/review/04-principles/step-05) · [Practice More Questions →](/cfa/asset-allocation/questions/2025072102000043)
 
+</div>
+
 ### Case 2 — Goal、Tax 与再平衡纪律
+
+<div class="review-practice">
 
 Source: Local Other AA，Martin Case No.2025072102000050 — adapted；答案为推导。
 
@@ -112,7 +123,11 @@ A full scholarship releases education cash. Baseline retirement is secured; a lo
 
 [Review This Concept →](/cfa/asset-allocation/review/05-constraints/step-04) · [Practice More Questions →](/cfa/asset-allocation/questions/2025072102000050)
 
+</div>
+
 ### Case 3 — 同一 PE 权重，完全不同的风险
+
+<div class="review-practice">
 
 Source: Local Other AA，Titan/Fordhart Case No.2025072102000052 — adapted；答案为推导。
 
@@ -126,6 +141,4 @@ A $10m endowment with falling tuition/donations and mandatory spending proposes 
 
 [Review This Concept →](/cfa/asset-allocation/review/05-constraints/step-01) · [Practice More Questions →](/cfa/asset-allocation/questions/2025072102000052)
 
----
-
-[← Previous Module Review](/cfa/asset-allocation/review/05-constraints/review) · [Learning Map](/cfa/asset-allocation/) · [Question Bank →](/cfa/asset-allocation/questions/)
+</div>

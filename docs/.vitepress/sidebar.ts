@@ -24,27 +24,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/01-cme-part-1/"
                 },
                 {
-                  text: "Step 1 — 把经济观点变成可检验的 Capital Market Expectations",
+                  text: "01 · CME 框架与预测偏差",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-01"
                 },
                 {
-                  text: "Step 2 — 区分 Trend Growth 与周期增长",
+                  text: "02 · 趋势增长与盈利边界",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-02"
                 },
                 {
-                  text: "Step 3 — 从 Business Cycle 识别政策和资产方向",
+                  text: "03 · 周期、短端与收益率曲线",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-03"
                 },
                 {
-                  text: "Step 4 — 区分预期通胀、意外通胀与 Deflation",
+                  text: "04 · 预期通胀、意外通胀与通缩",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-04"
                 },
                 {
-                  text: "Step 5 — 把 Monetary / Fiscal Policy 转成利率判断",
+                  text: "05 · 政策组合与 Taylor Rule",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-05"
                 },
                 {
-                  text: "Step 6 — 把国内宏观判断放进开放经济约束",
+                  text: "06 · 开放经济恒等式与政策自由度",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-06"
                 },
                 {
@@ -62,23 +62,23 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/02-cme-part-2/"
                 },
                 {
-                  text: "Step 1 — 将 Yield、Risk Premium 与实现回报分开",
+                  text: "01 · 债券收益率、溢价与持有期限",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-01"
                 },
                 {
-                  text: "Step 2 — 从盈利、分红与估值拆解 Equity Return",
+                  text: "02 · 股票回报分解与全球整合",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-02"
                 },
                 {
-                  text: "Step 3 — 把租金、Cap Rate 与估值平滑串起来",
+                  text: "03 · 房地产现金流、Cap Rate 与平滑",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-03"
                 },
                 {
-                  text: "Step 4 — 区分 PPP 长期锚与 Capital Flows 短期力量",
+                  text: "04 · PPP、资本流动与汇率方向",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-04"
                 },
                 {
-                  text: "Step 5 — 让 Variance–Covariance Matrix 反映真实风险",
+                  text: "05 · VCV、Factor Model 与 Shrinkage",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-05"
                 },
                 {
@@ -96,27 +96,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/03-overview/"
                 },
                 {
-                  text: "Step 1 — 建立 SAA 的目标、授权与责任框架",
+                  text: "01 · SAA、授权与治理",
                   link: "/cfa/asset-allocation/review/03-overview/step-01"
                 },
                 {
-                  text: "Step 2 — 用 Economic Balance Sheet 看完整风险",
+                  text: "02 · 完整财富与 Human Capital",
                   link: "/cfa/asset-allocation/review/03-overview/step-02"
                 },
                 {
-                  text: "Step 3 — 选择与目标一致的 Risk Definition",
+                  text: "03 · Asset-only、负债与目标风险",
                   link: "/cfa/asset-allocation/review/03-overview/step-03"
                 },
                 {
-                  text: "Step 4 — 用可实施的 Asset Classes 建立机会集",
+                  text: "04 · 可实施的资产分类",
                   link: "/cfa/asset-allocation/review/03-overview/step-04"
                 },
                 {
-                  text: "Step 5 — 透过资产标签检查共同 Risk Factors",
+                  text: "05 · 共同风险因子与实施工具",
                   link: "/cfa/asset-allocation/review/03-overview/step-05"
                 },
                 {
-                  text: "Step 6 — 用成本与风险偏离确定 Rebalancing Policy",
+                  text: "06 · 再平衡的风险与成本取舍",
                   link: "/cfa/asset-allocation/review/03-overview/step-06"
                 },
                 {
@@ -134,31 +134,31 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/04-principles/"
                 },
                 {
-                  text: "Step 1 — 从 Investor Utility 选择有效配置",
+                  text: "01 · MVO、Utility 与现金混合",
                   link: "/cfa/asset-allocation/review/04-principles/step-01"
                 },
                 {
-                  text: "Step 2 — 减少 MVO 输入误差造成的极端权重",
+                  text: "02 · 稳健输入与 Global Market 基准",
                   link: "/cfa/asset-allocation/review/04-principles/step-02"
                 },
                 {
-                  text: "Step 3 — 用 Scenario / Monte Carlo 检查路径与目标风险",
+                  text: "03 · 财富路径、Scenario 与 Monte Carlo",
                   link: "/cfa/asset-allocation/review/04-principles/step-03"
                 },
                 {
-                  text: "Step 4 — 用 MCTR 区分 Capital Weight 与 Risk Weight",
+                  text: "04 · MCTR、ACTR 与 Risk Parity",
                   link: "/cfa/asset-allocation/review/04-principles/step-04"
                 },
                 {
-                  text: "Step 5 — 按 Funding Situation 选择 Liability-relative 方法",
+                  text: "05 · 负债方法与 Funding Situation",
                   link: "/cfa/asset-allocation/review/04-principles/step-05"
                 },
                 {
-                  text: "Step 6 — 把 Probability、Horizon 与 Funding Cost 连起来",
+                  text: "06 · 成功概率、期限与目标资金成本",
                   link: "/cfa/asset-allocation/review/04-principles/step-06"
                 },
                 {
-                  text: "Step 7 — 把配置经验法当作基准而非答案",
+                  text: "07 · 经验法作为基准",
                   link: "/cfa/asset-allocation/review/04-principles/step-07"
                 },
                 {
@@ -176,27 +176,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/05-constraints/"
                 },
                 {
-                  text: "Step 1 — 用 Asset Size、Capacity 与 Regulation 划定可行配置",
+                  text: "01 · 规模、Capacity 与授权边界",
                   link: "/cfa/asset-allocation/review/05-constraints/step-01"
                 },
                 {
-                  text: "Step 2 — 用现金流压力检验 Illiquidity Budget",
+                  text: "02 · 现金流压力与非流动性预算",
                   link: "/cfa/asset-allocation/review/05-constraints/step-02"
                 },
                 {
-                  text: "Step 3 — 识别 Goals、Constraints 与 Beliefs 的变化",
+                  text: "03 · Goals、Constraints 与长期 Beliefs",
                   link: "/cfa/asset-allocation/review/05-constraints/step-03"
                 },
                 {
-                  text: "Step 4 — 用 After-tax Exposure 进行配置与 Asset Location",
+                  text: "04 · 税后配置与 Asset Location",
                   link: "/cfa/asset-allocation/review/05-constraints/step-04"
                 },
                 {
-                  text: "Step 5 — 将 Tactical Views 放在 SAA 与 IPS 边界内",
+                  text: "05 · TAA 观点、规则与 IPS",
                   link: "/cfa/asset-allocation/review/05-constraints/step-05"
                 },
                 {
-                  text: "Step 6 — 把 Behavioral Bias 转成可执行的治理防线",
+                  text: "06 · 行为证据与治理防线",
                   link: "/cfa/asset-allocation/review/05-constraints/step-06"
                 },
                 {
@@ -217,308 +217,159 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
           collapsed: true,
           items: [
             {
-              text: "Question 2018031301000003",
-              link: "/cfa/asset-allocation/questions/2018031301000003"
-            },
-            {
-              text: "Case 2018031301000004",
-              link: "/cfa/asset-allocation/questions/2018031301000004"
-            },
-            {
-              text: "Question 2018031301000005",
-              link: "/cfa/asset-allocation/questions/2018031301000005"
-            },
-            {
-              text: "Case 2018052801000003",
-              link: "/cfa/asset-allocation/questions/2018052801000003"
-            },
-            {
-              text: "Case 2020012102000001",
-              link: "/cfa/asset-allocation/questions/2020012102000001"
-            },
-            {
-              text: "Case 2020012102000002",
-              link: "/cfa/asset-allocation/questions/2020012102000002"
-            },
-            {
-              text: "Question 2020012102000003",
-              link: "/cfa/asset-allocation/questions/2020012102000003"
-            },
-            {
-              text: "Case 2020012102000004",
-              link: "/cfa/asset-allocation/questions/2020012102000004"
-            },
-            {
-              text: "Case 2020012102000005",
-              link: "/cfa/asset-allocation/questions/2020012102000005"
-            },
-            {
-              text: "Question 2020012102000006",
-              link: "/cfa/asset-allocation/questions/2020012102000006"
-            },
-            {
-              text: "Question 2020012102000007",
-              link: "/cfa/asset-allocation/questions/2020012102000007"
-            },
-            {
-              text: "Question 2020012102000008",
-              link: "/cfa/asset-allocation/questions/2020012102000008"
-            },
-            {
-              text: "Question 2020012102000009",
-              link: "/cfa/asset-allocation/questions/2020012102000009"
-            },
-            {
-              text: "Question 2020012102000010",
-              link: "/cfa/asset-allocation/questions/2020012102000010"
-            },
-            {
-              text: "Question 2020012102000011",
-              link: "/cfa/asset-allocation/questions/2020012102000011"
-            },
-            {
-              text: "Case 2021052701000001",
-              link: "/cfa/asset-allocation/questions/2021052701000001"
-            },
-            {
-              text: "Case 2021052701000002",
-              link: "/cfa/asset-allocation/questions/2021052701000002"
-            },
-            {
-              text: "Case 2021052701000003",
-              link: "/cfa/asset-allocation/questions/2021052701000003"
-            },
-            {
-              text: "Case 2021052701000004",
-              link: "/cfa/asset-allocation/questions/2021052701000004"
-            },
-            {
-              text: "Case 2021052701000005",
-              link: "/cfa/asset-allocation/questions/2021052701000005"
-            },
-            {
-              text: "Question 2025060303000001",
-              link: "/cfa/asset-allocation/questions/2025060303000001"
-            },
-            {
-              text: "Question 2025060303000003",
-              link: "/cfa/asset-allocation/questions/2025060303000003"
-            },
-            {
-              text: "Question 2025060303000005",
-              link: "/cfa/asset-allocation/questions/2025060303000005"
-            },
-            {
-              text: "Question 2025060303000006",
-              link: "/cfa/asset-allocation/questions/2025060303000006"
-            },
-            {
-              text: "Question 2025060303000007",
-              link: "/cfa/asset-allocation/questions/2025060303000007"
-            },
-            {
-              text: "Question 2025060303000008",
-              link: "/cfa/asset-allocation/questions/2025060303000008"
-            },
-            {
-              text: "Question 2025060303000009",
-              link: "/cfa/asset-allocation/questions/2025060303000009"
-            },
-            {
-              text: "Question 2025060303000022",
-              link: "/cfa/asset-allocation/questions/2025060303000022"
-            },
-            {
-              text: "Question 2025060303000024",
-              link: "/cfa/asset-allocation/questions/2025060303000024"
-            },
-            {
-              text: "Question 2025060303000025",
-              link: "/cfa/asset-allocation/questions/2025060303000025"
-            },
-            {
-              text: "Question 2025060303000026",
-              link: "/cfa/asset-allocation/questions/2025060303000026"
-            },
-            {
-              text: "Question 2025060303000027",
-              link: "/cfa/asset-allocation/questions/2025060303000027"
-            },
-            {
-              text: "Question 2025060303000028",
-              link: "/cfa/asset-allocation/questions/2025060303000028"
-            },
-            {
-              text: "Question 2025060303000029",
-              link: "/cfa/asset-allocation/questions/2025060303000029"
-            },
-            {
-              text: "Question 2025072102000001",
-              link: "/cfa/asset-allocation/questions/2025072102000001"
-            },
-            {
-              text: "Question 2025072102000002",
-              link: "/cfa/asset-allocation/questions/2025072102000002"
-            },
-            {
-              text: "Question 2025072102000003",
-              link: "/cfa/asset-allocation/questions/2025072102000003"
-            },
-            {
-              text: "Question 2025072102000004",
-              link: "/cfa/asset-allocation/questions/2025072102000004"
-            },
-            {
-              text: "Question 2025072102000005",
-              link: "/cfa/asset-allocation/questions/2025072102000005"
-            },
-            {
-              text: "Question 2025072102000006",
-              link: "/cfa/asset-allocation/questions/2025072102000006"
-            },
-            {
-              text: "Question 2025072102000007",
-              link: "/cfa/asset-allocation/questions/2025072102000007"
-            },
-            {
-              text: "Question 2025072102000009",
-              link: "/cfa/asset-allocation/questions/2025072102000009"
-            },
-            {
-              text: "Question 2025072102000010",
-              link: "/cfa/asset-allocation/questions/2025072102000010"
-            },
-            {
-              text: "Question 2025072102000011",
-              link: "/cfa/asset-allocation/questions/2025072102000011"
-            },
-            {
-              text: "Question 2025072102000012",
-              link: "/cfa/asset-allocation/questions/2025072102000012"
-            },
-            {
-              text: "Question 2025072102000013",
-              link: "/cfa/asset-allocation/questions/2025072102000013"
-            },
-            {
-              text: "Question 2025072102000014",
-              link: "/cfa/asset-allocation/questions/2025072102000014"
-            },
-            {
-              text: "Question 2025072102000015",
-              link: "/cfa/asset-allocation/questions/2025072102000015"
-            },
-            {
-              text: "Question 2025072102000016",
-              link: "/cfa/asset-allocation/questions/2025072102000016"
-            },
-            {
-              text: "Question 2025072102000017",
-              link: "/cfa/asset-allocation/questions/2025072102000017"
-            },
-            {
-              text: "Question 2025072102000020",
-              link: "/cfa/asset-allocation/questions/2025072102000020"
-            },
-            {
-              text: "Question 2025072102000021",
-              link: "/cfa/asset-allocation/questions/2025072102000021"
-            },
-            {
-              text: "Question 2025072102000027",
-              link: "/cfa/asset-allocation/questions/2025072102000027"
-            },
-            {
-              text: "Question 2025072102000028",
-              link: "/cfa/asset-allocation/questions/2025072102000028"
-            },
-            {
-              text: "Question 2025072102000029",
-              link: "/cfa/asset-allocation/questions/2025072102000029"
-            },
-            {
-              text: "Question 2025072102000030",
-              link: "/cfa/asset-allocation/questions/2025072102000030"
-            },
-            {
-              text: "Question 2025072102000032",
-              link: "/cfa/asset-allocation/questions/2025072102000032"
-            },
-            {
-              text: "Question 2025072102000033",
-              link: "/cfa/asset-allocation/questions/2025072102000033"
-            },
-            {
-              text: "Question 2025072102000034",
-              link: "/cfa/asset-allocation/questions/2025072102000034"
-            },
-            {
-              text: "Question 2025072102000035",
-              link: "/cfa/asset-allocation/questions/2025072102000035"
-            },
-            {
-              text: "Question 2025072102000036",
-              link: "/cfa/asset-allocation/questions/2025072102000036"
-            },
-            {
-              text: "Question 2025072102000037",
-              link: "/cfa/asset-allocation/questions/2025072102000037"
-            },
-            {
-              text: "Case 2025072102000039",
-              link: "/cfa/asset-allocation/questions/2025072102000039"
-            },
-            {
-              text: "Case 2025072102000040",
-              link: "/cfa/asset-allocation/questions/2025072102000040"
-            },
-            {
-              text: "Case 2025072102000041",
-              link: "/cfa/asset-allocation/questions/2025072102000041"
-            },
-            {
-              text: "Case 2025072102000042",
-              link: "/cfa/asset-allocation/questions/2025072102000042"
-            },
-            {
-              text: "Case 2025072102000043",
-              link: "/cfa/asset-allocation/questions/2025072102000043"
-            },
-            {
-              text: "Case 2025072102000044",
-              link: "/cfa/asset-allocation/questions/2025072102000044"
-            },
-            {
-              text: "Case 2025072102000045",
-              link: "/cfa/asset-allocation/questions/2025072102000045"
-            },
-            {
-              text: "Case 2025072102000046",
-              link: "/cfa/asset-allocation/questions/2025072102000046"
-            },
-            {
-              text: "Case 2025072102000047",
-              link: "/cfa/asset-allocation/questions/2025072102000047"
-            },
-            {
-              text: "Case 2025072102000048",
-              link: "/cfa/asset-allocation/questions/2025072102000048"
-            },
-            {
-              text: "Case 2025072102000049",
-              link: "/cfa/asset-allocation/questions/2025072102000049"
-            },
-            {
-              text: "Case 2025072102000050",
-              link: "/cfa/asset-allocation/questions/2025072102000050"
-            },
-            {
-              text: "Case 2025072102000051",
-              link: "/cfa/asset-allocation/questions/2025072102000051"
-            },
-            {
-              text: "Case 2025072102000052",
-              link: "/cfa/asset-allocation/questions/2025072102000052"
+              text: "CME Part 1",
+              link: "/cfa/asset-allocation/questions/#module-01-cme-part-1",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · CME 框架与预测偏差",
+                  link: "/cfa/asset-allocation/questions/#concept-framework"
+                },
+                {
+                  text: "02 · 趋势增长与盈利边界",
+                  link: "/cfa/asset-allocation/questions/#concept-growth"
+                },
+                {
+                  text: "03 · 周期、短端与收益率曲线",
+                  link: "/cfa/asset-allocation/questions/#concept-cycle"
+                },
+                {
+                  text: "04 · 预期通胀、意外通胀与通缩",
+                  link: "/cfa/asset-allocation/questions/#concept-inflation"
+                },
+                {
+                  text: "05 · 政策组合与 Taylor Rule",
+                  link: "/cfa/asset-allocation/questions/#concept-policy"
+                },
+                {
+                  text: "06 · 开放经济恒等式与政策自由度",
+                  link: "/cfa/asset-allocation/questions/#concept-international"
+                }
+              ]
+            },
+            {
+              text: "CME Part 2",
+              link: "/cfa/asset-allocation/questions/#module-02-cme-part-2",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · 债券收益率、溢价与持有期限",
+                  link: "/cfa/asset-allocation/questions/#concept-bonds"
+                },
+                {
+                  text: "02 · 股票回报分解与全球整合",
+                  link: "/cfa/asset-allocation/questions/#concept-equity"
+                },
+                {
+                  text: "03 · 房地产现金流、Cap Rate 与平滑",
+                  link: "/cfa/asset-allocation/questions/#concept-realestate"
+                },
+                {
+                  text: "04 · PPP、资本流动与汇率方向",
+                  link: "/cfa/asset-allocation/questions/#concept-currency"
+                },
+                {
+                  text: "05 · VCV、Factor Model 与 Shrinkage",
+                  link: "/cfa/asset-allocation/questions/#concept-volatility"
+                }
+              ]
+            },
+            {
+              text: "Overview of Asset Allocation",
+              link: "/cfa/asset-allocation/questions/#module-03-overview",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · SAA、授权与治理",
+                  link: "/cfa/asset-allocation/questions/#concept-governance"
+                },
+                {
+                  text: "02 · 完整财富与 Human Capital",
+                  link: "/cfa/asset-allocation/questions/#concept-balance"
+                },
+                {
+                  text: "03 · Asset-only、负债与目标风险",
+                  link: "/cfa/asset-allocation/questions/#concept-approaches"
+                },
+                {
+                  text: "04 · 可实施的资产分类",
+                  link: "/cfa/asset-allocation/questions/#concept-classes"
+                },
+                {
+                  text: "05 · 共同风险因子与实施工具",
+                  link: "/cfa/asset-allocation/questions/#concept-factors"
+                },
+                {
+                  text: "06 · 再平衡的风险与成本取舍",
+                  link: "/cfa/asset-allocation/questions/#concept-rebalancing"
+                }
+              ]
+            },
+            {
+              text: "Principles of Asset Allocation",
+              link: "/cfa/asset-allocation/questions/#module-04-principles",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · MVO、Utility 与现金混合",
+                  link: "/cfa/asset-allocation/questions/#concept-mvo"
+                },
+                {
+                  text: "02 · 稳健输入与 Global Market 基准",
+                  link: "/cfa/asset-allocation/questions/#concept-robust"
+                },
+                {
+                  text: "03 · 财富路径、Scenario 与 Monte Carlo",
+                  link: "/cfa/asset-allocation/questions/#concept-simulation"
+                },
+                {
+                  text: "04 · MCTR、ACTR 与 Risk Parity",
+                  link: "/cfa/asset-allocation/questions/#concept-riskbudget"
+                },
+                {
+                  text: "05 · 负债方法与 Funding Situation",
+                  link: "/cfa/asset-allocation/questions/#concept-liability"
+                },
+                {
+                  text: "06 · 成功概率、期限与目标资金成本",
+                  link: "/cfa/asset-allocation/questions/#concept-goals"
+                },
+                {
+                  text: "07 · 经验法作为基准",
+                  link: "/cfa/asset-allocation/questions/#concept-heuristics"
+                }
+              ]
+            },
+            {
+              text: "Real-World Constraints",
+              link: "/cfa/asset-allocation/questions/#module-05-constraints",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · 规模、Capacity 与授权边界",
+                  link: "/cfa/asset-allocation/questions/#concept-size"
+                },
+                {
+                  text: "02 · 现金流压力与非流动性预算",
+                  link: "/cfa/asset-allocation/questions/#concept-liquidity"
+                },
+                {
+                  text: "03 · Goals、Constraints 与长期 Beliefs",
+                  link: "/cfa/asset-allocation/questions/#concept-horizon"
+                },
+                {
+                  text: "04 · 税后配置与 Asset Location",
+                  link: "/cfa/asset-allocation/questions/#concept-taxes"
+                },
+                {
+                  text: "05 · TAA 观点、规则与 IPS",
+                  link: "/cfa/asset-allocation/questions/#concept-taa"
+                },
+                {
+                  text: "06 · 行为证据与治理防线",
+                  link: "/cfa/asset-allocation/questions/#concept-behavior"
+                }
+              ]
             }
           ]
         },
@@ -551,27 +402,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/01-cme-part-1/"
                 },
                 {
-                  text: "Step 1 — 把经济观点变成可检验的 Capital Market Expectations",
+                  text: "01 · CME 框架与预测偏差",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-01"
                 },
                 {
-                  text: "Step 2 — 区分 Trend Growth 与周期增长",
+                  text: "02 · 趋势增长与盈利边界",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-02"
                 },
                 {
-                  text: "Step 3 — 从 Business Cycle 识别政策和资产方向",
+                  text: "03 · 周期、短端与收益率曲线",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-03"
                 },
                 {
-                  text: "Step 4 — 区分预期通胀、意外通胀与 Deflation",
+                  text: "04 · 预期通胀、意外通胀与通缩",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-04"
                 },
                 {
-                  text: "Step 5 — 把 Monetary / Fiscal Policy 转成利率判断",
+                  text: "05 · 政策组合与 Taylor Rule",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-05"
                 },
                 {
-                  text: "Step 6 — 把国内宏观判断放进开放经济约束",
+                  text: "06 · 开放经济恒等式与政策自由度",
                   link: "/cfa/asset-allocation/review/01-cme-part-1/step-06"
                 },
                 {
@@ -589,23 +440,23 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/02-cme-part-2/"
                 },
                 {
-                  text: "Step 1 — 将 Yield、Risk Premium 与实现回报分开",
+                  text: "01 · 债券收益率、溢价与持有期限",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-01"
                 },
                 {
-                  text: "Step 2 — 从盈利、分红与估值拆解 Equity Return",
+                  text: "02 · 股票回报分解与全球整合",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-02"
                 },
                 {
-                  text: "Step 3 — 把租金、Cap Rate 与估值平滑串起来",
+                  text: "03 · 房地产现金流、Cap Rate 与平滑",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-03"
                 },
                 {
-                  text: "Step 4 — 区分 PPP 长期锚与 Capital Flows 短期力量",
+                  text: "04 · PPP、资本流动与汇率方向",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-04"
                 },
                 {
-                  text: "Step 5 — 让 Variance–Covariance Matrix 反映真实风险",
+                  text: "05 · VCV、Factor Model 与 Shrinkage",
                   link: "/cfa/asset-allocation/review/02-cme-part-2/step-05"
                 },
                 {
@@ -623,27 +474,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/03-overview/"
                 },
                 {
-                  text: "Step 1 — 建立 SAA 的目标、授权与责任框架",
+                  text: "01 · SAA、授权与治理",
                   link: "/cfa/asset-allocation/review/03-overview/step-01"
                 },
                 {
-                  text: "Step 2 — 用 Economic Balance Sheet 看完整风险",
+                  text: "02 · 完整财富与 Human Capital",
                   link: "/cfa/asset-allocation/review/03-overview/step-02"
                 },
                 {
-                  text: "Step 3 — 选择与目标一致的 Risk Definition",
+                  text: "03 · Asset-only、负债与目标风险",
                   link: "/cfa/asset-allocation/review/03-overview/step-03"
                 },
                 {
-                  text: "Step 4 — 用可实施的 Asset Classes 建立机会集",
+                  text: "04 · 可实施的资产分类",
                   link: "/cfa/asset-allocation/review/03-overview/step-04"
                 },
                 {
-                  text: "Step 5 — 透过资产标签检查共同 Risk Factors",
+                  text: "05 · 共同风险因子与实施工具",
                   link: "/cfa/asset-allocation/review/03-overview/step-05"
                 },
                 {
-                  text: "Step 6 — 用成本与风险偏离确定 Rebalancing Policy",
+                  text: "06 · 再平衡的风险与成本取舍",
                   link: "/cfa/asset-allocation/review/03-overview/step-06"
                 },
                 {
@@ -661,31 +512,31 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/04-principles/"
                 },
                 {
-                  text: "Step 1 — 从 Investor Utility 选择有效配置",
+                  text: "01 · MVO、Utility 与现金混合",
                   link: "/cfa/asset-allocation/review/04-principles/step-01"
                 },
                 {
-                  text: "Step 2 — 减少 MVO 输入误差造成的极端权重",
+                  text: "02 · 稳健输入与 Global Market 基准",
                   link: "/cfa/asset-allocation/review/04-principles/step-02"
                 },
                 {
-                  text: "Step 3 — 用 Scenario / Monte Carlo 检查路径与目标风险",
+                  text: "03 · 财富路径、Scenario 与 Monte Carlo",
                   link: "/cfa/asset-allocation/review/04-principles/step-03"
                 },
                 {
-                  text: "Step 4 — 用 MCTR 区分 Capital Weight 与 Risk Weight",
+                  text: "04 · MCTR、ACTR 与 Risk Parity",
                   link: "/cfa/asset-allocation/review/04-principles/step-04"
                 },
                 {
-                  text: "Step 5 — 按 Funding Situation 选择 Liability-relative 方法",
+                  text: "05 · 负债方法与 Funding Situation",
                   link: "/cfa/asset-allocation/review/04-principles/step-05"
                 },
                 {
-                  text: "Step 6 — 把 Probability、Horizon 与 Funding Cost 连起来",
+                  text: "06 · 成功概率、期限与目标资金成本",
                   link: "/cfa/asset-allocation/review/04-principles/step-06"
                 },
                 {
-                  text: "Step 7 — 把配置经验法当作基准而非答案",
+                  text: "07 · 经验法作为基准",
                   link: "/cfa/asset-allocation/review/04-principles/step-07"
                 },
                 {
@@ -703,27 +554,27 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
                   link: "/cfa/asset-allocation/review/05-constraints/"
                 },
                 {
-                  text: "Step 1 — 用 Asset Size、Capacity 与 Regulation 划定可行配置",
+                  text: "01 · 规模、Capacity 与授权边界",
                   link: "/cfa/asset-allocation/review/05-constraints/step-01"
                 },
                 {
-                  text: "Step 2 — 用现金流压力检验 Illiquidity Budget",
+                  text: "02 · 现金流压力与非流动性预算",
                   link: "/cfa/asset-allocation/review/05-constraints/step-02"
                 },
                 {
-                  text: "Step 3 — 识别 Goals、Constraints 与 Beliefs 的变化",
+                  text: "03 · Goals、Constraints 与长期 Beliefs",
                   link: "/cfa/asset-allocation/review/05-constraints/step-03"
                 },
                 {
-                  text: "Step 4 — 用 After-tax Exposure 进行配置与 Asset Location",
+                  text: "04 · 税后配置与 Asset Location",
                   link: "/cfa/asset-allocation/review/05-constraints/step-04"
                 },
                 {
-                  text: "Step 5 — 将 Tactical Views 放在 SAA 与 IPS 边界内",
+                  text: "05 · TAA 观点、规则与 IPS",
                   link: "/cfa/asset-allocation/review/05-constraints/step-05"
                 },
                 {
-                  text: "Step 6 — 把 Behavioral Bias 转成可执行的治理防线",
+                  text: "06 · 行为证据与治理防线",
                   link: "/cfa/asset-allocation/review/05-constraints/step-06"
                 },
                 {
@@ -744,308 +595,159 @@ export const sidebar: Record<string, DefaultTheme.SidebarItem[]> = {
           collapsed: true,
           items: [
             {
-              text: "Question 2018031301000003",
-              link: "/cfa/asset-allocation/questions/2018031301000003"
-            },
-            {
-              text: "Case 2018031301000004",
-              link: "/cfa/asset-allocation/questions/2018031301000004"
-            },
-            {
-              text: "Question 2018031301000005",
-              link: "/cfa/asset-allocation/questions/2018031301000005"
-            },
-            {
-              text: "Case 2018052801000003",
-              link: "/cfa/asset-allocation/questions/2018052801000003"
-            },
-            {
-              text: "Case 2020012102000001",
-              link: "/cfa/asset-allocation/questions/2020012102000001"
-            },
-            {
-              text: "Case 2020012102000002",
-              link: "/cfa/asset-allocation/questions/2020012102000002"
-            },
-            {
-              text: "Question 2020012102000003",
-              link: "/cfa/asset-allocation/questions/2020012102000003"
-            },
-            {
-              text: "Case 2020012102000004",
-              link: "/cfa/asset-allocation/questions/2020012102000004"
-            },
-            {
-              text: "Case 2020012102000005",
-              link: "/cfa/asset-allocation/questions/2020012102000005"
-            },
-            {
-              text: "Question 2020012102000006",
-              link: "/cfa/asset-allocation/questions/2020012102000006"
-            },
-            {
-              text: "Question 2020012102000007",
-              link: "/cfa/asset-allocation/questions/2020012102000007"
-            },
-            {
-              text: "Question 2020012102000008",
-              link: "/cfa/asset-allocation/questions/2020012102000008"
-            },
-            {
-              text: "Question 2020012102000009",
-              link: "/cfa/asset-allocation/questions/2020012102000009"
-            },
-            {
-              text: "Question 2020012102000010",
-              link: "/cfa/asset-allocation/questions/2020012102000010"
-            },
-            {
-              text: "Question 2020012102000011",
-              link: "/cfa/asset-allocation/questions/2020012102000011"
-            },
-            {
-              text: "Case 2021052701000001",
-              link: "/cfa/asset-allocation/questions/2021052701000001"
-            },
-            {
-              text: "Case 2021052701000002",
-              link: "/cfa/asset-allocation/questions/2021052701000002"
-            },
-            {
-              text: "Case 2021052701000003",
-              link: "/cfa/asset-allocation/questions/2021052701000003"
-            },
-            {
-              text: "Case 2021052701000004",
-              link: "/cfa/asset-allocation/questions/2021052701000004"
-            },
-            {
-              text: "Case 2021052701000005",
-              link: "/cfa/asset-allocation/questions/2021052701000005"
-            },
-            {
-              text: "Question 2025060303000001",
-              link: "/cfa/asset-allocation/questions/2025060303000001"
-            },
-            {
-              text: "Question 2025060303000003",
-              link: "/cfa/asset-allocation/questions/2025060303000003"
-            },
-            {
-              text: "Question 2025060303000005",
-              link: "/cfa/asset-allocation/questions/2025060303000005"
-            },
-            {
-              text: "Question 2025060303000006",
-              link: "/cfa/asset-allocation/questions/2025060303000006"
-            },
-            {
-              text: "Question 2025060303000007",
-              link: "/cfa/asset-allocation/questions/2025060303000007"
-            },
-            {
-              text: "Question 2025060303000008",
-              link: "/cfa/asset-allocation/questions/2025060303000008"
-            },
-            {
-              text: "Question 2025060303000009",
-              link: "/cfa/asset-allocation/questions/2025060303000009"
-            },
-            {
-              text: "Question 2025060303000022",
-              link: "/cfa/asset-allocation/questions/2025060303000022"
-            },
-            {
-              text: "Question 2025060303000024",
-              link: "/cfa/asset-allocation/questions/2025060303000024"
-            },
-            {
-              text: "Question 2025060303000025",
-              link: "/cfa/asset-allocation/questions/2025060303000025"
-            },
-            {
-              text: "Question 2025060303000026",
-              link: "/cfa/asset-allocation/questions/2025060303000026"
-            },
-            {
-              text: "Question 2025060303000027",
-              link: "/cfa/asset-allocation/questions/2025060303000027"
-            },
-            {
-              text: "Question 2025060303000028",
-              link: "/cfa/asset-allocation/questions/2025060303000028"
-            },
-            {
-              text: "Question 2025060303000029",
-              link: "/cfa/asset-allocation/questions/2025060303000029"
-            },
-            {
-              text: "Question 2025072102000001",
-              link: "/cfa/asset-allocation/questions/2025072102000001"
-            },
-            {
-              text: "Question 2025072102000002",
-              link: "/cfa/asset-allocation/questions/2025072102000002"
-            },
-            {
-              text: "Question 2025072102000003",
-              link: "/cfa/asset-allocation/questions/2025072102000003"
-            },
-            {
-              text: "Question 2025072102000004",
-              link: "/cfa/asset-allocation/questions/2025072102000004"
-            },
-            {
-              text: "Question 2025072102000005",
-              link: "/cfa/asset-allocation/questions/2025072102000005"
-            },
-            {
-              text: "Question 2025072102000006",
-              link: "/cfa/asset-allocation/questions/2025072102000006"
-            },
-            {
-              text: "Question 2025072102000007",
-              link: "/cfa/asset-allocation/questions/2025072102000007"
-            },
-            {
-              text: "Question 2025072102000009",
-              link: "/cfa/asset-allocation/questions/2025072102000009"
-            },
-            {
-              text: "Question 2025072102000010",
-              link: "/cfa/asset-allocation/questions/2025072102000010"
-            },
-            {
-              text: "Question 2025072102000011",
-              link: "/cfa/asset-allocation/questions/2025072102000011"
-            },
-            {
-              text: "Question 2025072102000012",
-              link: "/cfa/asset-allocation/questions/2025072102000012"
-            },
-            {
-              text: "Question 2025072102000013",
-              link: "/cfa/asset-allocation/questions/2025072102000013"
-            },
-            {
-              text: "Question 2025072102000014",
-              link: "/cfa/asset-allocation/questions/2025072102000014"
-            },
-            {
-              text: "Question 2025072102000015",
-              link: "/cfa/asset-allocation/questions/2025072102000015"
-            },
-            {
-              text: "Question 2025072102000016",
-              link: "/cfa/asset-allocation/questions/2025072102000016"
-            },
-            {
-              text: "Question 2025072102000017",
-              link: "/cfa/asset-allocation/questions/2025072102000017"
-            },
-            {
-              text: "Question 2025072102000020",
-              link: "/cfa/asset-allocation/questions/2025072102000020"
-            },
-            {
-              text: "Question 2025072102000021",
-              link: "/cfa/asset-allocation/questions/2025072102000021"
-            },
-            {
-              text: "Question 2025072102000027",
-              link: "/cfa/asset-allocation/questions/2025072102000027"
-            },
-            {
-              text: "Question 2025072102000028",
-              link: "/cfa/asset-allocation/questions/2025072102000028"
-            },
-            {
-              text: "Question 2025072102000029",
-              link: "/cfa/asset-allocation/questions/2025072102000029"
-            },
-            {
-              text: "Question 2025072102000030",
-              link: "/cfa/asset-allocation/questions/2025072102000030"
-            },
-            {
-              text: "Question 2025072102000032",
-              link: "/cfa/asset-allocation/questions/2025072102000032"
-            },
-            {
-              text: "Question 2025072102000033",
-              link: "/cfa/asset-allocation/questions/2025072102000033"
-            },
-            {
-              text: "Question 2025072102000034",
-              link: "/cfa/asset-allocation/questions/2025072102000034"
-            },
-            {
-              text: "Question 2025072102000035",
-              link: "/cfa/asset-allocation/questions/2025072102000035"
-            },
-            {
-              text: "Question 2025072102000036",
-              link: "/cfa/asset-allocation/questions/2025072102000036"
-            },
-            {
-              text: "Question 2025072102000037",
-              link: "/cfa/asset-allocation/questions/2025072102000037"
-            },
-            {
-              text: "Case 2025072102000039",
-              link: "/cfa/asset-allocation/questions/2025072102000039"
-            },
-            {
-              text: "Case 2025072102000040",
-              link: "/cfa/asset-allocation/questions/2025072102000040"
-            },
-            {
-              text: "Case 2025072102000041",
-              link: "/cfa/asset-allocation/questions/2025072102000041"
-            },
-            {
-              text: "Case 2025072102000042",
-              link: "/cfa/asset-allocation/questions/2025072102000042"
-            },
-            {
-              text: "Case 2025072102000043",
-              link: "/cfa/asset-allocation/questions/2025072102000043"
-            },
-            {
-              text: "Case 2025072102000044",
-              link: "/cfa/asset-allocation/questions/2025072102000044"
-            },
-            {
-              text: "Case 2025072102000045",
-              link: "/cfa/asset-allocation/questions/2025072102000045"
-            },
-            {
-              text: "Case 2025072102000046",
-              link: "/cfa/asset-allocation/questions/2025072102000046"
-            },
-            {
-              text: "Case 2025072102000047",
-              link: "/cfa/asset-allocation/questions/2025072102000047"
-            },
-            {
-              text: "Case 2025072102000048",
-              link: "/cfa/asset-allocation/questions/2025072102000048"
-            },
-            {
-              text: "Case 2025072102000049",
-              link: "/cfa/asset-allocation/questions/2025072102000049"
-            },
-            {
-              text: "Case 2025072102000050",
-              link: "/cfa/asset-allocation/questions/2025072102000050"
-            },
-            {
-              text: "Case 2025072102000051",
-              link: "/cfa/asset-allocation/questions/2025072102000051"
-            },
-            {
-              text: "Case 2025072102000052",
-              link: "/cfa/asset-allocation/questions/2025072102000052"
+              text: "CME Part 1",
+              link: "/cfa/asset-allocation/questions/#module-01-cme-part-1",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · CME 框架与预测偏差",
+                  link: "/cfa/asset-allocation/questions/#concept-framework"
+                },
+                {
+                  text: "02 · 趋势增长与盈利边界",
+                  link: "/cfa/asset-allocation/questions/#concept-growth"
+                },
+                {
+                  text: "03 · 周期、短端与收益率曲线",
+                  link: "/cfa/asset-allocation/questions/#concept-cycle"
+                },
+                {
+                  text: "04 · 预期通胀、意外通胀与通缩",
+                  link: "/cfa/asset-allocation/questions/#concept-inflation"
+                },
+                {
+                  text: "05 · 政策组合与 Taylor Rule",
+                  link: "/cfa/asset-allocation/questions/#concept-policy"
+                },
+                {
+                  text: "06 · 开放经济恒等式与政策自由度",
+                  link: "/cfa/asset-allocation/questions/#concept-international"
+                }
+              ]
+            },
+            {
+              text: "CME Part 2",
+              link: "/cfa/asset-allocation/questions/#module-02-cme-part-2",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · 债券收益率、溢价与持有期限",
+                  link: "/cfa/asset-allocation/questions/#concept-bonds"
+                },
+                {
+                  text: "02 · 股票回报分解与全球整合",
+                  link: "/cfa/asset-allocation/questions/#concept-equity"
+                },
+                {
+                  text: "03 · 房地产现金流、Cap Rate 与平滑",
+                  link: "/cfa/asset-allocation/questions/#concept-realestate"
+                },
+                {
+                  text: "04 · PPP、资本流动与汇率方向",
+                  link: "/cfa/asset-allocation/questions/#concept-currency"
+                },
+                {
+                  text: "05 · VCV、Factor Model 与 Shrinkage",
+                  link: "/cfa/asset-allocation/questions/#concept-volatility"
+                }
+              ]
+            },
+            {
+              text: "Overview of Asset Allocation",
+              link: "/cfa/asset-allocation/questions/#module-03-overview",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · SAA、授权与治理",
+                  link: "/cfa/asset-allocation/questions/#concept-governance"
+                },
+                {
+                  text: "02 · 完整财富与 Human Capital",
+                  link: "/cfa/asset-allocation/questions/#concept-balance"
+                },
+                {
+                  text: "03 · Asset-only、负债与目标风险",
+                  link: "/cfa/asset-allocation/questions/#concept-approaches"
+                },
+                {
+                  text: "04 · 可实施的资产分类",
+                  link: "/cfa/asset-allocation/questions/#concept-classes"
+                },
+                {
+                  text: "05 · 共同风险因子与实施工具",
+                  link: "/cfa/asset-allocation/questions/#concept-factors"
+                },
+                {
+                  text: "06 · 再平衡的风险与成本取舍",
+                  link: "/cfa/asset-allocation/questions/#concept-rebalancing"
+                }
+              ]
+            },
+            {
+              text: "Principles of Asset Allocation",
+              link: "/cfa/asset-allocation/questions/#module-04-principles",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · MVO、Utility 与现金混合",
+                  link: "/cfa/asset-allocation/questions/#concept-mvo"
+                },
+                {
+                  text: "02 · 稳健输入与 Global Market 基准",
+                  link: "/cfa/asset-allocation/questions/#concept-robust"
+                },
+                {
+                  text: "03 · 财富路径、Scenario 与 Monte Carlo",
+                  link: "/cfa/asset-allocation/questions/#concept-simulation"
+                },
+                {
+                  text: "04 · MCTR、ACTR 与 Risk Parity",
+                  link: "/cfa/asset-allocation/questions/#concept-riskbudget"
+                },
+                {
+                  text: "05 · 负债方法与 Funding Situation",
+                  link: "/cfa/asset-allocation/questions/#concept-liability"
+                },
+                {
+                  text: "06 · 成功概率、期限与目标资金成本",
+                  link: "/cfa/asset-allocation/questions/#concept-goals"
+                },
+                {
+                  text: "07 · 经验法作为基准",
+                  link: "/cfa/asset-allocation/questions/#concept-heuristics"
+                }
+              ]
+            },
+            {
+              text: "Real-World Constraints",
+              link: "/cfa/asset-allocation/questions/#module-05-constraints",
+              collapsed: true,
+              items: [
+                {
+                  text: "01 · 规模、Capacity 与授权边界",
+                  link: "/cfa/asset-allocation/questions/#concept-size"
+                },
+                {
+                  text: "02 · 现金流压力与非流动性预算",
+                  link: "/cfa/asset-allocation/questions/#concept-liquidity"
+                },
+                {
+                  text: "03 · Goals、Constraints 与长期 Beliefs",
+                  link: "/cfa/asset-allocation/questions/#concept-horizon"
+                },
+                {
+                  text: "04 · 税后配置与 Asset Location",
+                  link: "/cfa/asset-allocation/questions/#concept-taxes"
+                },
+                {
+                  text: "05 · TAA 观点、规则与 IPS",
+                  link: "/cfa/asset-allocation/questions/#concept-taa"
+                },
+                {
+                  text: "06 · 行为证据与治理防线",
+                  link: "/cfa/asset-allocation/questions/#concept-behavior"
+                }
+              ]
             }
           ]
         },

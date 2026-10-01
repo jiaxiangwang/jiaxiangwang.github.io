@@ -1,53 +1,96 @@
 ---
 title: "Step 1 — 建立 SAA 的目标、授权与责任框架"
+pageClass: cfa-study
+outline: [2, 2]
+prev: false
+next: false
+sidebarTitle: "01 · SAA、授权与治理"
+study: {"section": "Review Course", "module": "Overview of Asset Allocation", "moduleLink": "/cfa/asset-allocation/review/03-overview/", "step": 1, "total": 6}
+studyNav: {"previous": {"label": "← Previous", "title": "Overview", "link": "/cfa/asset-allocation/review/03-overview/"}, "map": {"label": "Learning Map", "title": "Overview of Asset Allocation", "link": "/cfa/asset-allocation/review/03-overview/"}, "next": {"label": "Next Step →", "title": "用 Economic Balance Sheet 看完整风险", "link": "/cfa/asset-allocation/review/03-overview/step-02"}}
 ---
 
-# Step 1 — 建立 SAA 的目标、授权与责任框架
+# 建立 SAA 的目标、授权与责任框架
 
-## 权重是投资政策的结果
+::: info 本步目标
+能从长期目标恢复 SAA 流程，并依据决策目的与授权，区分 SAA、TAA 和 routine rebalancing。
+:::
 
-Strategic Asset Allocation (SAA) 是把投资者的长期目标、风险承受能力与约束，变成长期 asset-class policy weights。先确定要支付什么、允许承受什么损失、如何衡量风险，再由 CME 和配置方法给出候选权重，最后确定实施与监督规则。
+## Why · 为什么配置必须先回答“谁决定、为谁负责”？
 
-治理流程可恢复为：**Investor objectives / constraints → IPS → SAA approval → implementation → monitoring / review**。投资委员会通常保留战略配置与政策批准；经理执行授权范围内的证券选择和常规 rebalancing。不能因经理掌握模型就让模型替代委员会的目标判断。
+资产权重会决定机构未来支出是否可承受、私人目标能否完成。模型可以比较候选组合，却不能替投资者决定应优先支付什么、能接受多大损失，或由谁承担责任。
 
-## 为什么 Decision Rights 是考试重点？
+Strategic Asset Allocation (SAA) 因此是一项长期投资政策。学习本步时先建立目标与治理链，再判断具体交易属于战略决定、战术观点还是恢复原风险目标。
 
-VU Case 的委员会成员不具投资专业背景，治理报告仅“upon request”。但 IPS 起草、董事会批准、投资经理实施的权责仍是清楚的。问哪项符合 best governance，要选 **transparent decision rights**，而不是因为其他治理缺点就否认所有环节。
+## Core & Intuition · 目标 → IPS → 批准 → 执行 → 监督
 
-好的治理让能力和权限匹配：专业人员提出配置；有法定/政策权力的人批准；执行者知道上下限与禁投事项；监督具有固定周期和可追溯决策记录。单有形式委员会不等于足够 expertise。
+SAA 把 investor objectives、risk capacity 与 constraints 转换成长期设定的 asset-class policy weights。流程应当先定义目标和风险，再以 CME 与配置方法提出权重，最后确定实施和监控。
 
-## SAA、TAA、Rebalancing 如何分工？
+**Decision rights** 让每个环节有明确主人：专业人员提出建议；拥有相应权力的委员会批准战略配置；经理在授权范围内实施；监督者按明确周期检查结果。模型复杂度不能替代这种责任划分。
 
-| 决策 | 主要作用 | 触发因素 |
+| 决策 | 为什么发生？ | 怎样辨认？ |
 | --- | --- | --- |
-| SAA | 给长期目标配置风险预算 | 目标、长期信念或约束改变 |
-| TAA | 在授权范围内利用较短期相对回报机会 | 条件性市场观点或规则信号 |
-| Rebalancing | 控制价格漂移造成的风险偏离 | 权重越出规则范围或定期检查 |
+| SAA | 长期目标、约束或长期信念形成/改变 | 改变政策配置及其长期风险预算 |
+| TAA | 利用较短期相对回报机会 | 主动依据市场观点或信号偏离 policy weights |
+| Rebalancing | 价格变化使实际风险偏离原政策 | 将漂移权重按规则带回目标或允许范围 |
 
-有 corridor 不代表自动有 TAA。只有主动依据短期机会偏离 policy weights 才是战术观点；将上涨后过重资产卖回目标属于再平衡。
+**Intuition：** 同样是卖出股票，若依据近期看空观点将政策权重 60% 降到 55%，就是 TAA；若把上涨后 65% 的实际权重带回原政策目标 60%，就是 rebalancing。识别的是决定的原因，不能只看交易方向或 corridor 数字。
 
-**Exam Trigger — Identify / Justify：** 先指出实际决策的权限与触发，再贴标签。**Common Trap：** 把“可偏离 ±5%”单独视为 TAA，忽略题干是否写“take advantage of short-term opportunities”。**Boundary Condition：** 持续的经济结构变化可导致 SAA review，而非永久挂着 TAA 名义偏离政策。
+## Example · VU：有治理缺点，还能有一个正确环节
 
-## Immediate Practice
+<p class="source-note">Source: Local Other AA / No.2025072102000039-4 — adapted；答案为推导。</p>
 
-Source: Local Other AA，No.2025072102000001 — adapted；答案为推导。
+VU 的 UPPC 起草 IPS，board 批准，投资经理实施。委员会的专业能力和只在请求时提供审计报告都有局限，但谁提出、谁批准、谁执行仍清楚。
 
-An institution's investment committee typically retains approval of:
+当题目问哪一项符合 best governance，答案应对应 **transparent decision rights**。不能因为整个安排不完美，就否认已正确的权责划分；也不能因批准流程清楚，就自动认为 expertise 或 reporting frequency 充分。
 
-A. Routine rebalancing.\
-B. Security selection.\
-C. Strategic asset allocation.
+## CFA Language
 
-**Answer: C.** 战略风险政策由委员会批准，其他活动按授权执行。
+**Investment Policy Statement (IPS)** 表达目标、约束与政策；**SAA** 是据此形成的长期配置；**implementation authority** 决定经理可以在哪些范围执行。关键 English recognition 是 **approval、delegation、monitoring、decision rights**。
+
+本步为 **Understand only**，不需要计算公式。CFA 问 “typically retains approval of” 时，要区分保留的战略政策批准，与可委托的 security selection 或 routine rebalancing；具体机构安排仍以题干为准。
 
 ## Connection
 
-治理先于经济资产负债表与优化；后续 Real-World Constraints 中的 TAA、税务与行为政策都须落在授权范围内。
+治理让下一步的 [Economic Balance Sheet](/cfa/asset-allocation/review/03-overview/step-02) 和风险定义有明确决策用途。[TAA](/cfa/asset-allocation/review/05-constraints/step-05) 与 [Rebalancing](/cfa/asset-allocation/review/03-overview/step-06) 的规则也必须落在已批准授权中。
 
-[将 Tactical Views 放在 SAA 与 IPS 边界内](/cfa/asset-allocation/review/05-constraints/step-05) · [用成本与风险偏离确定 Rebalancing Policy](/cfa/asset-allocation/review/03-overview/step-06) · [用 Economic Balance Sheet 看完整风险](/cfa/asset-allocation/review/03-overview/step-02)
+## Exam Focus
+
+- **Exam Trigger — Identify / Justify：** 先写决定的目的与权限，再使用 SAA / TAA / rebalancing 标签。
+- **Common Trap：** “允许偏离 ±5%”不单独证明 TAA；还要看是否为短期机会主动偏离。
+- **Boundary Condition：** 持续的目标、约束或长期 regime 改变应触发 SAA review；不能将永久偏离一直称为 TAA。
+- **Constructed Response：** “The board approves strategic policy, while managers implement within delegated limits.” 说明具体分工，比“good governance”更有评分价值。
+
+## Immediate Practice
+
+<div class="review-practice">
+
+<p class="source-note">Source: Local Other AA，No.2025072102000001 — adapted；答案为推导。</p>
+
+An institution's investment committee typically retains approval of:
+
+
+<div class="review-options">
+
+A. Routine rebalancing.
+
+B. Security selection.
+
+C. Strategic asset allocation.
+
+
+
+</div>
+
+::: tip Answer & Reasoning
+**Answer: C.** 战略风险政策由委员会批准，其他活动按授权执行。
+
+**Exam Takeaway：** 权重的标签由投资目的与授权决定，治理质量应逐项判断。
+:::
+
+</div>
+
+<div class="study-actions">
 
 [Practice More Questions →](/cfa/asset-allocation/questions/#concept-governance)
 
----
-
-[← Previous](/cfa/asset-allocation/review/03-overview/) · [Learning Map](/cfa/asset-allocation/review/03-overview/) · [Next Step →](/cfa/asset-allocation/review/03-overview/step-02)
+</div>
