@@ -30,12 +30,6 @@ export default defineConfig({
     sidebar,
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: 'CFA 三级',
-        items: [
-          { text: '题库 · Other（358 题）', link: '/cfa/Other/' },
-        ],
-      },
       { text: '关于', link: '/about/' },
     ],
     search: {
